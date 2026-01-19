@@ -140,30 +140,15 @@ if save_button:
                     if result.returncode == 0:
                         st.success(f"✅ Successfully ran {selected_location}\\app.py")
                         
-                        # Check for clipboard data and display it for easy copying
+                        # Check for clipboard data and display it with built-in copy button
                         clipboard_data = extract_clipboard_data(result.stdout)
                         if clipboard_data:
                             st.markdown("---")
                             st.markdown("### 📋 Copy Data to Excel")
-                            st.info("**Instructions:** Select all text below (Ctrl+A), then copy (Ctrl+C), and paste into Excel (Ctrl+V)")
+                            st.info("Click the copy button (📋) on the right to copy the data, then paste into Excel (Ctrl+V)")
                             
-                            # Display data in a text area for easy selection and copying
-                            st.text_area(
-                                "Data ready to copy (select all and copy):",
-                                value=clipboard_data,
-                                height=200,
-                                key="clipboard_data",
-                                help="Select all text (Ctrl+A) and copy (Ctrl+C), then paste into Excel"
-                            )
-                            
-                            # Also provide a download button as alternative
-                            st.download_button(
-                                label="📥 Download as TSV file",
-                                data=clipboard_data,
-                                file_name=f"{date_str}_data.tsv",
-                                mime="text/tab-separated-values",
-                                help="Download the data as a TSV file that you can open in Excel"
-                            )
+                            # Display data in code block which has built-in copy button
+                            st.code(clipboard_data, language=None)
                         
                         if result.stdout:
                             st.markdown("---")
@@ -177,25 +162,10 @@ if save_button:
                         if clipboard_data:
                             st.markdown("---")
                             st.markdown("### 📋 Copy Data to Excel")
-                            st.info("**Instructions:** Select all text below (Ctrl+A), then copy (Ctrl+C), and paste into Excel (Ctrl+V)")
+                            st.info("Click the copy button (📋) on the right to copy the data, then paste into Excel (Ctrl+V)")
                             
-                            # Display data in a text area for easy selection and copying
-                            st.text_area(
-                                "Data ready to copy (select all and copy):",
-                                value=clipboard_data,
-                                height=200,
-                                key="clipboard_data_warning",
-                                help="Select all text (Ctrl+A) and copy (Ctrl+C), then paste into Excel"
-                            )
-                            
-                            # Also provide a download button as alternative
-                            st.download_button(
-                                label="📥 Download as TSV file",
-                                data=clipboard_data,
-                                file_name=f"{date_str}_data.tsv",
-                                mime="text/tab-separated-values",
-                                help="Download the data as a TSV file that you can open in Excel"
-                            )
+                            # Display data in code block which has built-in copy button
+                            st.code(clipboard_data, language=None)
                         
                         if result.stderr:
                             st.text("Error output:")
