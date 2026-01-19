@@ -137,42 +137,17 @@ if save_button:
                         timeout=60  # 60 second timeout
                     )
                     
-                    if result.returncode == 0:
-                        st.success(f"✅ Successfully ran {selected_location}\\app.py")
-                        
-                        # Check for clipboard data and display it with built-in copy button
-                        clipboard_data = extract_clipboard_data(result.stdout)
-                        if clipboard_data:
-                            st.markdown("---")
-                            st.markdown("### 📋 Copy Data to Excel")
-                            st.info("Click the copy button (📋) on the right to copy the data, then paste into Excel (Ctrl+V)")
-                            
-                            # Display data in code block which has built-in copy button
-                            st.code(clipboard_data, language=None)
-                        
-                        if result.stdout:
-                            st.markdown("---")
-                            st.text("Output:")
-                            st.code(result.stdout, language=None)
-                    else:
-                        st.warning(f"⚠️ app.py completed with warnings")
-                        
-                        # Still try to extract clipboard data even if there were warnings
-                        clipboard_data = extract_clipboard_data(result.stdout)
-                        if clipboard_data:
-                            st.markdown("---")
-                            st.markdown("### 📋 Copy Data to Excel")
-                            st.info("Click the copy button (📋) on the right to copy the data, then paste into Excel (Ctrl+V)")
-                            
-                            # Display data in code block which has built-in copy button
-                            st.code(clipboard_data, language=None)
-                        
+                    # Extract and display clipboard data
+                    clipboard_data = extract_clipboard_data(result.stdout)
+                    if clipboard_data:
+                        st.markdown("---")
+                        st.code(clipboard_data, language=None)
+                    
+                    # Only show errors if they exist
+                    if result.returncode != 0:
                         if result.stderr:
-                            st.text("Error output:")
+                            st.error("Error occurred during processing")
                             st.code(result.stderr, language=None)
-                        if result.stdout:
-                            st.text("Output:")
-                            st.code(result.stdout, language=None)
                             
                 except subprocess.TimeoutExpired:
                     st.error(f"⏱️ app.py execution timed out after 60 seconds")
