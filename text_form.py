@@ -141,7 +141,21 @@ if save_button:
                     clipboard_data = extract_clipboard_data(result.stdout)
                     if clipboard_data:
                         st.markdown("---")
-                        st.code(clipboard_data, language=None)
+                        # Create a scrollable container for the code block
+                        with st.container():
+                            st.markdown("""
+                                <style>
+                                div[data-testid="stCodeBlock"] {
+                                    max-height: 400px;
+                                    overflow-y: auto;
+                                }
+                                div[data-testid="stCodeBlock"] pre {
+                                    max-height: 400px;
+                                    overflow-y: auto;
+                                }
+                                </style>
+                            """, unsafe_allow_html=True)
+                            st.code(clipboard_data, language=None)
                     
                     # Only show errors if they exist
                     if result.returncode != 0:
