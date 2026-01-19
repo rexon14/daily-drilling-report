@@ -355,13 +355,19 @@ def transform_raw_to_final(date_str, base_path="."):
     
     print(f"Successfully transformed {len(df)} wells to final Excel format")
     
-    # Copy to clipboard (values only, no header)
-    print("Copying data to clipboard...")
+    # Prepare clipboard data (values only, no header) in TSV format
+    # Output with special markers so text_form.py can capture and copy it
+    print("Preparing clipboard data...")
     try:
-        df.to_clipboard(index=False, header=False)
-        print("Data copied to clipboard successfully!")
+        # Convert dataframe to TSV format (tab-separated values)
+        clipboard_data = df.to_csv(sep='\t', index=False, header=False)
+        # Output with special markers for text_form.py to capture
+        print("CLIPBOARD_DATA_START")
+        print(clipboard_data, end='')
+        print("CLIPBOARD_DATA_END")
+        print("Clipboard data prepared successfully!")
     except Exception as e:
-        print(f"Could not copy to clipboard: {e}")
+        print(f"Could not prepare clipboard data: {e}")
     
     return final_file_path
 
