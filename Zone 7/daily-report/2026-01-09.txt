@@ -1,0 +1,173 @@
+Laporan Pagi Pemboran PEP - Zona 7, 9 Januari 2026
+
+Highlight :
+Operasi Pemboran : 3 Rig (BDA-008, AMJ-004, BMH-002)
+Moving-Rig up-Rig Down : -
+Wait on Location/Material : 4 Rig (PCT-Y, TGP-INF1, AMJ-B1, CKR-STO2)
+
+FIELD JATIBARANG
+1. BDA-008
+Nama Lokasi : BDA-D1
+Nama Rig : PDSI #12.3/N110-M
+Coman on Duty : Wahyu Berbudi / M. Reyhan W. / Donny Y.
+Hari ke : 39
+Kedalaman : 1,278m MD/1,277 mTVD
+Penambahan : - m
+DSR @24   : -172.5 hrs
+AFE : US$ 5,817,485
+Realisasi : US$ 5,018,759.99 (86.27%)
+
+Casing Setting Depth :
+Plan - Actual
+26" hole: 80 mMD/80 mTVD - 74 mMD/ 74 mTVD (Phase Endurance)
+17-1/2" hole: 632 mMD/630 mTVD - 634 mMD/633 mTVD (Plan: 12.2 hari / Actual: 11 hari)
+12-1/4" hole: 1018 mMD/1016 mTVD - 1021.6 mMD/1020.6 mTVD (Plan: 7.9 hari / Actual: 8.4 hari)
+8-1/2" hole : 1278 mMD/1276 mTVD - 1276.5 mMD/1274 mTVD (Plan: 5.5 hari / Actual: 3.5 hari)
+
+Summary Report :
+- Drill out cement to 1056 mMD
+- Circulation
+- Pressure test to 250 psi - Hold
+- Drill out cement to 1251 mMD
+- Circulation
+- POOH 6" TCB + BHA rotary to 1011 mMD
+
+Current Status :
+- POOH 6" TCB + BHA rotary to surface
+
+Next plan :
+- M/U & RIH 7" + 9-5/8" tandem scrapper to 1251 mMD
+- Displace hole
+- POOH 7" + 9-5/8" tandem scrapper to surface
+
+2. AMJ-004
+Nama Lokasi : AMJ-4T
+Nama Rig : WBR-01
+Coman on duty : A. Fatah / Harry F Sani / Abdurrahman
+Hari ke : 20
+Kedalaman : 1462 mMD/ 1367 mTVD
+Penambahan : - m
+DSR @24   : +119.5 hrs
+AFE :   US$ 6.445.386
+Realisasi : US$ 3,203,431.72 (49.70%)  
+
+Casing Setting Depth :
+Plan - Actual
+26" hole: 50 mMD/50 mTVD - 50 mMD (Endurance Phase)
+17-1/2" hole: 350 mMD/345 mTVD - 348 mMD / 344mTVD (Plan: 7.3 hari / Actual: 3.5 hari)
+12-1/4" hole: 954 mMD/887 mTVD - 929 mMD/878 mMD (Plan: 9.1 hari / Actual: 8.8 hari)
+8-1/2" hole : 1495 mMD/1367 mTVD - xxx (Plan: 6.6 hari / Actual: - hari)
+
+Summary report : 
+- RIH 1-11/16" dummy puncher to 1371 mMD
+- POOH 1-11/16" dummy puncher to surface
+- RIH 1-11/16" gun puncher to 1371 mMD
+- Correlation & set puncher at 1368 mMD
+- Shooting gun puncher - got indication fired
+- POOH 1-11/16" gun puncher to surface
+- R/D Wireline
+- Attempt to circulation several time with various pressure - no succeed
+- R/U wireline
+- RIH 1-11/16" gun puncher #2 to 801 mMD
+- Correlation & set puncher at 801 mMD
+- Shooting gun puncher - got indication fired
+- POOH 1-11/16" gun puncher to surface
+- R/D Wireline
+- Attempt to circulation several time with various pressure - no succeed
+- POOH RT LH to 428 mMD
+
+Current Status :
+- POOH RT LH to surface
+- R/D RBOP, on progress
+
+Next plan : 
+- R/D RBOP
+- RIH & set 7" RTTS packer to 30 meter below perforated #2
+- Circulation
+
+3. PCT-Y
+Nama Lokasi : PCT-Y
+Nama Rig : PDSI #04.3/N110-M
+Coman on Duty : -
+
+Current status:
+- Completed finding Inspection CAT 3 (finding : Critical (16 item, 16 closed), major (61 item, 61 closed) and minor (17 item, 17 closed))
+- Premove (H-19) while Closing finding as a Memo no. 092/PHE20000/2025/S0 & No.1982/PEP82210/2025-S1, kumm. 23% 
+
+Next plan:
+- Premoving Rig
+
+4. AMJ-B1
+Nama lokasi : AMJ-B1
+Nama Rig : PDSI #09.2/N80UE
+Coman on Duty : -
+
+Current status: 
+- Rig Idle (H-55). Rig Idle at Location CMR-STOB.
+- Wait on construction readiness for location AMJ-B1. Est M2 Feb 2026 (Progress: 15%)
+- Wait on AFE approved.
+
+Next plan :
+- Rig Idle.
+
+FIELD SUBANG
+1. BMH-002
+Nama Lokasi : BMH-INF1
+Nama Rig : PDSI #15.3/N110-M
+Coman on Duty : Herry Prabowo/Gilang Rizki K/Taufik Adi P
+Hari ke : 12
+Kedalaman : 598 mMD/596.75 mTVD
+Penambahan : - m
+DSR @24   : - 71.5 hr
+AFE : US$ 15,769,083
+Realisasi : US$ 3,424,450.38 (21.84%)
+
+Plan - Actual
+36" hole : 80 mMD/80 mTVD - 83 mMD/83 mTVD
+26" hole: 600 mMD/590 mTVD -  mMD/ mTVD (Plan: 7.9 hari / Actual: - hari)
+18-1/2" hole: 1047 mMD/1045 mTVD - mMD/mTVD (Plan: 9.3 hari / Actual: - hari)
+17-1/2" hole: 1860 mMD/1725 mTVD - mMD / mMD (Plan: 15.8 hari / Actual: - hari)
+12-1/4" hole: 2594 mMD/2559 mTVD -  mMD/mTVD (Plan: 15.4 hari / Actual: - hari)
+8-1/2" Hole : 2879 mMD/2843 mTVD -  (Plan: 7.3 hari / Actual: -  hari)
+
+Summary report :
+- Drill out cement and 2 meter new formation to 600 mMD
+- Circulation
+- Perform MOT with 1.37 EMW
+- POOH 17-1/2" TCB + BHA rotary to 504 mMD
+
+Current Status :
+- POOH 17-1/2" TCB + BHA Rotary to 107 mMD
+
+Next Plan :
+- POOH 17-1/2" TCB + Rotary BHA to surface
+- M/U & RIH 18-1/2" PDC + BHA DD to 600 mMD
+- Drill 18-1/2" hole to 1041 mMD
+
+2. TGP-INF1
+Nama Lokasi : TGP-INF1
+Nama Rig : PDSI #28.2/D1000-E
+Coman on Duty : -
+
+Current status :
+- Rig Idle (H-54), Rig Idle at Location BJR-D3.
+- Wait on construction readiness for location TGP-INF1, Tegal Pacing. Est. M4 Maret 2026 (Progress: 9%)
+
+Next plan :
+- Rig Idle.
+
+FIELD TAMBUN
+1. CKR-STO2
+Nama Lokasi : CKR-STO2
+Nama Rig : PDSI #31.3/D1500-E
+Coman On Duty : -
+
+Summary Report :
+- Rig Idle (H-11), Rig idle at location ABG-H4 while Inpection Rig Category III
+- Wait on construction readiness for location CKR-STO2 (progress : 33%), est. Ready on M4 February 2026
+  
+Next Plan :
+- Rig Idle, inspection CAT III
+
+Terima kasih.
+Salam

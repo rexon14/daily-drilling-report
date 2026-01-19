@@ -1,0 +1,143 @@
+Laporan Pagi Pemboran PEP - Zona 7, 19 Januari 2026
+
+Highlight :
+Operasi Pemboran : 2 Rig (AMJ-004, BMH-002)
+MovingRig up-Rig Down : 2 Rig (PCT-Y, BDA-D1)
+Wait on Location/Material : 3 Rig (TGP-INF1, AMJ-B1, KRE-002ST)
+
+FIELD JATIBARANG
+1. AMJ-004
+Nama Lokasi : AMJ-4T
+Nama Rig : WBR-01
+Coman on duty : Ade Rama / Heru Sulistyo / Herry Prabowo
+Hari ke : 30
+Kedalaman : 1462 mMD/ 1367 mTVD
+Penambahan : - m
+DSR @24   : -109.5 hrs
+AFE :   US$ 6.445.386
+Realisasi : US$ 3.897.008,79 (60,46%)
+
+Casing Setting Depth :
+Plan - Actual
+26" hole: 50 mMD/50 mTVD - 50 mMD (Endurance Phase)
+17-1/2" hole: 350 mMD/345 mTVD - 348 mMD / 344mTVD (Plan: 7.3 hari / Actual: 3.5 hari)
+12-1/4" hole: 954 mMD/887 mTVD - 929 mMD/878 mTVD (Plan: 9.1 hari / Actual: 8.8 hari)
+8-1/2" hole : 1495 mMD/1367 mTVD - 1397 mMD/1280.2 mTVD (Plan: 6.6 hari / Actual: 4.5 hari)
+
+Summary report : 
+- DOC to 769 mMD
+- Circulation 
+- POOH 8-1/2" TCB + BHA Rotary to surface
+- RIH 6" TCB BHA + Rotary to 769 mMD 
+- DOC to 780 mMD
+- Circulation 
+- P/T casing 700 psi, hold. 
+- DOC to 788
+
+Current Status :
+- DOC to 810 mMD
+- P/T casing, in progress. 
+
+Next plan : 
+- DOC to 1397 mMD. P/T at 1370 mMD
+- RIH to RS 1397 mMD
+- Circulation
+- POOH 6" TCB BHA + Rotary to surface 
+
+2. PCT-Y
+Nama Lokasi : PCT-Y
+Nama Rig : PDSI #04.3/N110-M
+Coman on Duty : Haryo Abiyoso
+
+Current status:
+- R/U (H-4) : 34%
+
+Next plan:
+- R/U 100%
+
+3. BDA-008
+Nama Lokasi : BDA-D1
+Nama Rig : PDSI #12.3/N110-M
+Coman on Duty : Donny Y.
+
+Summary Report :
+- R/D (H-4): 83%
+
+Next plan :
+- R/D 100%
+
+4. AMJ-B1
+Nama lokasi : AMJ-B1
+Nama Rig : PDSI #31.3/D1500-E
+Coman On Duty : -
+
+Summary Report :
+- Rig Idle (H-21), Rig idle at location ABG-H4 while Inpection Rig Category III
+- Wait on construction readiness for location AMJ-B1 (progress : 15%), est. Ready on M4 February 2026
+- Wait on FID est March 2026
+
+5. KRE-002ST
+Nama Rig : PDSI #09.2/N80UE
+Coman on Duty : -
+
+Current status: 
+- Rig Idle (H-64). Rig Idle at Location CMR-STOB.
+- Wait on construction readiness for location KRE-02ST. Est M2 Feb 2026 (Progress: 18%)
+- Wait on FID est May 2026
+
+Next plan :
+- Rig Idle.
+
+FIELD SUBANG
+1. BMH-002
+Nama Lokasi : BMH-INF1
+Nama Rig : PDSI #15.3/N110-M
+Coman on Duty : Ari Welas/Darwis YB/M.Feisal
+Hari ke : 22
+Kedalaman : 1008 mMD/991.7 mTVD
+Penambahan : - m
+DSR @24   : -224 hr
+AFE : US$ 15,769,083
+Realisasi : US$  4.139.422,29 (26,84%)
+
+Plan - Actual
+36" hole : 80 mMD/80 mTVD - 83 mMD/83 mTVD
+26" hole : 600 mMD / 590.0 mTVD - 598 mMD / 596 mTVD (Plan: 7.9 hari / Actual: 9.3 hari)
+18-1/2" hole: 1047 mMD/1045 mTVD - mMD/mTVD (Plan: 9.3 hari / Actual: - hari)
+17-1/2" hole: 1860 mMD/1725 mTVD - mMD / mMD (Plan: 15.8 hari / Actual: - hari)
+12-1/4" hole: 2594 mMD/2559 mTVD -  mMD/mTVD (Plan: 15.4 hari / Actual: - hari)
+8-1/2" Hole : 2879 mMD/2843 mTVD -  (Plan: 7.3 hari / Actual: -  hari)
+
+Summary report :
+- Perform milling 17-1/2" to 537 mMD 
+- Circulation
+- POOH 17-1/2" Milling assy to surface
+- RIH 17-1/2" TCB + 18-1/2" Watermelon to 511 mMD. Redress interval 484-511 mMD
+
+Current Status: 
+- RIH 17-1/2" TCB + 18-1/2" Watermelon to  526 mMD. Redress interval 511-526
+
+Next Plan :
+- RIH 17-1/2" TCB + 18-1/2" Watermelon to 537mMD
+- Dress out 526-537 mMD
+- Circulation 
+- Drop gyro
+- POOH 17-1/2" TCB + 18-1/2" Watermelon to surface
+
+2. TGP-INF1
+Nama Lokasi : TGP-INF1
+Nama Rig : PDSI #28.2/D1000-E
+Coman on Duty : -
+
+Current status :
+- Rig Idle (H-64), Rig Idle at Location BJR-D3.
+- Wait on construction readiness for location TGP-INF1, Tegal Pacing. Est. M4 Maret 2026 (Progress: 9%)
+
+Next plan :
+- Rig Idle.
+  
+Next Plan :
+- Rig Idle, inspection CAT III
+
+Terima kasih.
+Salam
