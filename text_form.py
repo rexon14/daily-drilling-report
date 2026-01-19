@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import subprocess
 import sys
+import re
 
 # Page configuration
 st.set_page_config(
@@ -23,6 +24,17 @@ st.set_page_config(
 
 # File management setup
 base_dir = Path(__file__).parent
+
+
+def extract_clipboard_data(stdout):
+    """
+    Extract clipboard data from app.py stdout between CLIPBOARD_DATA_START and CLIPBOARD_DATA_END markers.
+    """
+    pattern = r'CLIPBOARD_DATA_START\n(.*?)CLIPBOARD_DATA_END'
+    match = re.search(pattern, stdout, re.DOTALL)
+    if match:
+        return match.group(1)
+    return None
 
 # Export location options
 EXPORT_LOCATIONS = {
@@ -127,11 +139,64 @@ if save_button:
                     
                     if result.returncode == 0:
                         st.success(f"✅ Successfully ran {selected_location}\\app.py")
+                        
+                        # Check for clipboard data and display it for easy copying
+                        clipboard_data = extract_clipboard_data(result.stdout)
+                        if clipboard_data:
+                            st.markdown("---")
+                            st.markdown("### 📋 Copy Data to Excel")
+                            st.info("**Instructions:** Select all text below (Ctrl+A), then copy (Ctrl+C), and paste into Excel (Ctrl+V)")
+                            
+                            # Display data in a text area for easy selection and copying
+                            st.text_area(
+                                "Data ready to copy (select all and copy):",
+                                value=clipboard_data,
+                                height=200,
+                                key="clipboard_data",
+                                help="Select all text (Ctrl+A) and copy (Ctrl+C), then paste into Excel"
+                            )
+                            
+                            # Also provide a download button as alternative
+                            st.download_button(
+                                label="📥 Download as TSV file",
+                                data=clipboard_data,
+                                file_name=f"{date_str}_data.tsv",
+                                mime="text/tab-separated-values",
+                                help="Download the data as a TSV file that you can open in Excel"
+                            )
+                        
                         if result.stdout:
+                            st.markdown("---")
                             st.text("Output:")
                             st.code(result.stdout, language=None)
                     else:
                         st.warning(f"⚠️ app.py completed with warnings")
+                        
+                        # Still try to extract clipboard data even if there were warnings
+                        clipboard_data = extract_clipboard_data(result.stdout)
+                        if clipboard_data:
+                            st.markdown("---")
+                            st.markdown("### 📋 Copy Data to Excel")
+                            st.info("**Instructions:** Select all text below (Ctrl+A), then copy (Ctrl+C), and paste into Excel (Ctrl+V)")
+                            
+                            # Display data in a text area for easy selection and copying
+                            st.text_area(
+                                "Data ready to copy (select all and copy):",
+                                value=clipboard_data,
+                                height=200,
+                                key="clipboard_data_warning",
+                                help="Select all text (Ctrl+A) and copy (Ctrl+C), then paste into Excel"
+                            )
+                            
+                            # Also provide a download button as alternative
+                            st.download_button(
+                                label="📥 Download as TSV file",
+                                data=clipboard_data,
+                                file_name=f"{date_str}_data.tsv",
+                                mime="text/tab-separated-values",
+                                help="Download the data as a TSV file that you can open in Excel"
+                            )
+                        
                         if result.stderr:
                             st.text("Error output:")
                             st.code(result.stderr, language=None)
