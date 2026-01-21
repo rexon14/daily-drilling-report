@@ -75,22 +75,29 @@ if "selected_date" not in st.session_state:
 col1, col2, col3, col4 = st.columns([1, 1, 3, 5])
 
 with col1:
-    if st.button("◄", help="Previous day"):
-        st.session_state.selected_date -= timedelta(days=1)
-        st.rerun()
+    prev_button = st.button("◄", help="Previous day", key="prev_date")
 
 with col2:
-    if st.button("►", help="Next day"):
-        st.session_state.selected_date += timedelta(days=1)
-        st.rerun()
+    next_button = st.button("►", help="Next day", key="next_date")
+
+# Handle date navigation buttons BEFORE rendering date_input
+if prev_button:
+    st.session_state.selected_date -= timedelta(days=1)
+    st.rerun()
+
+if next_button:
+    st.session_state.selected_date += timedelta(days=1)
+    st.rerun()
 
 with col3:
     selected_date = st.date_input(
         "Date",
         value=st.session_state.selected_date,
-        key="date_picker",
         label_visibility="collapsed"
     )
+
+# Update session state if date picker changed manually
+if selected_date != st.session_state.selected_date:
     st.session_state.selected_date = selected_date
 
 selected_date = st.session_state.selected_date
@@ -184,4 +191,3 @@ if saved_files_dir.exists():
             st.text(f"{txt_file.name} ({file_size:,} bytes)")
     else:
         st.text("No saved files yet.")
-
