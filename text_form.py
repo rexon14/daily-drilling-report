@@ -77,12 +77,12 @@ col1, col2, col3, col4 = st.columns([1, 1, 3, 5])
 with col1:
     if st.button("◄", help="Previous day"):
         st.session_state.selected_date -= timedelta(days=1)
-        st.experimental_rerun()
+        st.rerun()
 
 with col2:
     if st.button("►", help="Next day"):
         st.session_state.selected_date += timedelta(days=1)
-        st.experimental_rerun()
+        st.rerun()
 
 with col3:
     selected_date = st.date_input(
@@ -184,3 +184,4 @@ if saved_files_dir.exists():
             st.text(f"{txt_file.name} ({file_size:,} bytes)")
     else:
         st.text("No saved files yet.")
+
