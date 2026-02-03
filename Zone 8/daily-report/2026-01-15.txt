@@ -1,0 +1,77 @@
+Laporan Pagi, 15 Januari 2026
+Drilling Eksplorasi Regional 1
+
+1 Sumur KMBR-001, Rig PDSI#20.2/EMSCO D2-M
+H = 46, D: 1670 mMD/1615.08 mTVD, K = - m 
+CF Type: CaCl2
+SG/Vis/Cl-/PH/NTU: 1.38/28/350/9/244
+
+Rencana / Aktual Trayek :
+20" @50 mMD/ 49.75 mMD
+13-3/8" @307.72 mMD/ 302.5 mMD
+9-5/8" @746.58 mMD/ 745.79 mMD
+7" @1533.65 mMD/ 7" @1664 mMD
+
+Coman : Erwin / Sahat N / Taufik A
+HSEC : Dudi F / A.Amri
+MatMan : Nopriyanto
+Rig Supt : Ahlan Qori
+
+Lanjut Cabut rangkaian TCB 6" + Rotary BHA dari 79 mMD sampai permukaan. Tidak ada tanda goresan pada bit. Persiapan masuk rangkaian 6" IB. PJSM, M/U dan masuk rangkaian 6" IB dari permukaan sampai 170 mMD. Tidak ada indikasi drag saat masuk rangkaian 6" IB. Cabut rangkaian 6" IB dari 225 mMD sampai permukaan. Cek IB, tidak terdapat tanda goresan pada IB 6". PJSM, M/U dan masuk rangkaian dummy run 7" packer dari permukaan sampai F/C di kedalaman 1639 mMD.  Rangkaian dummy run duduk 5 Klbs di 223 mMD & 221 mMD, WOP, baik. Sirkulasi reverse out, Tidak ditemukan junk di shaker saat sirkulasi reverse out. Cabut rangkaian dummy run 7" packer dari 1639 mMD sampai 1111 mMD.
+Status pagi,
+Lanjut cabut rangkaian dummy run 7" packer dari 1111 mMD sampai permukaan. L/D 7" packer. semua rubber packer dalam kondisi normal, tidak ada goresan.
+
+Plan : Persiapan dan masuk DST #1 + TCP BHA sampai 1609 mMD. 
+
+DSR @ 24.00   : 578.5 Hrs
+Est DC           : US$ 36,965.76
+Est CC DHB       : US$ 5,377,767.79 (90.80%)
+Est CC CHB       : US$ 773,954.14 (15.13%)
+Est CC DHB + CHB : US$ 6,151,721.93 (55.73%)
+AFE DHB          : US$ 5,922,395.18 
+AFE CHB          : US$ 5,115,197.18
+AFE DHB + CHB    : US$ 11,037.592
+
+Performance HSE & Safety Note :
+NLTA : 1 Day, cumm : 46 Days
+POB : 147 Person
+PEKA : 122 Card (83 % POB), Cumm: 5.304 Card
+SMH : 1.764 Hours, Cumm : 71.016Hours
+SIKA/JSA : -/-, Cumm : 117/117 Item.
+Medivac Drill/Fire Drill/Kick Drill/Abandon Drill/H2S Drill /Choke /Trip Drill : 5/2/6/1/5/4/9
+
+2 Sumur ALR-001, RIG ARJUNA #28
+H = 28 D: 827 mMD/ 827 mTVD, K = - meter
+Mud Type: HPWBM 8% KCl Polymer, 14% NaCl, 2% Polyamine
+SG/Vis/PV/YP/GS 10'/WL/MBT/K+/Cl-/PH/Solid Content/PA : 1.36/51/17/24/11/4.4/5/44k/102k/10.2/4.3/1.87%
+Rencana / Aktual Trayek :
+20" @50 mMD / 50 mMD
+13-3/8" @350 mMD / 348 mMD
+9-5/8" @830 mMD / 826 mMD
+7" @1387 mMD / - mMD
+
+Coman    : Rico M / Elbadi P.I
+HSEC     : Boyke A / Fikri
+MatMan   : Ryan R / Ferry M
+Rig Supt : Indra
+
+Lanjut N/U BOP Group 13-5/8" 5K Psi. Function test BOP Group 13-5/8" 5K, OK. M/U dan RIH 1 stand 5" DP + BOP tester plug + 1 stand 5" DP. Pressure test BOP Group 13-5/8" 5K dengan cementing unit. Didapat kebocoran pada flange HCR 4-1/16" dan HCR 2-1/16" saat pressure test Annular, kencangkan dan P/T kembali masih mengalami kebocoran. Ganti ring joint dan baut flange HCR 4-1/16". Lanjut Pressure test BOP Group 13-5/8" 5K dengan cementing unit.
+Status Pagi,
+Lanjut Pressure test BOP Group 13-5/8" 5K dengan cementing unit, OK. Perform Drawdown test accumulator, initial pressure 3000 psi - final pressure 1250 psi. PJSM, N/U RBOP 13-5/8" on progress.
+
+*Plan:* Lanjut N/U RBOP & Pressure Test RBOP 13-5/8". Prepare & M/U Directional BHA + 8 1/2" PDC Bit. RIH 8 1/2in Bit to tag TOC at 801 mMD. Trip drill dan choke drill. Pressure Test Casing. Drill out cement, shoe, and 2 mtrs of new formation. Circulate conditioning mud Sg in=out. Leak Off Test.
+
+DSR @ 24.00   : +95,5 hrs 
+Est DC        : US$ 60.313,53
+Est CC        : US$ 3.995.587,27
+AFE DHB       : US$ 8.281.188,91 (48,25%)
+AFE DHB + CHB : US$ 11.814.348 (33,82%)	
+	
+Safety Note :
+POB : 142 Personil
+PEKA : 119 Card (84 % POB), Cumm. PEKA : 3.479 Card
+SWA : 0/1
+NLTA (Days) : 28 days
+Safe Man Hours :  1.704 Hours Cumm Hours :  48.300 Hours
+SIKA/JSA : 0/0 Cumm 54/54 item  
+Medivac Drill/Fire Drill/Kick Drill/Abandon Drill/H2S Drill/Choke Drill/Shut in Well Drill: 4/3/2/4/2/1

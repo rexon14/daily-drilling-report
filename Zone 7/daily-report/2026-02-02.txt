@@ -1,0 +1,136 @@
+Laporan Pagi Pemboran PEP - Zona 7, 2 Februari 2026
+
+Highlight : 
+Operasi Pemboran : 2 Rig ( BMH-002, PCT-005)
+MovingRig up-Rig Down : 1 Rig (AMJ-4T)
+Wait on Location/Material : 4 Rig (ABG-026ST, ABG-J1, KRE-002ST, ABG-C6)
+
+FIELD JATIBARANG
+1. PCT-005
+Nama Lokasi : PCT-Y
+Nama Rig : PDSI #04.3/N110-M
+Coman on Duty : M. Bima Andeka / Raditya Fajri/ A Fatah
+Hari ke : 07
+Kedalaman :  786 mMD/768.5 mTVD
+Penambahan : 427 m
+DSR @24   : +48.7 hrs
+AFE : US$ 8,819,554.00
+Realisasi : US$ 1,938,311.24 (21.98%)
+
+Casing Setting Depth :
+Plan - Actual
+36" hole: 40 mMD/40 mTVD - 41 mMD/ 41 mTVD (Phase Endurance)
+26" hole: 350 mMD/350 mTVD - 354 mMD/ 353 mTVD (Plan: 5.1 hari / Actual: 4.8 hari)
+18-1/2" hole: 989 mMD/926 mTVD - _ mMD/_ mTVD (Plan: 9.2 hari / Actual: _ hari)
+17-1/2" hole: 1516 mMD/1441 mTVD - _ mMD/_ mTVD (Plan: 8.0 hari / Actual: _ hari)
+12-1/4" hole: 1718 mMD/1639 mTVD - _ mMD/_ mTVD (Plan: 12.8 hari / Actual: _ hari)
+8-1/2" hole : 2067 mMD/1980 mTVD - _ mMD/_ mTVD (Plan: 7.1 hari / Actual: _ hari)
+
+Summary report: 
+- DOF 18-1/2" HS to 786 mMD 
+
+Current Status : 
+- DOF 18-1/2" HS to 873 mMD 
+
+Next plan:
+- DOF 18-1/2" HS to 989 mMD
+- Circulation
+
+2. AMJ-4T
+Nama Lokasi : AMJ-4T
+Nama Rig : WBR-01
+Coman on duty : Wahyu Berbudi WL/ M.Reyhan
+
+Summary report : 
+- R/D (H-2)
+
+Next plan :
+- R/D 100%
+- Wait on construction readiness for location CKR-STO2 Est. April 2026
+
+3. ABG-C6
+Nama Lokasi : ABG-C6
+Nama Rig : PDSI #12.3/N110-M
+Coman on Duty : -
+
+Summary Report :
+* Rig Idle (H-13), Rig idle at location BDA-008
+* Wait on construction readiness for location ABG-C6 (progress : 78%), est. Ready on M1 February 2026
+* Wait on FID est M1 March 2026
+* Wait on material est M4 February 2026
+* Premove to ABG-C6 96%
+
+Next plan :
+* Premove to ABG-C6, Inspection CAT III
+
+4. ABG-J1
+Nama lokasi : ABG-J1
+Nama Rig : PDSI #31.3/D1500-E
+Coman On Duty : -
+
+Summary Report :
+* Rig Idle (H-34), Rig idle at location ABG-H4 while Inpection Rig Category III (progress 72%)
+* Wait on construction readiness for location ABG-J1 (progress : 80%), est. Ready on M2 February 2026
+
+5. KRE-002ST
+Nama Rig : PDSI #09.2/N80UE
+Coman on Duty : -
+
+Current status: 
+* Rig Idle (H-77). Rig Idle at Location CMR-STOB.
+* Wait on construction readiness for location KRE-02ST. Est M2 Feb 2026 (Progress: 18%)
+* Wait on FID est M1 March 2026
+* Wait on Materials est M1 March 2026
+- Premove to KRE-002ST 8%
+
+Next plan :
+* Rig premove to KRE-002ST, Inspection CAT III
+
+FIELD SUBANG
+1. BMH-002
+Nama Lokasi : BMH-INF1
+Nama Rig : PDSI #15.3/N110-M
+Coman on Duty : Ganang WS / Gilang RK / Taufik AP
+Hari ke : 36
+Kedalaman :  1143 mMD/1122.6 mTVD
+Penambahan : 134 m
+DSR @24   : -399.2 hr
+AFE : US$ 15,769,083
+Realisasi : US$ 5,478,382.91 (34.74%)
+
+Plan - Actual
+36" hole : 80 mMD/80 mTVD - 83 mMD/83 mTVD
+26" hole : 600 mMD / 590.0 mTVD - 598 mMD / 596 mTVD (Plan: 7.9 hari / Actual: 9.3 hari)
+18-1/2" hole : 1041 mMD/ 1039.0 mTVD - 1004.78 mMD / 989.5 mTVD (Plan: 9.3 hari / Actual: 23 hari)
+17-1/2" hole: 1860 mMD/1725 mTVD - mMD / mMD (Plan: 15.8 hari / Actual: - hari)
+12-1/4" hole: 2594 mMD/2559 mTVD -  mMD/mTVD (Plan: 15.4 hari / Actual: - hari)
+8-1/2" Hole : 2879 mMD/2843 mTVD -  (Plan: 7.3 hari / Actual: -  hari)
+
+Summary report :
+- Blind Drilling DOF 12-1/4" pilot hole to 1143 mMD.
+
+Current Status: 
+- Blind Drilling DOF 12-1/4" pilot hole to 1201 mMD.
+- Combat loss #3, in progress. 
+
+Next Plan :
+- DOF 12-1/4" pilot hole to 1855 mMD
+- Circulation
+
+2. ABG-026ST
+Nama Lokasi : ABG-026ST
+Nama Rig : PDSI #28.2/D1000-E
+Coman on Duty : -
+
+Current status :
+* Rig Idle (H-78), Rig Idle at Location BJR-D3.
+* Wait on construction readiness for location ABG-026ST. Est. M1 Maret 2026 (Progress: 0%)
+
+Next plan :
+* Rig Idle.
+  
+Next Plan :
+* Rig Idle, inspection CAT III
+
+Terima kasih.
+Salam

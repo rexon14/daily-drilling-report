@@ -1,0 +1,234 @@
+*Laporan Pagi Drilling Region 3 Zona 9, 19 Jan 2025*
+
+*Highlights:*
+Operasi Pemboran	: 3 Rig.
+Operasi MIRU	        : 3 Rig.
+Wait on location	: 2 Rig.
+Total jumlah Rig	: 8 Rig.
+
+*FIELD SANGASANGA*
+*1. NKL-P1903*
+Nama Sumur   : NKL-P1903.
+Nama Rig   : Rig PDSI #22.2/OW700-M.
+Hari ke   : WOL D-7.
+
+Summary report:
+- Wait on Location D-07
+
+Current Status:
+- Wait On Location D-08
+
+Next Plan:
+- Wait on location NKL-P1903. 
+
+Note :
+- Rig PDSI release from NKL-1183 on January, 08th 2026, 24.00 WITA. Well NKL-1183 declared as production well Layer B-08 depth 672-674 mMD.
+- NKL-P2406 to NKL-P1903 --> 4 km (Land transport).
+- Est'd Location readiness on week#4 January 2026.
+
+
+*2. LSE-P1735*
+Nama Sumur		: LSE-1184 (LSE-P1735).
+Nama Rig		: Rig PDSI #10.2/D700-M.
+Hari ke			: D-19.
+Current Depth		: 744 mMD/ 744 mTVD.	
+Interval Depth 24 Hrs	: - m.
+DSR @14			: +48.0 Hrs.
+Est Daily Cost		: US$ 35,123.51.
+Est Cumulative Cost: US$ 2,225,631.18 (86.96%).
+AFE COST		: US$ 2,559,433.
+
+Casing Setting Depth:
+Plan - Actual
+17-1/2" hole 	: 50 mMD/50 TVD - 48 mMD/ 48 mTVD.
+12-1/4" hole 	: 249 mMD/249 mTVD - 256 mMD/ 256 mTVD.
+8-1/2" hole 	: 789 mMD/789 mTVD - 743 mMD/ 743 mTVD.
+
+Summary report:
+- Cont'd RIH SRP (HPU) + production string 2-7/8" Tubing (J-55, 6.5 ppf, R2, EUE)  from 609 mMD to UR @725 mMD, PI @713 mMD (as per tally).
+- N/D 7-1/16" x 5000 psi BOP Stack and surface equipment.
+- N/U HPU Wellhead Adapter Flange.
+- M/U and RIH BHA Sucker Rod (2" Plunger + 2-1/2" Pump Barrel + 59 Jts 3/4" SR + 31 Jts 7/8"SR).
+- N/D BOP Sucker Rod.
+- N/U Polish Rod and Stuffing Box. Pumping Test Upstroke dan Downstroke, 2 stroke 400 psi hold 10 min, Ok.
+Rig PDSI #10.2/D700-M declared released on 18th January 2026, at 14.00 WITA and Well LSE-1184 (LSE-P1735) is declared as production well at Layer D-4.3 (685.5-688.5 mMD, 689-693.5 mMD), Layer D-5.1b (719.5-723 mMD), Layer F-5.1a (728.5-730.5 mMD).
+- R/D D-1: 10%, cum: 10%.
+
+Current Status:
+- R/D D-1: 4%, cum: 14%.
+		
+Plan: 
+- Cont'd Rig down 100%.
+
+
+*FIELD SANGATTA*
+*3. SGT-D04*
+Nama Sumur 		: SGT-D04.
+Nama Rig 		: Rig PDSI#21.2/OW 700-M.
+Hari ke   			: WOL-D21
+ 
+Summary Report:	
+- Wait On Location D-21
+
+Current Status: 
+- Wait On Location D-22
+
+Plan:
+- Wait on location SGT-D04 while premove to staging area at STW-23.
+
+Note
+- Rig PDSI #21.2/OW700-M released on December 21th, 2025 at 15.00 WITA and well ST-223 (SGT-907) declared as a production well at layer: N6 (928-932 mMD) and layer: O6 (1046-1048 mMD).
+- Rig PDSI #21.2 Rig down completed 100% on 28 December 2025.
+- SGT-907 to SGT-D04 --> 1 km (Land transport).
+- Est'd Location readiness on week#3 February 2026.
+- Premove to Staging Area 77% (92 load)
+
+
+*FIELD MUTIARA*
+*4. MUT-385 (MUT-951 OS).*
+Nama Sumur: MUT-385.
+Nama Rig: BKY-04.
+Hari ke: M-16.
+Kedalaman 24 jam: 277 ftMD/ftTVD (13-3/8” Conductor).
+Progres 24 jam: - ft.
+AFE Cost: US$ 4,063,988.-
+Realisasi biaya: US$ 928,544.06 (22.12%).
+
+Casing Setting Depth (plan - actual):
+13-3/8" Casing Conductor: 277 ftMD / ftTVD - 277 ftMD / ftTVD.
+12-1/4" hole: 1,500 ftMD / ftTVD - xx ftMD / xx ftTVD.
+8-1/2" hole: 5,344 ftMD / 4,884 ftTVD - xx ftMD / xx ftTVD.
+
+24 Hrs Summary report:
+===== Rig release from PAM-93 (PAM-77 OS2) at 15:00 Hrs on 03 January 2026 and move to MUT-385 (MUT-951 OS), 4 Nmi by river and 37 Km by land =====
+
+Progress: 
+- Rig BKY-04: R/D 95%, R/M 75%, R/U 16%, Maintenance and PLO 7%.
+- Halliburton Cementing: R/D 100%, R/M 100%, R/U 85%.
+- MI Swaco: R/D 100%, R/M 100%, R/U 10%.
+- Geolog: R/D 100%, R/M 100%, R/U -%.
+
+Current Status:
+Wait on daylight.
+
+Next Plan:
+R/D at PAM-93 (PAM-77 OS2). R/M to MUT-385 (MUT-951 OS). R/U and maintenance at MUT-385 (MUT-951 OS).
+
+*5. Mutiara-382 (MUT-108 OS E)*
+Nama Sumur: MUT-382.
+Nama Rig: GBS Elang-03.
+Hari ke: D-32.
+Kedalaman: 4,709 ftMD/4,591 ftTVD.
+Progress: 1,073 ft.
+Est. Cumulative Cost: US$ 2,124,378.72 (52.12%).
+AFE: US$ 4,076,026.
+
+Casing Setting Depth:
+Plan - Actual:
+13-3/8" Conductor: 274 ftMD/274 ftTVD - 274 ftMD/274 ftTVD.
+12-1/4" Hole: 1,232 ftMD/1,216 ftTVD - 1,290 ftMD/1,267 ftTVD.
+8-1/2" Hole: 4,749 ftMD/4,622 ftTVD - 4,816 ftMD/4,698 ftTVD.
+
+*Summary report:*
+- Continue RIH 8-1/2” Schlumberger directional BHA #7 to 3,636 ftMD.
+- CHC.
+- Drill 8-1/2” directional hole to 4,709 ftMD/4,591 ftTVD.
+
+Current status:
+- Drill 8-1/2” directional hole to 4,816 ftMD/4,698 ftTVD.
+- Confirmed by Wellsite Geologist TD Well MUT-382 (MUT-108 OS E) at 4,816 ftMD / 4,698 ftTVD / 4,572 ftTVDSS.
+- Circulate hole clean.
+
+Next plan:
+POOH 8-1/2" directional BHA #7 for wiper trip. RBIH 8-1/2" directional BHA #7 to bottom. Circulate hole clean. POOH 8-1/2" directional BHA #7 to log well.
+
+
+*FIELD SEMBERAH*
+*6. Semberah-197 (SEM-174 OS)*
+Nama Sumur		: SEM-197.
+Nama Rig		: Rig BKY-02.
+Moving hari ke	: M-27.
+Last Depth		: 101.8 ft MD/ 101.8 ft TVD.
+Progress 24 Hrs	: - ft.*
+Realisasi biaya		: US$  986,293 (14.57%).
+AFE				: US$ 6,770,478.
+
+Casing Setting Depth (Plan - Actual):
+20” pailing conductor @ 101.8 ftMD.
+12-1/4" Hole: 3,105 ftMD/ 2,902 ftTVD –   ftMD / ftTVD.
+8-1/2" Hole: 8,850 ftMD/ 8,611 ftTVD –   ftMD/ ftTVD.
+3-1/2” Dual Tubing Completion LS: - ftMD and SS: - ftMD.
+
+Summary Report:
+RDMO / MIRU to SEM-197 (SEM-174 OS).
+Move out (rig site): 6 loads, Total: 80 loads (include serco SLB cementing (12 loads) & MI-Swaco(15 loads)).
+Progress:
+- Basecamp: R/D 100%, R/M 63%, R/U 50%.
+- Rigsite: R/D 90%, R/M 44%, R/U 10%.
+- MI-Swaco: R/D 100, R/M 100%, R/U 18%. 
+- Slb Cementing: R/D 100%, R/M 100%, R/U 60%.
+
+Current Status:
+Wait on daylight.
+
+Next Plan:	
+RDMO / MIRU to SEM-197 (SEM-174 OS) (by land: 167 KM, by river: 60 Mile)
+
+
+*7. Semberah-196 (SEM-81 OS)*
+Nama Sumur 		: SEM-196
+Nama Rig		: EMR-01.
+Hari ke			: D-19.
+Kedalaman		: 8,112 ftMD/ 7,999 ftTVD.
+Progress			: - ft.
+Est Daily Cos		: US$ 90,231.51.
+Est Cumulative Cost	: US$ 3,107,085.03 (41.82 %).
+AFE Cost			: US$ 7,429,413.00.
+
+Casing Setting Depth :
+Plan - Actual:
+20" Conductor : 92 ftMD/TVD
+17-1/2" hole : 3,997 ftMD/3,884 ftTVD - 3,910 ftMD/3,799 ftTVD.
+12-1/4" hole : 8,133 ftMD/8,018 ftTVD - 8,112 ftMD/7,999 ftTVD.
+8-1/2" hole  : 9,408 ftMD/9,249 ftTVD - x,xxx ftMD/x,xxx ftTVD.
+
+Summary Report:
+POOH pump out 12-1/4” Directional Sperry BHA#3 from 6,890 ftMD to 3,880 ftMD. Circulate bottom up at 3,880 ftMD (inside 13-3/8" Casing Shoe). POOH 12-¼” Directional Sperry BHA#3 from 3,880 ftMD to 50 ftMD. PJSM. L/D 12-1/4" Sperry Directional BHA #3. PJSM. R/U Schlumberger Wireline Logging Unit and Equipment. M/U Logging Tool Run#1: Quad Combo (PEX-AIT-BC-EMS). RIH Logging tool run #1: Quad Combo (PEX-AIT-BC-EMS) to 1,000 ftWL.
+
+Current status:
+Run Logging tool run #1: Quad Combo (PEX-AIT-BC-EMS) from 1,000 ftWL to 8,015 ftWL. Log up Logging tools #1: Quad Combo (PEX-AIT-BC-EMS) from 8,015 ftWL to 5,400ftWL.
+
+Next plan:
+Perform logging job Run#1: Quad Combo (PEX-AIT-BC-EMS). POOH & L/D Logging tools Run#1. M/U & RIH Logging Tool Run#2: PT-FA. R/D Schlumberger Logging tool and equipment. M/U and RIH 12-1/4” Slick BHA to bottom.
+
+
+*FIELD NILAM*
+*8. NILAM-373 (NLM-138 OS2)*
+Well Name		: NLM-373
+Rig Name		: GW-207
+Hari ke			: M-07.
+Kedalaman		: 196 ftMD/TVD (13-3/8" conductor piled).
+Progress			: - ft
+Est Daily Cost		: US$ 31,475.62
+Est Cumulative Cost	: US$ 250,991.27 (3.26%)
+AFE Cost			: US$ 7,689,743
+
+Casing Setting Depth:
+Plan - Actual:
+13-3/8" Conductor : 196 ftMD/TVD.
+12-1/4" hole : 6,383 ftMD/6,303 ftTVD - --ftMD/--ftTVD.
+8-1/2" hole  : 13,126 ftMD/13,046 ftTVD - --ftMD/--ftTVD.
+
+Summary Report:
+Rig and service company equipment maintenance.
+Rig Move and R/U preparation at NLM-373.
+
+Current Status:
+00:00 - 12:00 hrs.:Wait on location days#3 NLM-373, Rig equipment maintenance at NLM-372. 
+12:00 – 24:00 hrs.:Back to moving operation R/U preparation to NLM-373.
+Today moving loads: 3, Cumulative total moving: 3 loads (no pre move loads)
+
+Next plan:
+Rig Move and R/U at NLM-373.
+
+*Tim Drilling Zona 9*

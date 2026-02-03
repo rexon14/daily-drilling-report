@@ -1,0 +1,418 @@
+*Laporan Harian* *DWI PHM*
+Tgl operasi : *08-Jan-2026*
+Tgl laporan : *09-Jan-2026*
+
+*DRILLING*
+*1. MDP-1x*
+Nama Sumur : MDP-1x
+Nama Rig : ASIAN ENDEAVOUR-1
+Hari ke : 111
+Kedalaman : 4738 mMD
+Progres : 4260 m
+AFE : US$ 45,414,090.00
+Realisasi biaya : US$ 42,030,202.21 (92.55%)
+*EMD : 25 JAN 2026*
+_Casing Setting Depth :_
+Plan
+30" CP DRIVING: 207 mMD
+20": 1252 mMD
+13-3/8": 2292 mMD
+9-5/8": 3720 mMD
+7": 4738 mMD
+Actual
+30" CP: 204 mMD
+20": 1247.3 mMD
+13-3/8": 2549.6 mMD
+9-5/8": 3758.81 mMD
+_Summary report :_
+SET 9-5/8" EZSV BRIDGE PLUG WITH E-LINE - P/T BRIDGE PLUG 1000 psi - RIH 3½" CEMENT STINGER - TAG TOP OF BRIDGE PLUG - CIRC HOLE CLEAN - PERFORM 4th CEMENTING PLUG - CIRC OUT EXCESS CEMENT INSIDE STRING - DISPLACE WELL WITH 1.15 SG BRINE - POOH 3½" CEMENT STINGER - L/D 4-3/4" DC FROM DERRICK.
+_Current status :_
+L/D 3½" LT-6 TUBING FROM DERRICK.
+_Next plan :_
+RIH 9-5/8" CSG CUTTER BHA - TAG TOC - SPOT HEAVY MUD - CUT 9-5/8" CSG.
+
+*2. SS-505-aSH1.T1*
+Nama Sumur : SS-505-aSH1.T1
+Nama Rig : TASHA
+Hari ke : 66
+Kedalaman : 4279 mMD
+Progres : 4258 m
+AFE : US$ 23,847,541.00
+Realisasi biaya : US$ 21,367,724.00 (89.60%)
+*EMD : 13 Jan 2026*
+_Casing Setting Depth :_
+Plan
+36": 229 mMD
+13-3/8": 1810 mMD
+9-5/8": 3130 mMD
+7": 3610 mMD
+3-1/2" : 4248
+Actual
+36" CP : 226 mMD
+13-3/8": 1315.1 mMD
+9-5/8": 3142 mMD
+7": 3604 mMD
+3-1/2": 4251 mMD
+_Summary report :_
+RIH DEBURRING ASSY TO 2407 mMD - PERFORM DEBURRING PERFORATION ZONE - RIH TO 3003 mMD - P/TEST SUMP PACKER TO 500 PSI - PUMP HEC & CIRC - POOH & L/D DEBURRING ASSY TO SURFACE - M/U 6.0” INDEXING SHOE & 4½" TUBING TO 40 mMD - M/U & RIH 9-5/8" GP MST ASSY TO 92 mMD.
+_Current status :_
+RIH 9-5/8" GP MST ASSY ON 5" TUBING AT 446 mMD
+_Next plan :_
+PERFORM SOLVENT PICKLE & HRWP - RIH 4½" UPPER COMPLETION STRING.
+
+*3. NB-701-bSH2*
+Nama Sumur : NB-701-bSH2
+Nama Rig : Zhong You Hai – 16
+Hari ke : 20
+Kedalaman : 2679 mMD
+Progres : 2681 m
+AFE : US$ 17,892,620.00
+Realisasi biaya : US$ 7,590,610.73 (42.42%)
+*EMD : 10 Feb 2026*
+_Casing Setting Depth :_
+Plan
+36" CP: 229 mMD
+9"5/8: 950 mMD
+7": 2679 mMD
+Actual
+36" CP: 228.65 mMD
+9-5/8: 946.64 mMD
+7": 2677 mMD
+_Summary report :_
+L/D 30 STDS OF 5" DP - RIH 7" X 9-5/8" CASING SCRAPER BHA WHILE SCRAPE PACKER DEPTHS & TO TAG F/C AT 2625.3 mMD - PUMP SW & CIRC HOLE CLEAN.
+_Current status :_
+FLOW CHECK PRIOR POOH SCRAPER.
+_Next plan :_
+POOH SCRAPER - E/LOG CBL/VDL - SET SUMP PACKER.
+
+*4. TN-S61*
+Nama Sumur : TN-S61
+Nama Rig : RAISIS 102
+Hari ke : 4
+Kedalaman : 1898 mMD
+Progres : 1934 m
+AFE : US$ 3,252,466.00
+Realisasi biaya : US$ 1,783,962.00 (54.85%)
+*EMD : 22 JAN 2026*
+_Casing Setting Depth :_
+Plan
+20" CP: 130 mMD
+3-1/2": 1895 mMD
+Actual
+20": 133 mMD
+_Summary report :_
+DRILL 9½" HOLE F/ 1775 mMD TO WELL TD AT 1934 mMD/ 1580 mTVD - CIRC HOLE CLEAN - FLOW CHECK - SPOT HIVIS - BROOH 9½" MOTOR BHA TO 750 mMD.
+_Current status :_
+BROOH 9½" MOTOR BHA AT 332 mMD.
+_Next plan :_
+TRIP OUT 9½" BHA - RETRIEVE WEAR BUSHING - RUN 3.5" TBG
+
+*5. H-RB-514*
+Nama Sumur : H-RB-514
+Nama Rig : YANI RIG 104
+Hari ke : 5
+Kedalaman : 4077 mMD
+Progres : 1309 m
+AFE : US$ 5,886,177.00
+Realisasi biaya : US$ 1,859,262.00 (31.59%)
+*EMD : 17 JAN 2026*
+_Casing Setting Depth :_
+Plan
+20" CP: 105mMD
+9-5/8": 1300 mMD
+3-1/2": 4077 mMD
+Actual
+20" CP: 90.9mMD
+_Summary report :_
+POOH & L/D 12¼" MOTOR BHA TO SURFACE. RETRIEVE WEARBUSHING. JETTING WELLHEAD. R/U EXPRO CRT EQUIPMENT. RIH 9-5/8" CSG TO 1293 mMD. M/U & LAND CSG HGR. CIRC OUT HIVIS. R/D EXPRO CRT. SET PACK OFF. N/D BELL NIPLE & DIVERTER. N/U CMT SPOOL & CMT HEAD. M/U & R/B 5" DP.
+_Current status :_
+CONT' M/U & R/B 5" DP ON MAST.
+_Next plan :_
+N/U BOP. M/U 8.5" RSS BHA. DRILL 8.5" HOLE.
+
+*WELL INTERVENTION*
+*1. B-G-3.G1-S1*
+Barge: AWB Tirta Samudera
+Activity: *WS - EL: Additional Perforation*  (Days-#3)
+Cost: $23,968 / $147,200 *(16%)*
+Expected Gain: 150 BOPD
+Expected Complete: 15-Jan-2026
+_*Summary :*_
+Load and setup Mast crane, Electricline and Slickline unit from barge to top deck platform.
+
+*2. JM-102.G1-S1*
+Barge: AWB Bayu Cakrawala
+Activity: *WS - EL: Additional Perforation*  (Days-#5)
+Cost: $32,380 / $69,000 *(46%)*
+Expected Gain: 2 MMscfd
+Expected Complete: 09-Jan-2026
+_*Summary :*_
+Punched and perforated reservoir 32-2 at interval 3468.0-3469.2 mBRT (1.2 m). Last WHSIP 2880 psi.
+
+*3. PK-C19-sSH1-S1*
+Barge: AWB ELSA-10
+Activity: *WS - SN: Completion Work Over*  (Days-#20)
+Cost: $389,106 / $791,300 *(49%)*
+Expected Gain: Data
+Expected Complete: 15-Jan-2026
+_*Summary :*_
+Performed oil based mud circulation by pumping Diesel oil thru tubing rate 2 bpm, 500 psi. Total 103 bbls diesel pumped. 
+
+*4. PK-E24.G1-S1*
+Barge: AWB Pelangi Tirtamas 2
+Activity: *WS - EL: Additional Perforation*  (Days-#3)
+Cost: $11,981 / $187,851 *(6%)*
+Expected Gain: 2 MMscfd
+Expected Complete: 10-Jan-2026
+_*Summary :*_
+Run light tool string until 245 mWL, TRSV flapper confirmed open.
+
+*5. PK-E25.G1-S1*
+Barge: AWB Pelangi Tirtamas 2
+Activity: *WS - EL: Additional Perforation*  (Days-#6)
+Cost: $160,840 / $455,283 *(35%)*
+Expected Gain: 2 MMscfd
+Expected Complete: 08-Jan-2026
+_*Summary :*_
+Set 3.76" Paragon + 1 joint TTCS 250 micron + Bullplug at 1890.29 mBRT. Last WHSIP 1445 psi.
+
+*6. SS-104-S1*
+Barge: AWB Bayu Constructor
+Activity: *WS - EL: Additional Perforation*  (Days-#3)
+Cost: $32,975 / $89,000 *(37%)*
+Expected Gain: 100 BOPD
+Expected Complete: 11-Jan-2026
+_*Summary :*_
+Perforated reservoir SN5-2 at interval 3200.0 - 3201.0 mBRT (1.0 meter). Last WHSIP 2391 psi.
+
+*7. SS-202.T1-S1*
+Barge: AWB King Fisher
+Activity: *WS - CT: Sediment Washing*  (Days-#1)
+Cost: $2,180 / $12,000 *(18%)*
+Expected Gain: Data
+Expected Complete: 13-Jan-2026
+_*Summary :*_
+Run 3.86" and tag TRSV no go at 341 mWL, WHSIP: 1450 psi.
+
+*8. SS-215-S1*
+Barge: AWB King Fisher
+Activity: *WS - EL: Additional Perforation*  (Days-#2)
+Cost: $13,072 / $199,000 *(6%)*
+Expected Gain: 3 MMscfd
+Expected Complete: 08-Jan-2026
+_*Summary :*_
+Closed ssd zone#2 and zone#1, WHSIP stable at 2400 psi.
+
+*9. H-H-1-S1*
+Barge: Nesitor4 - Barge
+Activity: *WS - SL: Plugging*  (Days-#7)
+Cost: $33,517 / $70,300 *(47%)*
+Expected Gain: Data
+Expected Complete: 11-Jan-2026
+_*Summary :*_
+Run 2.75" Paragon plug dummy until 1340 mBRT - Ok, no restriction.
+
+*10. H-LB-172-S1*
+Barge: ELSA-04 - Barge
+Activity: *WS - TS: Production Test Routine*  (Days-#1)
+Cost: $1,200 / $12,000 *(10%)*
+Expected Gain: Data
+Expected Complete: 08-Jan-2026
+_*Summary :*_
+Choke : 64/64". WHFP/T : 13.1 B/ 24 C. Qg : 0.673 MMscfd. Qgi : 0.960 MMscfd. Qo: 88.59 Bopd. Qw : 250.04 Bwpd.
+
+*11. H-LB-176-S1*
+Barge: ELSA-04 - Barge
+Activity: *WS - TS: Production Test Routine*  (Days-#1)
+Cost: $3,102 / $12,000 *(25%)*
+Expected Gain: Data
+Expected Complete: 09-Jan-2026
+_*Summary :*_
+Choke :128/64". WHFP/T : 13.6 B/ 28 C. Qg : 0.164 MMscfd. Qgi :0.305 Mmscfd. Qo : 9.5 Bopd. Qw : 99.98 Bwpd.
+
+*12. H-LB-65-S1*
+Barge: ELSA-04 - Barge
+Activity: *WS - TS: Production Test Routine*  (Days-#2)
+Cost: $1,150 / $12,000 *(9%)*
+Expected Gain: Data
+Expected Complete: 08-Jan-2026
+_*Summary :*_
+Choke : 126/64". WHFP/T : 12.9 B/ 34 C. Qg : 1.060 MMscfd. Qgi : 1.200 MMscfd. Qo: 48.03 Bopd. Qw: 1193.07 Bwpd.
+
+*13. H-U-98-S1*
+Barge: Trust-01 - Barge
+Activity: *WS - TS: Production Test Routine*  (Days-#2)
+Cost: $7,977 / $12,000 *(66%)*
+Expected Gain: Data
+Expected Complete: 09-Jan-2026
+_*Summary :*_
+Choke: 14/64". WHFP/T: 67.2 B/ 31.0 C. Qgp: 0.790 MMscfd. Qgi: 0.230 MMscfd. Qo: 651.40 Bopd.
+
+*14. H-XA-346-S1*
+Barge: Nesitor1 - Barge
+Activity: *WS - SL: Well Monitoring*  (Days-#10)
+Cost: $26,171 / $85,000 *(30%)*
+Expected Gain: Data
+Expected Complete: 16-Jan-2026
+_*Summary :*_
+Retrieve 4" pack off sealing prong at 2343 mWL. WHSIP increase from 830 to 840 psi.
+
+*15. H-YA-261-S1*
+Barge: AWB ELSA-08
+Activity: *WS - EL: Additional Perforation*  (Days-#20)
+Cost: $156,259 / $283,000 *(55%)*
+Expected Gain: 50 BOPD
+Expected Complete: 11-Jan-2026
+_*Summary :*_
+Performed well control then run fishing string to target depth.
+
+*16. TN-I403-S1*
+Barge: Trust-02 - Barge
+Activity: *WS - TS: Offload*  (Days-#3)
+Cost: $5,057 / $12,000 *(42%)*
+Expected Gain: Data
+Expected Complete: 10-Jan-2026
+_*Summary :*_
+Barge move from TN-Ix454 to TN-I8 By TB KJ 23
+
+*17. TN-Ix454-S1*
+Barge: Trust-02 - Barge
+Activity: *WS - SL: Support LWO*  (Days-#11)
+Cost: $33,943 / $118,000 *(28%)*
+Expected Gain: 1 MMscfd
+Expected Complete: 08-Jan-2026
+_*Summary :*_
+Choke: 14/64". WHFP/T: 80.9 B/34.0 C. Qg: 1.001 MMscfd.
+
+*18. TN-A482-S1*
+Barge: Nesitor3 - Barge
+Activity: *WS - EL: Additional Perforation*  (Days-#8)
+Cost: $31,483 / $100,000 *(31%)*
+Expected Gain: 1 MMscfd
+Expected Complete: 13-Jan-2026
+_*Summary :*_
+Rigged down blow out preventer and move out to safe area for top up fresh water
+
+*19. TN-AA652-S1*
+Barge: Delta-biru - Barge
+Activity: *WS - EL: Additional Perforation*  (Days-#1)
+Cost: $11,371 / $54,000 *(21%)*
+Expected Gain:
+Expected Complete: 11-Jan-2026
+_*Summary :*_
+Run 2.5" x 20ft dummy used gun (OD: 2.63") down to 1698.5 mBRT.
+
+*20. TN-AA713-S1*
+Barge: Samudra 1 - Barge
+Activity: *WS - EL: Additional Perforation*  (Days-#3)
+Cost: $10,074 / $38,000 *(26%)*
+Expected Gain: 1 MMscfd
+Expected Complete: 10-Jan-2026
+_*Summary :*_
+Tubing clereance and tagged top of sediment at 1610 mWL/ 1660 mBRT.
+
+*21. TN-AA713-S1*
+Barge: Samudra 1 - Barge
+Activity: *WS - SL: Sand Control*  (Days-#1)
+Cost: $1,215 / $89,000 *(1%)*
+Expected Gain: 1 MMscfd
+Expected Complete: 11-Jan-2026
+_*Summary :*_
+Run 3" Tubing Scrapper to scrap tubing wall interval 1605-1625 mBRT.
+
+*22. TN-AA751-S1*
+Barge: ELSA-07 Vessel
+Activity: *WS - EL: New Well Perforation*  (Days-#2)
+Cost: $0 / $31,000 *(0%)*
+Expected Gain: 2.5 MMscfd
+Expected Complete:
+_*Summary :*_
+Rig up gangway and reposition ginpole. Rig up slickline unit.
+
+*23. TN-B78-S1*
+Barge: Trust-05 - Barge
+Activity: *WS - SL: Sand Control*  (Days-#3)
+Cost: $29,880 / $71,000 *(42%)*
+Expected Gain: 1 MMscfd
+Expected Complete: 09-Jan-2026
+_*Summary :*_
+Choke: 12/64". WHFP/T: 98.0 B/ 31.0 C. Qg: 1.153 MMSCFD.
+
+*24. TN-G60-S1*
+Barge: Sea Haven-6
+Activity: *WS - CT: TT Sand Control for New Well*  (Days-#1)
+Cost: $1,151 / $186,000 *(0%)*
+Expected Gain: 2.5 MMscfd
+Expected Complete: 16-Jan-2026
+_*Summary :*_
+Transfer B-40 65 tones from SPOB OCEAN MAJENE then transfer sand consolidation chemicals.
+
+*25. TN-G60-S1*
+Barge: Sea Haven-6
+Activity: *WS - EL: Logging*  (Days-#3)
+Cost: $18,881 / $57,000 *(33%)*
+Expected Gain: Data
+Expected Complete: 11-Jan-2026
+_*Summary :*_
+Run 1-11/16" CBL/VDL survey to top of sediment at 972.5 mBRT, Estimated top of cement at 135 mBRT.
+
+*26. TN-S487-S1*
+Barge: ELSA-03 - Barge
+Activity: *WS - TS: Offload*  (Days-#1)
+Cost: $4,803 / $12,000 *(40%)*
+Expected Gain: Data
+Expected Complete: 09-Jan-2026
+_*Summary :*_
+Choke:20/64". WHFP/T: 58 B/ 39 C. Qg: 1.378 MMscfd. Qo: 123.55 BOPD.
+
+*27. TN-S502-S1*
+Barge: Naga Biru
+Activity: *WS - EL: Additional Perforation*  (Days-#4)
+Cost: $24,846 / $140,000 *(17%)*
+Expected Gain: 1 MMscfd
+Expected Complete: 16-Jan-2026
+_*Summary :*_
+Punch and perforated reservoir P124 at interval 4239.7 ~ 4241.2 mBRT. Last WHSIP 378 psi.
+
+*DREDGING*
+*1. Palong 2 - Senipah Channel*
+    Progress: 13.3%  -  CMD
+    ETC: 24 May 2026
+    RMI: N/A
+    Next Location: TBC
+
+*2. SPL Mahakam - H-L-168 & 264*
+    Progress: 10.4% - SPD
+    ETC: 16 Jan 2026
+    RMI : N/A
+    Next Location: H-T-411/332
+ 
+*3. ASL 82 - TN-AA342*
+    Progress: 5.35% - CMD
+    ETC: 28 Mar 2026
+    RMI : N/A
+    Next Location: TN-AA342
+
+*4. ASL 28 - TN-R27/28*
+    Progress: 10.4% - SPD
+    ETC: 1 Feb 2026
+    RMI: 14 Feb 2026
+    Next Location: TN-AA303
+ 
+*5. SM 33 - H-W-274*
+    Progress: 75.2% - SPD
+    ETC: 12 Jan 2026
+    RMI: 30 Jan 2026
+    Next Location: H-L-168/265/267
+
+*6. ASL 42 - OFFHIRED*
+    Docking - Est. Back to Ops by 2 Feb2026
+ 
+*7. CSD. EKA DREDGER 02 positioning at HK 360/450/361*
+    Progress: 21.94% - SPD
+    ETC: 25 Jan 2026
+    RMI: 12 Mar 2026
+    Next Location: TBA
+
+*8. QUEEN VICTORIA X - OFFHIRED - Maintenance*
+    Maintenance -  Est. Back to Ops TBC

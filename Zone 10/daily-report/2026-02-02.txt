@@ -1,0 +1,24 @@
+*Laporan Pagi Drilling Zona-10, 02 Februari 2026*
+
+*1. AE-1 Mob*
+Nama Sumur : AE-1 Mob
+Nama Rig : Asian Endeavour-1
+Hari ke : 
+Est. Tgl Selesai : 
+Kedalaman :	
+Progres : 
+AFE : 
+Realisasi biaya : 
+
+Casing Setting Depth :
+Plan - Actual : 
+
+
+Summary report :
+- Jack up to zero air gap for initial penetration meanwhile stomping on Stbd and Bow leg. Troubleshoot Break Resistor on STBD leg. Reaming Port leg. Perform preload on Bow leg
+
+Morning Status :
+- Perform preload on Stbd leg
+
+Next plan :
+- Continue preload operation on Stbd and Port leg.

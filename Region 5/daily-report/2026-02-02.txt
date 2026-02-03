@@ -1,0 +1,93 @@
+REGION 5
+Report Date: 1 February 2026
+
+ASSET ALGERIA
+(1.) OHD – QB-117 (Rig ENAFOR 45)
+* Spud date: 28 Dec 2025
+* OPS report#36 (1 Feb 2026) Days on Location: 35.12 / -
+* Current Depth: 3437 mMD
+* Target Depth: 3438 mMD
+* Current Operation 24 hrs: RIH 4.1/2" completion string from 1996 m to 2674,4 m. P/T between TBSA - PBR. Spaced out completion string. M/U and RIH TRSCSSV. M/U tubing hanger and passed CL. RIH string to setting depth. R/U flow tee. R/U slick line, and run drift.
+* 24 hrs look ahead: Recover plug from ULN. Set plug in LLN. Set packer. Recover plug from LLN. P/T annulus A1.
+* NPT Summary (last 24 hrs / total %): - / 1.51 %
+* AFE: $ 6,885,315
+* Cumm. Cost: $ 6,404,872 / $ 6,885,315
+----------------------------------------------------------
+
+ASSET IRAQ
+(2.) West Qurna 1 – WQ-600 (Rig HH031)
+* Spud date: 9 Jan 2026
+* OPS report#24 (1 Feb 2026) Days on Location: 23.63 / 30
+* Current Depth: 3103 mMD
+* Target Depth: 5132 mMD
+* Current Operation 24 hrs: Circulated hole clean, POOH 6" clean out BHA to surface, performed WL job for 7" cement evaluation.
+* 24 hrs look ahead: R/D 7" WL Tools, P/U, M/U and RIH 6-1/8'' Dir BHA. P/T liner top packer to 2500 psi. Drill 6-1/8" lateral hole section as per directional Plan.
+* NPT Summary (last 24 hrs / total %): - / 6.17%
+* AFE: Turn key project
+* Cumm. Cost: Turn key project
+----------------------------------------------------------
+(3.) West Qurna 1 – WQ-617 (Rig GW-51)
+* Spud date: 17 Jan 2026
+* OPS report#16 (1 Feb 2026) Days on Location: 15.42 / 25
+* Current Depth: 2460 mMD
+* Target Depth: 2994 mMD
+* Current Operation 24 hrs: Installed THS and performed pressure test. N/U 13-5/8'' 10 K BOP stack and pressure test the same, retrieved test plug, observed damage and scratch inside THS, replaced THS with new one, Installed THS and performed pressure test. N/U 13-5/8'' 10 K BOP stack and pressure test the same. Installed wear pushing. P/U, M/U & RIH 8-1/2" clean out BHA to 109 m.
+* 24 hrs look ahead: RIH with 8 1/2" cleanout BHA to top of cement, Drill out cement. Drill out DV & DV plugs. RIH and tag TOC above the shoe track. Drill out cement and shoe tack to 2448 m (10 m above 9-5/8 casing shoe). Circulate hole clean. Perform short wiper trip. Circulate hole clean and displace the well to 1.25 sg KCL polymer mud, POOH 8 1/2" cleanout BHA to surface and L/D the same.
+* NPT Summary (last 24 hrs / total %): 15.00 / 11.28%
+* AFE: Turn key project
+* Cumm. Cost: Turn key project
+----------------------------------------------------------
+(4.) West Qurna 1 – WQ-620 (Rig GW-166)
+* Spud date: 14 Jan 2026
+* OPS report#19 ( 1 Feb 2026) Days on Location: 18.13 / 30	
+* Current Depth: 2758 mMD
+* Target Depth: 4759 mMD
+* Current Operation 24 hrs: POOH 8-1/2" Directional BHA to surface and L/D the same. R/U liner running equipment. P/U, M/U and RIH 7" liner to 1693 m.
+* 24 hrs look ahead: RIH 7" liner to 2756 m. Circulate hole clean. Set 7" x 9-5/8" liner hanger. Circulate and condition the mud. Perform 7'' liner CMT job.
+* NPT Summary (last 24 hrs / total %): - / 10.00%
+* AFE: Turn key project
+* Cumm. Cost: Turn key project
+---------------------------------------------------------- 
+(5.) West Qurna 1 – WQ-623 (Rig GW-165)
+* Spud date: 28 Jan 2026
+* OPS report#5 (1 Feb 2026) Days on Location: 4.38 / 30
+* Current Depth: 930 mMD
+* Target Depth: 4680 mMD
+* Current Operation 24 hrs: Continued POOH and L/D 17-1/2" BHA to surface and L/D the same. L/D flow line and N/D conductor riser. R/U NE casing running tools. P/U and M/U 13-3/8'' shoe track and Continue RIH 13-3/8" Casing to 915 m. M/U landing joint and RIH to setting depth at 928 m and landed CHH on 20" conductor pipe. Circulated hole clean via CRT. R/U cement head and PT same. Performed 13 3/8" CSG cement job as per program.
+* 24 hrs look ahead: Continue POOH 17-1/2" Dir BHA to surface and L/D same. L/D flow line and N/D conductor riser. R/U 13-3/8' Casing running tools, P/U and M/U 13-3/8'' shoe track, RIH 13-3/8" Casing. R/U cement head and circulate hole clean. Perform 13 3/8" CSG cement job. R/D cement head and L/D13-3/8" casing landing joint. Rig down CDS and casing running tools. Install CHH side out lets (2-1/16"-5K) and P/T same. N/U 13-5/8'' 10K BOP stack and P/T same. Install 13" wear bushing and retrieve RT. M/U and RIH 12-1/4" directional BHA.
+* NPT Summary (last 24 hrs / total %): 2.75 / 27.16%
+* AFE: Turn key project
+* Cumm. Cost: Turn key project
+---------------------------------------------------------- 
+(6) West Qurna 1 – WQ-626BB (Rig HH030)
+* Spud date: 25 Jan 2026
+* OPS report#8 (1 Feb 2026) Days on Location: 7.83 / 35
+* Current Depth: 1052 mMD
+* Target Depth: mMD
+* Current Operation 24 hrs: N/U 20-3/4" BOP and P/T same. P/U, M/U and RIH 17 1/2" directional BHA 518 m. Performed MWD Shallow test. Conducted casing integrity test. Performed choke drill. RIH 17-1/2" Directional BHA and tagged TOC at 904 m. Drilled out cement, Stab-in shoe and rat hole. Drilled 17-1/2" section as per directional plan to 1052 m.
+* 24 hrs look ahead: Drill ahead 17 1/2" hole section as per directional drilling program.
+* NPT Summary (last 24 hrs / total %): - / 0.00 %
+* AFE: Turn key project
+* Cumm. Cost: Turn key project
+----------------------------------------------------------
+
+ASSET MALAYSIA
+(7.) SNPA-MOB/DEMOB (Rig NAGA-5)
+* Start date: 14 Oct 2025
+* MOBS report#16 (1 Feb 2026) Days on Location: 14.89 / 8.02
+* Current Depth: mMD
+* Target Depth: mMD
+* Current Operation 24 hrs: Continued WOW and monitor weather condition due to high sea, high swell and long swell period.
+* 24 hrs look ahead: Continue WOW until weather subside below criteria for rig move. Jetting and pulling all legs free, shutdown and depressurize SNPA and pull all legs above mud line . Tow rig from SNPA to Timpani-1 well location.
+* NPT Summary (last 24 hrs / total %):  - / -
+* AFE: $ 3,488,196.00
+* Cumm. Cost: $ 5,704,536.45 / $ 3,488,196.00
+----------------------------------------------------------
+
+Note Spud Date :
+QB-117 : 28 December 2025
+WQ-600 : 9 January 2026
+WQ-617 : 17 January 2026
+WQ-620 : 14 January 2026
+WQ-623 : 28 January 2026
+WQ-626 : 25 January 2026

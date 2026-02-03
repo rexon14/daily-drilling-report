@@ -1,0 +1,54 @@
+Laporan Pagi Drilling Zona-10, 26 April 2025
+
+
+1. SBKD-001
+Nama Sumur : SBKD-001
+Nama Rig : PDSI #43.3/AB-1500E
+Hari ke : 41
+Est. Tgl Selesai : 07 Juli 2025
+Kedalaman : 1721 mMD/1697.8 mTVD
+Progres : - m
+AFE : US$ 19,875,457
+Realisasi biaya : US$ 9,266,789.7 (46.3%)
+
+Casing Setting Depth :
+Plan - Actual : 
+- 26" Hole : 450 mMD/450 mTVD - 436.6 mMD/ mTVD
+- 17-1/2" Hole : 1550 mMD/1511.5 mTVD - 1348.9 mMD/ mTVD
+- 12-1/4" Hole : 2200 mMD/2161 mTVD - mMD/ mTVD 
+- 8-1/2" Hole : 3007 mMD/2967 mTVD - mMD/ mTVD
+
+Summary report :
+- Pressure Test & Function Test 13⅝" x 10k psi BOP Stack. GR-PT-FA-Sampling (TLC mode). R/U Wireline Surface Equipment. M/U run#1 GR-PT-FA Sampling. Latching test on surface. RIH OH logging run 1.1.1 GR-PT-FA-Sampling on Drill Pipe to 612 mMD.
+
+Morning Status :
+- Cont. RIH OH logging run 1.1.1 GR-PT-FA-Sampling on Drill Pipe from 612 mMD to 930 mMD.
+
+Next plan :
+- Cont. OH Logging Job GR-PT-FA (TLC mode). RIH Trip BHA. OH Logging job SWC. RIH Trip BHA. RIH 9-5/8" casing. Cementing Job.
+
+
+2. Santan STA-37
+Nama Sumur : Santan STA-37
+Nama Rig : Asian Endeavour-1
+Hari ke : 37
+Est. Tgl Selesai : 27 April 2025
+Kedalaman : 12415 ftMD/9099.0 ftTVD
+Progres : - ftMD
+AFE : US$ 14,738,845
+Realisasi biaya : US$ 9,047,635 (61.4%)
+
+Casing Setting Depth :
+Plan - Actual : 
+- 17-1/2" Hole : 1334 ftMD/1329 ftTVD - 1322 ftMD/1315.9 ftTVD
+- 12-1/4" Hole : 6020 ftMD/4292 ftTVD - 5967 ftMD/4249.7 ftTVD 
+- 8-1/2" Hole : 12331 ftMD/9047 ftTVD - ftMD/ ftTVD
+
+Summary report :
+- RIH 3-1/2" tubing monobore completion to 12286' MD. M/U tubing hanger.
+
+Morning Status :
+- PJSM for cementing job.
+
+Next plan :
+- Complete cementing monobore operation. Skid to STA-38.

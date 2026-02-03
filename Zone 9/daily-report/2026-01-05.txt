@@ -1,0 +1,240 @@
+*Laporan Pagi Drilling Region 3 Zona 9, 05 Jan 2025*
+
+*Highlights:*
+Operasi Pemboran	: 5 Rig.
+Operasi MIRU	        : 2Rig.
+Wait on location	: 1 Rig.
+Total jumlah Rig	: 8 Rig.
+
+*FIELD SANGASANGA*
+*1. NKL-P2406*
+Nama Sumur 		: NKL-1183 (NKL-P2406).
+Nama Rig 		: Rig PDSI #22.2/OW700-M.
+Hari ke 		: 22.
+Kedalaman 		: 1545.5 mMD/1506.18 mTVD.
+Progress 		: - m.
+DSR @24			: -120.5 hrs.
+Est Daily Cost		: US$ 35,557.81.		
+Est Cumulative Cost	: US$ 2,990,962.39 (71.95%).
+AFE Cost		: US$ 4,156,932. 
+
+Casing Setting Depth :
+Plan - Actual
+26"     hole    : 50 mMD/50 TVD - 48 mMD/48 mMD.
+17-1/2" hole 	: 386 mMD/386 TVD - 398 mMD/ 398 mTVD.
+12-1/4" hole 	: 1556 mMD/1500 mTVD - 1544 mMD/ 1505 mTVD.
+
+Summary report:
+- Hang up BOP stack 13-5/8" x 5K psi.
+- Set 9-5/8" casing hanger.
+- Rough cut 9-5/8" casing and L/D excess. Final cut 9-5/8" casing.
+- N/D 13-5/8" x 5K psi BOP stack. N/U CHS 11" x 5K psi - 13-5/8" x 3K psi.
+- N/U and pressure test BOP stack 13-5/8" x 5K psi and surface equipment.
+
+Current Status:
+- Prepared, M/U & RIH 8-1/2" TCB (RR, Open Nozzle) + 9-5/8" scrapper to 163 mMD, in progress.
+
+Next Plan:
+- RIH 8-1/2" TCB (RR) + 9-5/8" Scrapper to 1519 mMD (est. TOC). Scrapp interval: 600-700 mMD).
+- Circulate condition mud while observation. Displace mud system to CF KCL Brine 1.07 SG.
+- POOH S/O 8-1/2" TCB (RR) + 9-5/8" Scrapper to surface.
+- 9-5/8" CH logging: GR-CCL-CNL-CBL-VDL.
+
+*2. LSE-P1735*
+Nama Sumur		: LSE-1184 (LSE-1735).
+Nama Rig		: Rig PDSI #10.2/D700-M.
+Hari ke			: 5.
+Current Depth		: 257 mMD/mTVD.
+Interval Depth 24 Hrs	: 165 m.
+DSR @24 		: +2 Hrs.
+Est Daily Cost		: US$ 66,180.81.
+Est Cumulative Cost	: US$ 1,070,807.23 (41.84%).
+AFE Cost		: US$ 2,559,433.
+
+Casing Setting Depth:
+Plan - Actual
+17-1/2" hole 	: 50 mMD/50 TVD - 48 mMD/ 48 mTVD.
+12-1/4" hole 	: 249 mMD/249 mTVD - xx mMD/ xx mTVD.
+8-1/2" hole 	: 789 mMD/789 mTVD -  xx mMD/ xx mTVD.
+
+Summary report:
+- RBIH f/ 44 mMD to 92 mMD While observe Well
+- Cont'd DOF 12-1/4" hole from 92 mMD to 257 mMD/mTVD. (Casing Point, confirmed by Geologist).
+- Circulate hole clean. 
+- Wiper Trip, POOH 12-1/4" PDC bit + BHA DD from 257 mMD to 48 mMD (Shoe csg 13-3/8").	
+
+Current Status:
+- RBIH 12-1/4" PDC bit + BHA DD from 48 mMD to 257 mMD (bottom).
+- Circulate Hole Clean.
+- POOH 12-1/4" PDC + BHA DD from 257 to 214 mMD .
+
+Plan:
+- Cont"d POOH 12-1/4" PDC + BHA DD to surface.
+- RIH & cementing job 9-5/8" Casing (K-55, 40 ppf, BTC, R3, R2). WOC.
+
+
+*FIELD SANGATA*
+*3. SGT-D04*
+Nama Sumur 		: SGT-D04.
+Nama Rig 		: Rig PDSI#21.2/OW 700-M.
+Hari ke   		: WOL-D7
+ 
+Summary Report:	
+- Wait On Location D-7
+
+Current Status: 
+- Wait On Location D-8
+
+Plan:
+- Wait on location SGT-D04 while premove to staging area at STW-23.
+
+Note
+- Rig PDSI #21.2/OW700-M released on December 21th, 2025 at 15.00 WITA and well ST-223 (SGT-907) declared as a production well at layer: N6 (928-932 mMD) and layer: O6 (1046-1048 mMD).- Rig PDSI#10.2 Rig down completed 100% on 06 December 2025.
+- SGT-907 to SGT-D04 --> 1 km (Land transport).
+- Est'd Location readiness on week#3 February 2026.
+- Premove to Staging Area 22%
+
+*FIELD MUTIARA*
+*4. MUT-951 OS.*
+Nama Sumur: MUT-951 OS.
+Nama Rig: BKY-04.
+Hari ke: M-02.
+Kedalaman 24 jam: 276 ftMD/ftTVD (13-3/8” Conductor).
+Progres 24 jam: - ft.
+AFE Cost: US$ 4,198,445.
+Realisasi biaya: US$ 888,248.08 (21.16%). 
+
+Casing Setting Depth (plan - actual):
+13-3/8" Casing Conductor: 276 ftMD / ftTVD - 276 ftMD / ftTVD.
+12-1/4" hole: xxx ftMD / xxx ftTVD - xxx ftMD / xxx ftTVD.
+8-1/2" hole: 5,344 ftMD / 4,844 ftTVD - xxx ftMD / xxx ftTVD.
+
+24 Hrs Summary report:
+=== Rig release from PAM-93 (PAM-77 OS2) on 3 January, 2026 at 15:00 WITA. Rig Moving to MUT-951 OS, with distance 4 Nautical Miles by River and 37 KM by land ==
+Progress:
+- Rig BKY-04: R/D 50%, R/M 14%, R/U -%.
+- Halliburton Cementing: R/D 90%, R/M 30%, R/U -%.
+- MI Swaco: R/D 60%, R/M 40%, R/U 5%.
+- Geolog: R/D 100%, R/M 100%, R/U -%.
+
+Current Status:
+Wait on daylight.
+
+Plan Ahead:
+General R/D at PAM-93 (PAM-77 OS2). R/M to MUT-951 OS. R/U at MUT-951 OS. maintenance dan housekeeping.
+
+*5. Mutiara-382 (MUT-108 OS E)*
+Nama Sumur: Mut-382.
+Nama Rig: GBS Elang-03.
+Hari ke: D-18.
+Kedalaman: 3,636 ftMD/3,518 ftTVD.
+Progress: - ft.
+Realisasi biaya: US$ 1,877,877.01 (46.07%).
+AFE: US$ 4,076,026.
+
+Casing Setting Depth:
+Plan - Actual:
+13-3/8" Conductor: 274 ftMD/274 ftTVD - 274 ftMD/274 ftTVD.
+12-1/4" Hole: 1,232 ftMD/1,216 ftTVD - 1,290 ftMD/1,267 ftTVD.
+8-1/2" Hole: 4,749 ftMD/4,622 ftTVD - - ftMD/- ftTVD.
+
+Summary report:
+Rig Repair.
+- Waiting on TDS replacement.
+- Troubleshoot and Repair TDS problem (Problem with TDS traction motor / gearbox).
+
+Current status:
+Rig Repair.
+- Waiting on TDS replacement.
+- Troubleshoot and Repair TDS problem (Problem with TDS traction motor / gearbox).
+
+Next plan:
+Rig Repair.
+- Waiting on TDS replacement.
+- Troubleshoot and Repair TDS problem (Problem with TDS traction motor / gearbox).
+
+*FIELD SEMBERAH*
+*6. SEM-197 (SEM-174 OS).*
+Nama Sumur: SEM-197.
+Nama Rig: Rig BKY-02.
+Moving hari ke: M-13.
+Last Depth: - ft MD/ - ft TVD.
+Progress 24 Hrs: - ft.*
+Realisasi biaya: US$ 399,764.43 (5.90%).
+AFE: US$ 6,770,478.
+
+Casing Setting Depth (Plan - Actual):
+20” Casing conductor @ 95.8 ftMD.
+17-1/2" Hole: 1,922 ftMD/ 1,922 ftTVD –   ftMD / ftTVD.
+12-1/4" Hole: 8,181 ftMD/ 7,912 ftTVD –   ftMD / ftTVD.
+8-1/2" Hole: 8,885 ftMD/ 8,616 ftTVD –   ftMD/ ftTVD.
+3-1/2” Dual Tubing Completion LS: - ftMD and SS: - ftMD.
+
+Summary Report:
+Move out to SEM-197 (SEM-174 OS). General maintenance & housekeeping at Mut-381 (Mut-994 OS).
+
+Progress:
+- Basecamp: R/D 100%, R/M 35%, R/U 0%.
+- Rigsite: R/D 90%, R/M 1%, R/U 0%.
+- MI-Swaco: R/D 100, R/M 0%, R/U 0%. 
+- Slb Cementing: R/D 100%, R/M 50%, R/U 0%.
+
+Current Status:
+Wait on daylight.
+
+Next Plan:
+RDMO / MIRU to SEM-197 (SEM-174 OS) (by land: 167 KM, by river: 60 Mile).
+
+*7. SEM-196 (SEM-81 OS).*
+Nama Sumur 	        : SEM-196 (Sem-81 OS).
+Nama Rig 	                : EMR-01.
+Hari ke 	                        : D-05.
+Kedalaman     	        : 3,910 ftMD/ 3,799 ftTVD.
+Progress 	                :426 ft.
+Est Daily Cost		: US$ 84,416.07.
+Est Cumulative Cost    : US$ 1,399,409.81 (18.83 %).
+AFE Cost 		        : US$ 7,429,413.00.
+
+Casing Setting Depth :
+Plan - Actual:
+20" Conductor : 92 ftMD/TVD
+17-1/2" hole : 3,997 ftMD/3,884 ftTVD - 3,910 ftMD/3,799 ftTVD.
+12-1/4" hole : 8,133 ftMD/8,018 ftTVD - x,xxx ftMD/x,xxx ftTVD.
+8-1/2" hole  : 9,408 ftMD/9,249 ftTVD - x,xxx ftMD/x,xxx ftTVD.
+
+Summary Report:
+Drill 17-½" Directional hole from 3,484 ftMD/ 3,383 ftTVD to 3,910 ftMD/ 3,799 ftTVD.
+
+Current status:
+Pump and sweep Tandem Hivis 30 + 40 bbl. Circulate hole clean. Performed LCT at 3,910 ft MD/ 3,799 ftTVD for 10 mins. Pump 40 bbl Hivis and circulate out LCT. Pump OOH 17-½" Directional BHA#2 from 3,910 ftMD to 3,510 ftMD.  
+
+Next plan:
+POOH 17-½” Directional BHA to surface. RIH 17-½” Slick BHA to bottom. CHC. POOH 17- ½” Slick BHA to surface. 
+
+*FIELD NILAM*
+*8. NLM-372 (NLM-138 OS1)*
+Nama Sumur: NLM-372.
+Nama Rig: GW-207.
+Hari ke: D-28.
+Kedalaman: 13,170 ftMD/ 13,072 ftTVD.
+Progress: - ft.
+Est Daily Cost		: US$ 229,135.27.
+Est Cumulative Cost	: US$ 3,868,507.64 (49.24%)
+AFE Cost			: US$ 7,855,647
+
+Casing Setting Depth:
+Plan - Actual:
+13-3/8" Conductor : 196 ftMD/TVD.
+12-1/4" hole : 6,424 ftMD/6,328 ftTVD - 6,425 ftMD/6,327 ftTVD.
+8-1/2" hole  : 13,194 ftMD/13,098 ftTVD - - ftMD/- ftTVD.
+
+Summary Report:
+POOH 8-1/2" directional BHA-3 from 7,209 ftMD to surface. L/D 8-1/2" directional BHA-3. R/U Schlumberger wireline truck and logging tools. M/U 8-1/2" OH Wireline Logging Tool Run-1: Quad Combo (PEX-BHC-EMS-AIT-GR) and RIH to 13,178 ftWLM. Log up to 6,425 ftWL & POOH from 6,425 ftWL to surface. L/D OH Wireline Logging Run-1 Quad Combo.	
+
+Current Status:
+Continue L/D OH Wireline Logging Run-1 Quad Combo. P/U and M/U 8-1/2” OH Wireline Logging Run-2 MDT-LFA-Sampling. RIH 8-1/2" OH Wireline Logging Run-2 MDT-LFA-Sampling to 900 ftWL.
+
+Next plan:
+Perform 8-1/2" OH wireline logging (2 runs: Quad Combo and MDT-LFA-Sampling)
+
+*Tim Drilling Zona 9*

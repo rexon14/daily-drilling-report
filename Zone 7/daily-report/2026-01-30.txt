@@ -1,0 +1,165 @@
+Laporan Pagi Pemboran PEP - Zona 7, 30 Januari 2026
+
+Highlight : 
+Operasi Pemboran : 3 Rig (AMJ-004, BMH-002, PCT-005)
+MovingRig up-Rig Down : -
+Wait on Location/Material : 4 Rig (ABG-026ST, ABG-J1, KRE-002ST, ABG-C6)
+
+FIELD JATIBARANG
+1. AMJ-004
+Nama Lokasi : AMJ-4T
+Nama Rig : WBR-01
+Coman on duty :  Herry Prabowo/Wahyu Berbudi WL/ M.Reyhan
+Hari ke : 41
+Kedalaman : 1462 mMD/ 1367 mTVD
+Penambahan : - m
+DSR @24   : -269 hrs
+AFE :   US$ 6,445,386
+Realisasi : US$ 4.752.244,58 (73,73%)
+
+Casing Setting Depth :
+Plan - Actual
+26" hole: 50 mMD/50 mTVD - 50 mMD (Endurance Phase)
+17-1/2" hole: 350 mMD/345 mTVD - 348 mMD / 344mTVD (Plan: 7.3 hari / Actual: 3.5 hari)
+12-1/4" hole: 954 mMD/887 mTVD - 929 mMD/878 mTVD (Plan: 9.1 hari / Actual: 8.8 hari)
+8-1/2" hole : 1495 mMD/1367 mTVD - 1397 mMD/1280.2 mTVD (Plan: 6.6 hari / Actual: 4.5 hari)
+
+Summary report : 
+- RIH Prod string 2-7/8" Tubing + Hyd Packer to 1374 mMD
+- Perform slickline job 
+- Set & test packer
+- N/D BOP Group 13-5/8" x 5K psi
+
+Current Status :
+- N/U X-Mastree
+
+Next plan :
+- N/U X-Mastree
+- R/U CTU
+- Production test
+
+2. PCT-005
+Nama Lokasi : PCT-Y
+Nama Rig : PDSI #04.3/N110-M
+Coman on Duty : M. Bima Andeka / Raditya Fajri/ A Fatah
+Hari ke : 04
+Kedalaman : 356 mMD/ 352.14 mTVD
+Penambahan : - m
+DSR @24   : +19 hrs
+AFE : US$ 8.819.554,00
+Realisasi : US$ 1,514,629.29 (17.17%)
+
+
+Casing Setting Depth :
+Plan - Actual
+36" hole: 40 mMD/40 mTVD - 41 mMD/ 41 mTVD (Phase Endurance)
+26" hole: 350 mMD/350 mTVD - _ mMD/_ mTVD (Plan: 5.1 hari / Actual: _ hari)
+18-1/2" hole: 989 mMD/926 mTVD - _ mMD/_ mTVD (Plan: 9.2 hari / Actual: _ hari)
+17-1/2" hole: 1516 mMD/1441 mTVD - _ mMD/_ mTVD (Plan: 8.0 hari / Actual: _ hari)
+12-1/4" hole: 1718 mMD/1639 mTVD - _ mMD/_ mTVD (Plan: 12.8 hari / Actual: _ hari)
+8-1/2" hole : 2067 mMD/1980 mTVD - _ mMD/_ mTVD (Plan: 7.1 hari / Actual: _ hari)
+
+Summary report: 
+- Prepare to RIH 2-7/8" tubing poorboy to 345 mMD
+- Cement job 20" casing
+- POOH tubing poorboy
+
+Current Status : 
+- WOC
+
+Next plan:
+- WOC
+- N/D Diverter Group 
+- Cut 20" Casing
+- N/U BF 21-1/4" x 2000 psi
+- N/U BOP 21-1/4" Group x 2000 psi
+- F/T dan P/T BOP 21-1/4" BOP Group
+
+3. ABG-C6
+Nama Lokasi : ABG-C6
+Nama Rig : PDSI #12.3/N110-M
+Coman on Duty : -
+
+Summary Report :
+* Rig Idle (H-10), Rig idle at location BDA-008
+* Wait on construction readiness for location ABG-C6 (progress : 78%), est. Ready on M1 February 2026
+* Wait on FID est M1 March 2026
+* Wait on material est M4 February 2026
+* Premove to ABG-C6 76%
+
+Next plan :
+* Premove to ABG-C6, Inspection CAT III
+
+4. ABG-J1
+Nama lokasi : ABG-J1
+Nama Rig : PDSI #31.3/D1500-E
+Coman On Duty : -
+
+Summary Report :
+* Rig Idle (H-31), Rig idle at location ABG-H4 while Inpection Rig Category III (progress 72%)
+* Wait on construction readiness for location ABG-J1 (progress : 80%), est. Ready on M2 February 2026
+
+5. KRE-002ST
+Nama Rig : PDSI #09.2/N80UE
+Coman on Duty : -
+
+Current status: 
+* Rig Idle (H-75). Rig Idle at Location CMR-STOB.
+* Wait on construction readiness for location KRE-02ST. Est M2 Feb 2026 (Progress: 18%)
+* Wait on FID est M1 March 2026
+* Wait on Materials est M1 March 2026
+
+Next plan :
+* Rig Idle.
+
+FIELD SUBANG
+1. BMH-002
+Nama Lokasi : BMH-INF1
+Nama Rig : PDSI #15.3/N110-M
+Coman on Duty : Ganang WS / Gilang RK / Taufik AP
+Hari ke : 33
+Kedalaman : 1006 mMD/990.7 mTVD
+Penambahan : - m
+DSR @24   : -361 hr
+AFE : US$ 15,769,083
+Realisasi : US$ 5.282.145,16 (33,50%)
+
+Plan - Actual
+36" hole : 80 mMD/80 mTVD - 83 mMD/83 mTVD
+26" hole : 600 mMD / 590.0 mTVD - 598 mMD / 596 mTVD (Plan: 7.9 hari / Actual: 9.3 hari)
+18-1/2" hole: 1047 mMD/1045 mTVD - mMD/mTVD (Plan: 9.3 hari / Actual: - hari)
+17-1/2" hole: 1860 mMD/1725 mTVD - mMD / mMD (Plan: 15.8 hari / Actual: - hari)
+12-1/4" hole: 2594 mMD/2559 mTVD -  mMD/mTVD (Plan: 15.4 hari / Actual: - hari)
+8-1/2" Hole : 2879 mMD/2843 mTVD -  (Plan: 7.3 hari / Actual: -  hari)
+
+Summary report :
+- N/U & Test RBOP 21-1/4"
+- S/U tubular
+- RIH 14-3/4" TCB + BHA Rotary to 513 mMD
+
+Current Status: 
+- RIH 14-3/4" TCB + BHA Rotary to 978 mMD
+- DOC to 978.96 mMD
+
+Next Plan :
+- DOC to 1009 mMD
+- Perform MOT
+- POOH 14-3/4" TCB + BHA Rotary to surface
+
+2. ABG-026ST
+Nama Lokasi : ABG-026ST
+Nama Rig : PDSI #28.2/D1000-E
+Coman on Duty : -
+
+Current status :
+* Rig Idle (H-75), Rig Idle at Location BJR-D3.
+* Wait on construction readiness for location ABG-026ST. Est. M1 Maret 2026 (Progress: 0%)
+
+Next plan :
+* Rig Idle.
+  
+Next Plan :
+* Rig Idle, inspection CAT III
+
+Terima kasih.
+Salam

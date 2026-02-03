@@ -1,0 +1,149 @@
+Laporan Pagi Pemboran PEP - Zona 7, 23 Januari 2026
+
+Highlight :
+Operasi Pemboran : 2 Rig (AMJ-004, BMH-002)
+MovingRig up-Rig Down : 1 Rig (PCT-Y)
+Wait on Location/Material : 4 Rig (TGP-INF1, AMJ-B1, KRE-002ST, ABG-C6)
+
+FIELD JATIBARANG
+1. AMJ-004
+Nama Lokasi : AMJ-4T
+Nama Rig : WBR-01
+Coman on duty : Ade Rama / Heru Sulistyo / Herry Prabowo
+Hari ke : 34
+Kedalaman : 1462 mMD/ 1367 mTVD
+Penambahan : - m
+DSR @24   : -186.5 hrs
+AFE :   US$ 6,445,386
+Realisasi : US$ 4,225,975.68 (65.57%)
+
+Casing Setting Depth :
+Plan - Actual
+26" hole: 50 mMD/50 mTVD - 50 mMD (Endurance Phase)
+17-1/2" hole: 350 mMD/345 mTVD - 348 mMD / 344mTVD (Plan: 7.3 hari / Actual: 3.5 hari)
+12-1/4" hole: 954 mMD/887 mTVD - 929 mMD/878 mTVD (Plan: 9.1 hari / Actual: 8.8 hari)
+8-1/2" hole : 1495 mMD/1367 mTVD - 1397 mMD/1280.2 mTVD (Plan: 6.6 hari / Actual: 4.5 hari)
+
+Summary report : 
+* RIH 2-7/8" OE BHA to 1390 mMD
+* Circulation
+* Perform Injectivity Rate Test
+* Perform squeeze cementing job int. 1376 - 1384 mMD.
+* WOC while hold pressure
+* RIH 2-7/8" OE BHA to tag TOC at 1391 mMD
+* Circulation
+
+Current Status :
+* Pressure test csg - low pressure 300 psi, hold and high pressure 700 psi, drop 2 psi/min
+* Perform squeeze cementing job #2 int. 1376 - 1384 mMD.
+
+Next plan : 
+* WOC while hold pressure
+* RIH 2-7/8" OE BHA to tag TOC
+* Circulation
+* POOH 2-7/8" OE BHA to 862 mMD
+* Perform squeeze cement job int. 801-876 mMD
+
+2. PCT-Y
+Nama Lokasi : PCT-Y
+Nama Rig : PDSI #04.3/N110-M
+Coman on Duty : Haryo Abiyoso / M. Bima Andeka
+
+Current status:
+* R/U (H-8) : 80%. 
+* Endurance test on 22 January 2026, 19:00 WIB. Drill formation 26" hole to 35 mMD
+
+Next plan:
+* R/U 100%
+
+3. ABG-C6
+Nama Lokasi : ABG-C6
+Nama Rig : PDSI #12.3/N110-M
+Coman on Duty : -
+
+Summary Report :
+* Rig Idle (H-3), Rig idle at location BDA-008
+* Wait on construction readiness for location ABG-C6 (progress : 78%), est. Ready on M1 February 2026
+* Wait on FID est M1 March 2026
+* Wait on material est M4 February 2026
+
+Next plan :
+* Premove to ABG-C6, Inspection CAT III
+
+4. AMJ-B1
+Nama lokasi : AMJ-B1
+Nama Rig : PDSI #31.3/D1500-E
+Coman On Duty : -
+
+Summary Report :
+* Rig Idle (H-24), Rig idle at location ABG-H4 while Inpection Rig Category III (progress 55%)
+* Wait on construction readiness for location AMJ-B1 (progress : 15%), est. Ready on M4 February 2026
+* Wait on FID est M1 June 2026
+
+5. KRE-002ST
+Nama Rig : PDSI #09.2/N80UE
+Coman on Duty : -
+
+Current status: 
+* Rig Idle (H-68). Rig Idle at Location CMR-STOB.
+* Wait on construction readiness for location KRE-02ST. Est M2 Feb 2026 (Progress: 18%)
+* Wait on FID est M1 March 2026
+* Wait on Materials est M1 March 2026
+
+Next plan :
+* Rig Idle.
+
+FIELD SUBANG
+1. BMH-002
+Nama Lokasi : BMH-INF1
+Nama Rig : PDSI #15.3/N110-M
+Coman on Duty : Darwis YB/M.Feisal
+Hari ke : 26
+Kedalaman : 1006 mMD/990.7 mTVD
+Penambahan : 89 m
+DSR @24   : -311.5 hr
+AFE : US$ 15,769,083
+Realisasi : US$  4,532,755.77 (28.91%)
+
+Plan - Actual
+36" hole : 80 mMD/80 mTVD - 83 mMD/83 mTVD
+26" hole : 600 mMD / 590.0 mTVD - 598 mMD / 596 mTVD (Plan: 7.9 hari / Actual: 9.3 hari)
+18-1/2" hole: 1047 mMD/1045 mTVD - mMD/mTVD (Plan: 9.3 hari / Actual: - hari)
+17-1/2" hole: 1860 mMD/1725 mTVD - mMD / mMD (Plan: 15.8 hari / Actual: - hari)
+12-1/4" hole: 2594 mMD/2559 mTVD -  mMD/mTVD (Plan: 15.4 hari / Actual: - hari)
+8-1/2" Hole : 2879 mMD/2843 mTVD -  (Plan: 7.3 hari / Actual: -  hari)
+
+Summary report :
+* Drill formation 18-1/2" hole to 1006 mMD (TD section)
+* Circulation
+* POOH 18-1/2" PDC + BHA Directional to 503 mMD
+* Circulation
+* Wiper Trip to 846 mMD
+
+Current Status: 
+* Wiper trip to bottom at 1006 mMD
+* Circulation
+* POOH 18-1/2" PDC + BHA Directional to 929 mMD
+
+Next Plan :
+* POOH 18-1/2" PDC + BHA Directional to surface
+* R/U CDS
+* RIH 16" casing + Liner Hanger
+
+2. TGP-INF1
+Nama Lokasi : TGP-INF1
+Nama Rig : PDSI #28.2/D1000-E
+Coman on Duty : -
+
+Current status :
+* Rig Idle (H-68), Rig Idle at Location BJR-D3.
+* Wait on construction readiness for location TGP-INF1, Tegal Pacing. Est. M4 Maret 2026 (Progress: 9%)
+
+Next plan :
+* Rig Idle.
+  
+Next Plan :
+* Rig Idle, inspection CAT III
+
+Terima kasih.
+Salam

@@ -1,0 +1,24 @@
+*Laporan Pagi Drilling Zona-10, 31 Januari 2026*
+
+*1. AE-1 Mob*
+Nama Sumur : AE-1 Mob
+Nama Rig : Asian Endeavour-1
+Hari ke : 
+Est. Tgl Selesai : 
+Kedalaman :	
+Progres : 
+AFE : 
+Realisasi biaya : 
+
+Casing Setting Depth :
+Plan - Actual : 
+
+
+Summary report :
+- Wet tow rig to Kerindingan Platform. Con't towing AE-1 entering 500 m radius of KRD platform while manuevering and turn rig heading to 88°. Distance 200 m to KRD platform. Soft pin the Rig. Jack down legs. Levelling hull. Disconnect towing line on both AHTS Etzomer 501 & AHTS Etzomer 503. Transfer anchor#2 (PORT FWD) + 100m extension wire and anchor#4 (PORT AFT) + 2x100m extension wire including pendant wire to AHTS Etzomer 501. Connect & spooling pendant wire + 100m extension wire to AHTS Etzomer 501 winch. Connect anchor wire & payout wire to anchor#2 (PORT FWD) target location. Connect & spooling pendant wire + 2x100m extension wire to AHTS Etzomer 501 winch. Connect anchor wire & payout wire to anchor#4 (PORT AFT) target location. Transfer anchor #1 (STBD FWD) + 2x100m extension + pendant wire from AHTS Etzomer 503 to AHTS Etzomer 501. Connect & spooling pendant wire + 2x100m extension wire to AHTS Etzomer 501 winch. Connect anchor wire & payout wire to anchor #1 (STBD FWD) target location.
+
+Morning Status :
+- Lowering down deep well pump#4.
+
+Next plan :
+- Deploy Anchor#3 + Mid Line Bouy. Connect side tow vessel. Approaching to final position. Perform initial penetration. Preload Operation.

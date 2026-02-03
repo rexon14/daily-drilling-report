@@ -1,0 +1,106 @@
+REGION 5
+Report Date: 20 January 2026
+
+ASSET ALGERIA
+(1.) OHD – QB-117 (Rig ENAFOR 45)
+* Spud date: 28 Dec 2025
+* OPS report#24 (20 Jan 2026) Days on Location: 23.12 / -
+* Current Depth: 3150 mMD
+* Target Depth: 3438 mMD
+* Current Operation 24 hrs: Performed 7" cementing job. Washed BOP stack and wellhead. Installed and P/T 7" pacoff seal. Changed out BOP pipe rams. L/D 54/72 joints of 5" DP from the derrick by crane.
+* 24 hrs look ahead: Perform BOP pressure test. Install wear bushing. P/U and rack back 350 m of 3.1/2" DP. P/U and RIH BHA # 5.
+* NPT Summary (last 24 hrs / total %): 0.75 / 1.67 %
+* AFE: $ 6,885,315
+* Cumm. Cost: $ 3,848,518 / $ 6,885,315
+----------------------------------------------------------
+(2.) Elmerk – EMK-81 (Rig ENAFOR 62)
+* Spud date: 30 Dec 2025
+* OPS report#22 (20 Jan 2026) Days on Location: 21.94 / -
+* Current Depth: 3130 mMD
+* Target Depth: mMD
+* Current Operation 24 hrs: RIH 4 1/2" GLM- PDHG completion from 1772m to 2493m. M/U SCSSV and tbg hanger, terminate CL and PDHG cable, RIH slickline with 3.813" 'PR' plug to the upper nipple, attempting to set plug.
+* 24 hrs look ahead: RIH slickline, set P&P above packer, P/T Tbg.Retreived P&P, RIH SL with 3.813" "PR" plug.Set & P/T packer, test annulus, L/D landing joint, install TWCV, N/D BOP, N/U tbg head adapter.
+* NPT Summary (last 24 hrs / total %): 4.75 / 10.96%
+* AFE: $ 8,612,686
+* Cumm. Cost: $ 5,879,245 / $ 8,612,686
+----------------------------------------------------------
+
+ASSET IRAQ
+(3.) West Qurna 1 – WQ-600 (Rig HH031)
+* Spud date: 9 Jan 2026
+* OPS report#12 (20 Jan 2026) Days on Location: 11.63 / 30
+* Current Depth: 2307 mMD
+* Target Depth: 5132 mMD
+* Current Operation 24 hrs: RIH 9-5/8" casing joints 43.5 ppf, L80, Vam Top as per tally to 2305 m. Circulated hole clean. R/U CMT Head. Circulated thru CMT Head meanwhile batch mix CMT slurry.
+* 24 hrs look ahead: Perform two stages 9-5/8'' cement job. Lift BOP stack. Set 9 5/8" casing slips. Cut 9-5/8'' CSG. N/D BOP. Install WH Section and PT same, OK. N/U 13- 5/8'' BOP stack.
+* NPT Summary (last 24 hrs / total %): - / 8.24%
+* AFE: Turn key project
+* Cumm. Cost: Turn key project
+----------------------------------------------------------
+(4.) West Qurna 1 – WQ-617 (Rig GW-51)
+* Spud date: 17 Jan 2026
+* OPS report#4 (20 Jan 2026) Days on Location: 3.42 / 25
+* Current Depth: 796 mMD
+* Target Depth: 2994 mMD
+* Current Operation 24 hrs: RIH 13-3/8" VAM TOP Casing to 780 m. P/U, M/U and RIH 13-3/8" BTC Landing jt + CHH (SOW) assembly to 794 m. Circulated hole clean, R/U cement head and P/T same. Performed 13-3/8" casing cement job as per program. Performed Cement top job. L/D cement head and casing running equipment, L/D Landing joint. N/U 13-5/8'' x 10 K BOP stack
+* 24 hrs look ahead: N/U 13-5/8'' x 10 K BOP stack and pressure test the same. Install wear bushing. P/U, M/U and RIH 12-1/4" directional BHA to 505. Conduct shallow hole test and choke drill. RIH 12-1/4" directional BHA and Drill cement, shoe track and rate hole. Drill 12-1/4'' hole section as per directional plan.
+* NPT Summary (last 24 hrs / total %): - / 0.00%
+* AFE: Turn key project
+* Cumm. Cost: Turn key project
+----------------------------------------------------------
+(5.) West Qurna 1 – WQ-620 (Rig GW-166)
+* Spud date: 14 Jan 2026
+* OPS report#7 (20 Jan 2026) Days on Location: 6.13 / 30
+* Current Depth: 1868 mMD
+* Target Depth: 4759 mMD
+* Current Operation 24 hrs: Drilled 12-1/4" directional hole as per plan from 1703 m to 1818 m. (above top of Hartha). Circulated hole clean. Drilled 12-1/4" directional hole from 1818 m to 1868 m. Observed RSS did not respond as required. Circulated hole clean. POOH 12-1/4" Directional BHA to 1665 m. observed tight spot. RIH 12-1/4" Directional BHA to 1730 m. Circulated hole clean. No down hole losses.
+* 24 hrs look ahead: POOH 12-1/4" Directional BHA to surface. P/U and M/U Back up PD. P/U, M/U & RIH 12-1/4'' directional BHA to 1868 m. Resume Drill 12-1/4" directional hole as per plan.
+* NPT Summary (last 24 hrs / total %): - / 0.00%
+* AFE: Turn key project
+* Cumm. Cost: Turn key project
+---------------------------------------------------------- 
+(6.) West Qurna 1 – WQ-625 (Rig HH030)
+* Spud date: 31 Dec 2025
+* OPS report#21 (20 Jan 2026) Days on Location: 20.13 / 26
+* Current Depth: 3749 mMD
+* Target Depth: 3752 mMD
+* Current Operation 24 hrs: Drilled 6-1/8" lateral hole to section TD at 3749 m as per directional plan, circulate hole clean, Perform wiper trip to 7'' liner shoe, no downhole losses. Standby for manpower.
+* 24 hrs look ahead: RIH 6-1/8" lateral hole back to section TD at 3749 m. Circulate hole clean and displace open hole to1.05 SG brine. POOH 6-1/8" directional BHA to 7" liner shoe. Displace well with 1.0 SG inhibited water. POOH 6-1/8" directional BHA to surface.
+* NPT Summary (last 24 hrs / total %): 1.75 / 3.05 %
+* AFE: Turn key project
+* Cumm. Cost: Turn key project
+----------------------------------------------------------
+(7.) West Qurna 1 – WQ-623 (Rig GW-165)
+* Start date: 9 Jan 2026
+* MOBs report#12 (20 Jan 2026) Days on Location: -/-
+* Current Depth: mMD
+* Target Depth: 4622 mMD
+* Current Operation 24 hrs: Continued rigging up operations at WQ1-623. Rig- R/D: 100 %; Rig-R/M: 100%. Rig-R/U : 45 %. Camp- R/D:100 %; R/M: 100% ; R/U:100%.
+* 24 hrs look ahead: Continue rigging up operations at WQ1-623
+* NPT Summary (last 24 hrs / total %): - / -
+* AFE: Turn key project
+* Cumm. Cost: Turn key project
+---------------------------------------------------------- 
+
+ASSET MALAYSIA
+(9.) SNPA-22 (Rig NAGA-5)
+* Spud date: 26 Dec 2025
+* OPS report#26 (20 Jan 2026) Days on Location: 25.40 / 21.33
+* Current Depth: 2538 mMD
+* Target Depth: 2786 mMD
+* Current Operation 24 hrs: Retrieved RCD PS & L/D PSRT. L/D 6-1/8" check trip BHA from derrick. Retrieved WB. Jetted clean WH/BOP with Omni jetting tool, observed SBM sludge on DP & jetting tool.
+Jetted clean WH/BOP with Tornar tool. Performed hanger dummy run. RIH 3-1/2" upper completion to 692m.
+* 24 hrs look ahead: Continue RIH 3-1/2” upper completion & landed tubing hanger on WH. P/test tubing hanger seals & pull test. Inflow tested TRSV. Set & test PHL packer. Install BPV into tubing hanger. N/D diverter & overshot. N/D BOP/extension riser & skid to SNPA-09.
+* NPT Summary (last 24 hrs / total %):  - / 17.87%
+* AFE: $ 14,186,803.00
+* Cumm. Cost: $ 11,815,853.55 / $ 14,186,803.00
+----------------------------------------------------------
+Note Spud Date :
+QB-117    : 28 December 2025
+EMK-81   : 30 December 2025
+WQ-600 : 9 January 2026
+WQ-617  : 17 January 2026
+WQ-620 : 14 January 2026
+WQ-623 : NY
+WQ-625 : 31 December 2025
+SNPA-22 : 26 December 2025
