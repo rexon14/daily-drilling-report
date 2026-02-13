@@ -293,7 +293,8 @@ def convert_daily_report(input_file, report_date=None):
     df_merged["Report Date"] = pd.to_datetime(df_merged["Report Date"], format='mixed')
     df_merged["Operation Date"] = pd.to_datetime(df_merged["Operation Date"], format='mixed')
 
-    # Remove leading "-" and leading/trailing spaces in "Next Plan"
+    df_merged["Summary Report"] = df_merged["Summary Report"].astype(str).str.lstrip("-").str.strip()
+    df_merged["Current Status"] = df_merged["Current Status"].astype(str).str.lstrip("-").str.strip()
     df_merged["Next Plan"] = df_merged["Next Plan"].astype(str).str.lstrip("-").str.strip()
     return df_merged, report_date
 
