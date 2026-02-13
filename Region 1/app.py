@@ -285,6 +285,11 @@ def convert_daily_report(input_file, report_date=None):
     df_z4["Next Plan"] = split_result.apply(lambda x: x[2])
 
     df_merged = pd.concat([df_z1, df_z23, df_z4], ignore_index=True)
+
+    # Normalize date columns to datetime64[ns] for consistent Excel round-trip and filtering
+    df_merged["Report Date"] = pd.to_datetime(df_merged["Report Date"]).dt.normalize()
+    df_merged["Operation Date"] = pd.to_datetime(df_merged["Operation Date"]).dt.normalize()
+
     return df_merged, report_date
 
 
