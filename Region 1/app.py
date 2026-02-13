@@ -155,8 +155,9 @@ def convert_daily_report(input_file, report_date=None):
             f"Expected sheet names: {possible_sheet_names}"
         )
 
-    df["Report Date"] = report_date
-    df["Operation Date"] = report_date - pd.Timedelta(days=1)
+    # Set date columns as pandas datetime objects
+    df["Report Date"] = pd.to_datetime(report_date)
+    df["Operation Date"] = pd.to_datetime(report_date) - pd.Timedelta(days=1)
 
     selected_columns = [
         "Zona",
@@ -286,10 +287,14 @@ def convert_daily_report(input_file, report_date=None):
 
     df_merged = pd.concat([df_z1, df_z23, df_z4], ignore_index=True)
 
-    # Normalize date columns to datetime64[ns] for consistent Excel round-trip and filtering
-    df_merged["Report Date"] = pd.to_datetime(df_merged["Report Date"]).dt.normalize()
-    df_merged["Operation Date"] = pd.to_datetime(df_merged["Operation Date"]).dt.normalize()
 
+    
+    # Normalize date columns to datetime64[ns] for consistent Excel round-trip and filtering
+    df_merged["Report Date"] = pd.to_datetime(df_merged["Report Date"], format='mixed')
+    df_merged["Operation Date"] = pd.to_datetime(df_merged["Operation Date"], format='mixed')
+
+    # Remove leading "-" and leading/trailing spaces in "Next Plan"
+    df_merged["Next Plan"] = df_merged["Next Plan"].astype(str).str.lstrip("-").str.strip()
     return df_merged, report_date
 
 
