@@ -1,15 +1,18 @@
 # Region 2 Daily Report Converter
 # Upload Excel, convert, and download
 
-import sys
+import importlib.util
 from io import BytesIO
 from pathlib import Path
 
 import streamlit as st
 
-# Import conversion logic from Region 2
-sys.path.insert(0, str(Path(__file__).parent.parent / "Region 2"))
-from app import convert_daily_report
+# Load Region 2 module explicitly (avoids conflict with Region 1's "app")
+region2_path = Path(__file__).parent.parent / "Region 2" / "app.py"
+spec = importlib.util.spec_from_file_location("region2_converter", region2_path)
+region2_module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(region2_module)
+convert_daily_report = region2_module.convert_daily_report
 
 st.set_page_config(page_title="Region 2 Converter", page_icon="📊", layout="centered")
 
