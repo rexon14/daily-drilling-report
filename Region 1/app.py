@@ -171,11 +171,11 @@ def convert_daily_report(input_file, report_date=None):
     df = df[selected_columns]
 
     df = df[
-        df["Zona"].isin(["Zona 1", "Zona 2 & 3", "Zona 4"])
+        df["Zona"].isin(["Zona 1", "Zona 2 & 3", "Zona 4", "Non Operator"])
         & df["Zona"].notna()
     ]
     df["Zona"] = df["Zona"].replace(
-        {"Zona 1": "Zone 1", "Zona 2 & 3": "Zone 2&3", "Zona 4": "Zone 4"}
+        {"Zona 1": "Zone 1", "Zona 2 & 3": "Zone 2&3", "Zona 4": "Zone 4", "Non Operator": "Non-Operator"}
     )
     df = df.rename(
         columns={
@@ -270,6 +270,7 @@ def convert_daily_report(input_file, report_date=None):
                 "Airlangga #55": "Airlangga-55",
                 "PDSI ACS#21": "ACS-21",
                 "#36.1/Skytop 650M": "PDSI #36.1/Skytop 650M",
+                "PDSI #32.2 / N80UE-E": "PDSI #32.2/N80UE-E"
             }
         )
         .apply(
@@ -285,7 +286,29 @@ def convert_daily_report(input_file, report_date=None):
     df_z4["Current Status"] = split_result.apply(lambda x: x[1])
     df_z4["Next Plan"] = split_result.apply(lambda x: x[2])
 
-    df_merged = pd.concat([df_z1, df_z23, df_z4], ignore_index=True)
+
+    df_partnership = df[df["Zone"] == "Non-Operator"].copy()
+
+    # Replace known names
+    df_partnership["Rig Name"] = (
+        df_partnership["Rig Name"]
+        .replace({
+            "EPI#9": "EPI-09",
+            "Bohai #26": "Bohai-26",
+        })
+    )
+
+    # Split Summary Report into 3 columns: Summary Report, Current Status, Next Plan
+    split_result = df_partnership["Summary Report"].apply(split_summary_report_z4)
+    df_partnership["Summary Report"] = split_result.apply(lambda x: x[0])
+    df_partnership["Current Status"] = split_result.apply(lambda x: x[1])
+    df_partnership["Next Plan"] = split_result.apply(lambda x: x[2])
+
+    # Fill Well Name [2] with Well Name
+    df_partnership["Well Name [2]"] = df_partnership["Well Name"]
+
+    # Merge all DataFrames
+    df_merged = pd.concat([df_z1, df_z23, df_z4, df_partnership], ignore_index=True)
 
 
     
