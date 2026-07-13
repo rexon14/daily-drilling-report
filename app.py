@@ -107,10 +107,10 @@ selected_date = st.session_state.selected_date
 
 # Text input
 text_content = st.text_area(
-    "",
+    "Report text",
     height=300,
     placeholder="Enter your text here...",
-    label_visibility="collapsed"
+    label_visibility="collapsed",
 )
 
 # Save button (left aligned)
