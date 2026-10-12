@@ -14,6 +14,27 @@ warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 SCRIPT_DIR = Path(__file__).parent
 
+# Rig Name fixes
+RIG_RENAMES = {
+    "SO PEACE": "SINOOCEAN PEACE",
+    "NYT19": "NYT-19",
+    "EMSCO D2-M": "PDSI #20.2/EMSCOD2-M",
+    "PDSI #09.2/N80UE-25 (1000HP)": "PDSI #09.2/N80UE-25",
+    "PDSI#04.3/N110-M": "PDSI #04.3/N110-M",
+    "PDSI#40.3": "PDSI #40.3",
+    "TMMJ#05": "TMMJ-05",
+    "PDSI#12.3/N110-M": "PDSI #12.3/N110-M",
+    "GWDC-207": "GW-207",
+    "PDSI#15.3/N110-M": "PDSI #15.3/N110-M",
+    "PDSI#20.2/EMSCOD2-M": "PDSI #20.2/EMSCOD2-M",
+    "PDSI#20.2/EMSCO D2-M": "PDSI #20.2/EMSCOD2-M",
+    "Rig PDSI#12.3/N110-M": "PDSI #12.3/N110-M",
+    "PDSI#21.2/OW700-M": "PDSI #21.2/OW 700-M",
+    "ARJUNA#28": "ARJ#28",
+    "PDSI #43.3 /AB-1500E": "PDSI #43.3/AB-1500E",
+    "PDSI #31.03/D1500-E": "PDSI #31.3/D1500-E",
+}
+
 # Helper functions ( Zone 2&3, Zone 4 )
 
 
@@ -319,6 +340,12 @@ def convert_daily_report(input_file, report_date=None):
     df_merged["Summary Report"] = df_merged["Summary Report"].astype(str).str.lstrip("-").str.strip()
     df_merged["Current Status"] = df_merged["Current Status"].astype(str).str.lstrip("-").str.strip()
     df_merged["Next Plan"] = df_merged["Next Plan"].astype(str).str.lstrip("-").str.strip()
+
+    # Rig name replacement
+    df_merged["Rig Name"] = df_merged["Rig Name"].replace(RIG_RENAMES)
+
+    # Sort by Zone and Rig Name
+    df_merged = df_merged.sort_values(by=["Zone", "Rig Name"]).reset_index(drop=True)
     return df_merged, report_date
 
 
