@@ -20,6 +20,33 @@ import pandas as pd
 import numpy as np
 
 
+def split_well_names(desc):
+    """Split "WELL-1 (WELL-2)" into (WELL-1, WELL-2); second name is None if absent."""
+    # Add missing hyphen between prefix and number (e.g. "LMP 18 OS" -> "LMP-18 OS")
+    desc = re.sub(r'^([A-Za-z]+)\s+(\d)', r'\1-\2', desc)
+    p = re.match(r'(.+?)\s*\((.+?)\)', desc)
+    if p:
+        return p.group(1).strip(), p.group(2).strip()
+    return desc, None
+
+
+def clean_section_line(line):
+    """Strip leading '-'/'=' bullets and trailing '=' banners."""
+    return re.sub(r'^[-=\s]+|[=\s]+$', '', line)
+
+
+def detect_section(low):
+    """Return the section name if the line is a Summary/Status/Plan header, else None."""
+    if 'summary report' in low or '24 hrs summary' in low:
+        return 'Summary Report'
+    if low.startswith('current status'):
+        return 'Current Status'
+    # Skip "Plan - Actual" casing table header
+    if (low.startswith('next plan') or low.startswith('plan')) and 'actual' not in low:
+        return 'Plan'
+    return None
+
+
 def parse_txt_file(path):
     """
     Parse Zone 9 daily drilling report .txt file and extract well data.
@@ -42,7 +69,13 @@ def parse_txt_file(path):
     rows = []
     current_field = None
     current_item = None
-    summary_flag = status_flag = plan_flag = False
+    current_section = None
+    section_lines = []
+    
+    def save_section():
+        """Join collected lines into the current item's section field."""
+        if current_item and current_section and section_lines:
+            current_item[current_section] = '\n'.join(section_lines).rstrip('.')
     
     for raw in content.splitlines():
         line = raw.strip().replace("*", "")
@@ -51,16 +84,27 @@ def parse_txt_file(path):
         
         low = line.lower()
         
+        # Report footer ends the last section
+        if low.startswith('tim drilling'):
+            save_section()
+            current_section, section_lines = None, []
+            continue
+        
         # FIELD header detection
+        # Handles duplicated headers like "FIELD SEMBERAH FIELD SEMBERAH"
         if low.startswith('field'):
-            parts = line.split(None, 1)
-            current_field = parts[1].strip() if len(parts) > 1 else None
+            save_section()
+            current_section, section_lines = None, []
+            names = [p.strip() for p in re.split(r'field', line, flags=re.I) if p.strip()]
+            current_field = names[0] if names else None
             continue
         
         # New record: "1. WELL-NAME (OPTIONAL-PAREN)"
         m = re.match(r'^(\d+)\.\s*(.+)$', line)
         if m:
             # Save previous item
+            save_section()
+            current_section, section_lines = None, []
             if current_item:
                 rows.append(current_item)
             
@@ -68,11 +112,7 @@ def parse_txt_file(path):
             desc = m.group(2).strip().rstrip('.')
             
             # Parse well name with optional alternative in parentheses
-            p = re.match(r'(.+?)\s*\((.+?)\)', desc)
-            if p:
-                nm1, nm2 = p.group(1).strip(), p.group(2).strip()
-            else:
-                nm1, nm2 = desc, None
+            nm1, nm2 = split_well_names(desc)
             
             current_item = {
                 'No': idx,
@@ -88,38 +128,28 @@ def parse_txt_file(path):
                 'Current Status': None,
                 'Plan': None
             }
-            summary_flag = status_flag = plan_flag = False
             continue
         
         if current_item is None:
             continue
         
-        # Section headers detection
-        if 'summary report' in low or '24 hrs summary' in low:
-            summary_flag, status_flag, plan_flag = True, False, False
-            continue
-        if 'current status' in low:
-            status_flag, summary_flag, plan_flag = True, False, False
-            continue
-        if low.startswith('next plan') or low.startswith('plan') or low.startswith('plan ahead'):
-            plan_flag, summary_flag, status_flag = True, False, False
+        # Section header: start collecting (keep any text after the colon)
+        section = detect_section(low)
+        if section:
+            save_section()
+            current_section, section_lines = section, []
+            after_colon = line.split(':', 1)[1] if ':' in line else ''
+            if clean_section_line(after_colon):
+                section_lines.append(clean_section_line(after_colon))
             continue
         
-        # Capture first line of Summary/Status/Plan (strip leading special chars)
-        if summary_flag:
-            val = line.lstrip('-=').strip().rstrip('.')
-            current_item['Summary Report'] = val
-            summary_flag = False
-            continue
-        if status_flag:
-            val = line.lstrip('-=').strip().rstrip('.')
-            current_item['Current Status'] = val
-            status_flag = False
-            continue
-        if plan_flag:
-            val = line.lstrip('-=').strip().rstrip('.')
-            current_item['Plan'] = val
-            plan_flag = False
+        # Capture every line of Summary/Status/Plan until the next header
+        if current_section:
+            # Skip stray well-detail lines left inside a section (e.g. "Hari ke: D-11")
+            if re.match(r'^(nama sumur|nama rig|hari ke)\s*:', low):
+                continue
+            if clean_section_line(line):
+                section_lines.append(clean_section_line(line))
             continue
         
         # Key: Value lines extraction
@@ -142,8 +172,8 @@ def parse_txt_file(path):
             current_item['WOL Hari ke'] = float(num) if num else None
             continue
         
-        # Hari ke / Days / Drilling Days
-        if kl in ('hari ke', 'days') or 'drilling days' in kl:
+        # Hari ke / Hari ke ke / Days / Drilling Day(s)
+        if kl.startswith('hari ke') or kl == 'days' or 'drilling day' in kl:
             current_item['Hari ke'] = val
             continue
         
@@ -154,8 +184,8 @@ def parse_txt_file(path):
             current_item['AFE Cost'] = float(num) if num else None
             continue
         
-        # Realisasi Biaya (Actual Cost) - take value before parentheses
-        if 'realisasi' in kl:
+        # Realisasi Biaya / Est Cumulative Cost / Est. Cum. Cost - take value before parentheses
+        if 'realisasi' in kl or ('cum' in kl and 'cost' in kl):
             before_paren = val.split('(')[0].strip()
             num = re.sub(r'[^\d.]', '', before_paren)
             num = num.rstrip('.')  # Remove trailing periods
@@ -163,6 +193,7 @@ def parse_txt_file(path):
             continue
     
     # Append last item
+    save_section()
     if current_item:
         rows.append(current_item)
     
