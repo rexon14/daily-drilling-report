@@ -31,7 +31,7 @@ def clean_text_for_excel(text):
     return '\n'.join(lines)
 
 
-def parse_well_section(lines, start_idx, field_name):
+def parse_well_section(lines, start_idx, field_name, well_type='Development'):
     """
     Parse a single well section from the report.
     
@@ -39,12 +39,14 @@ def parse_well_section(lines, start_idx, field_name):
         lines: List of all lines in the report
         start_idx: Starting line index for this well
         field_name: Current field name (JATIBARANG/SUBANG)
+        well_type: Development or Exploration
     
     Returns:
         Tuple of (well_data dict, next_index)
     """
     well = {
         'Field': field_name,
+        'Well Type': well_type,
         'Well Name': '',
         'Location': '',
         'Rig Name': '',
@@ -72,7 +74,10 @@ def parse_well_section(lines, start_idx, field_name):
             if re.match(r'^\d+\.\s+\w+', line):
                 break
             # Next field section
-            if line.startswith('FIELD '):
+            if line.startswith('FIELD ') or line.upper() in ('EXPLORATION', 'DEVELOPMENT'):
+                break
+            # HSSE block is not part of the well text
+            if line.startswith('HSSE Report'):
                 break
             # End of report markers
             if line.startswith('Terima kasih') or line.startswith('Salam'):
@@ -85,27 +90,28 @@ def parse_well_section(lines, start_idx, field_name):
                 well['Well Name'] = match.group(1).strip()
         
         # Parse specific fields
-        if line.startswith('Nama Lokasi'):
+        if line.startswith(('Nama Lokasi', 'Location')):
             match = re.search(r':\s*(.+)', line)
             if match:
                 well['Location'] = match.group(1).strip()
         
-        elif line.startswith('Nama Rig'):
+        elif line.startswith('Rig Name'):
             match = re.search(r':\s*(.+)', line)
             if match:
-                well['Rig Name'] = match.group(1).strip()
+                # Standardize "PDSI#12.3" to "PDSI #12.3"
+                well['Rig Name'] = re.sub(r'PDSI\s*#', 'PDSI #', match.group(1).strip())
         
         elif line.startswith('Coman on') or line.startswith('Coman On'):
             match = re.search(r':\s*(.+)', line)
             if match:
                 well['Company Man'] = match.group(1).strip()
         
-        elif line.startswith('Hari ke'):
+        elif line.startswith(('Hari ke', 'Day')):
             match = re.search(r':\s*(\d+)', line)
             if match:
                 well['Days'] = int(match.group(1))
         
-        elif line.startswith('Kedalaman'):
+        elif line.startswith(('Kedalaman', 'Depth')):
             match = re.search(r':\s*(.+)', line)
             if match:
                 well['Depth'] = match.group(1).strip()
@@ -120,7 +126,7 @@ def parse_well_section(lines, start_idx, field_name):
             if match:
                 well['AFE'] = match.group(1).strip()
         
-        elif line.startswith('Realisasi'):
+        elif line.startswith(('Realisasi', 'Realization')):
             match = re.search(r':\s*(.+)', line)
             if match:
                 well['Realization'] = match.group(1).strip()
@@ -190,21 +196,30 @@ def extract_wells_from_txt(text_content):
     lines = text_content.split('\n')
     
     current_field = ''
+    current_well_type = 'Development'
     i = 0
     
     while i < len(lines):
         line = lines[i].strip()
         
-        # Detect field section
+        # Detect field section (development wells)
         if line.startswith('FIELD '):
             current_field = line.replace('FIELD ', '').strip()
+            current_well_type = 'Development'
+            i += 1
+            continue
+        
+        # Detect exploration section (no field name in the report)
+        if line.upper() == 'EXPLORATION':
+            current_field = 'EXPLORATION'
+            current_well_type = 'Exploration'
             i += 1
             continue
         
         # Detect well entry (starts with number and dot)
         well_match = re.match(r'^(\d+)\.\s+(.+)$', line)
         if well_match and current_field:
-            well_data, next_i = parse_well_section(lines, i, current_field)
+            well_data, next_i = parse_well_section(lines, i, current_field, current_well_type)
             if well_data['Well Name']:
                 wells.append(well_data)
             i = next_i
@@ -253,6 +268,7 @@ def transform_txt_to_raw(date_str, base_path="."):
         'Well Name': 'Well Name',
         'Location': 'Location Name',
         'Rig Name': 'Rig Name',
+        'Well Type': 'Well Type',
         'Company Man': 'Company Man',
         'Days': 'Days',
         'Depth': 'Depth',
@@ -303,7 +319,8 @@ def transform_raw_to_final(date_str, base_path="."):
     df['Zone'] = 'Zone 7'
     df['APH'] = 'PEP'
     df['Well Name_2'] = df['Well Name'] if 'Well Name' in df.columns else ''
-    df['Well Type'] = 'Development'
+    if 'Well Type' not in df.columns:
+        df['Well Type'] = 'Development'
     df['Location'] = 'Onshore'
     
     # Parse dates

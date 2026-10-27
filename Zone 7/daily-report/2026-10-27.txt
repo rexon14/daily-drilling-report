@@ -1,0 +1,214 @@
+Laporan Pagi Pemboran PEP - Zona 7, 27 October 2026
+
+Highlight :
+Jumlah Rig : 4 Rig
+Drilling Operations : 3 Rig (AKP-004, NEAC-001, NET-001)
+Moving Rig up-Rig Down : 0 Rig (-)
+Wait on AFE/FID : 0 Rig (-)
+Wait on Location/Material/Inspection : 1 Rig (JTB-INT3)
+
+FIELD JATIBARANG
+
+1. AKP-004
+Location : AKP-A4
+Rig Name : PDSI #28.2/D1000-E
+Coman on Duty : Nurdiansyah/ Harry FS / Wahyu Berbudi WL / Ari Welas
+Day : 11
+Depth : 850.0 mMD/814.5 mTVD
+Progress : 16.0 m
+DSR @24   : -26.5 hrs
+AFE : US$ 7,357,281
+Realization : US$ 1,931,437.66 (26.25%)
+
+Casing Setting Depth :
+Plan - Actual
+26 inch Hole : 50.0 mMD/50.0 mTVD - 48.0 mMD/48.0 mTVD
+17-1/2 inch Hole : 830.0 mMD/797.86 mTVD - 833.0 mMD/- mTVD (Plan: 7.9 days / Actual: 7.3 days)
+12-1/4" hole : 1984.0 mMD/1882.0 mTVD - - mMD/- mTVD (Plan: 13.8 days / Actual: - days)
+8-1/2" hole : 2621.0 mMD/2480.86 mTVD - - mMD/- mTVD (Plan: 8.4 days / Actual: - days)
+
+Summary Report :
+* Drill 4 meter new formation from 834.24 to 838 mMD.
+* Circulation.
+* Perform MOT, EMW 1.50 SG - OK.
+* POOH 12-1/4" Flat bottom mill + 12-1/8" String Stab + Junk Sub to surface.
+* Prepare to RIH 12-1/4" PDC + BHA DD.
+* Loading RA (NPT DD 2 hours)
+* M/U & RIH 12-1/4" PDC + BHA DD (Quad Combo + PBL Sub + DLR) to 838 mMD.
+* RIH 12-1/4" PDC + BHA DD to 838 mMD.
+* Drill formation 12-1/4" HS from 838 to 850 mMD.
+
+Current Status :
+* Drill formation 12-1/4" HS to 902 mMD.
+
+Next Plan :
+* Drill formation 12-1/4" HS to 1984 mMD/1882.9 mTVD (Est CP).
+* POOH 12-1/4" PDC + BHA DD to surface.
+* RIH casing.
+
+HSSE Report :
+Weather : Day (Clear), Night (Clear)
+Temperature : 27°C - 37°C
+HSSE Performance
+FAT : 0
+LTI  : 0
+RWDC : 0
+MTC : 0
+FAC : 0
+Nearmiss (HIPO) : 0
+
+POB : 131 person
+SMH : 1,572 Hours, Cumm : 16,848 Hours
+
+P-HORSE  : 78 Cards, Cumm : 909 Cards
+Safe Action  : 56 Cards, Cumm : 624 Cards
+Safe Condition  : 11 Cards, Cumm : 178 Cards
+Unsafe Action : 3 Cards, Cumm  : 32 Cards
+Unsafe Condition : 8 Cards, Cumm  : 75 Cards
+Total Cum Unsafe : - Cards
+Open/Closed : 0 Cards/ 907 Cards, Cumm : - Cards / - Cards
+Kick/Fire/Abandon/H2S/Medivac Drill Cumm : 2/2/1/1/2
+
+SWA/TOFS : 2 Cards, Cumm : 20 Cards
+
+2. JTB-INT3
+Location : JTB-INT3
+Rig Name : PDSI#12.3/N110-M
+Coman on Duty : -
+
+Summary Report :
+* Rig Maintenance (H-105) at well ABG-007ST2
+* Perform Closing Findings Inspection CAT III
+* Location ready 100% TMT on 14 September 2026. Status : Wait on permit of removing median pantura road
+* Visit and survey median pantura road with BBPJN at 28 October 2026
+
+Next Plan :
+* Rig Maintenance
+* Closing Findings Inspection CAT III 100%
+
+EXPLORATION
+
+1. NET-001
+Location : NET-001
+Rig Name : PDSI #15.3/N110-M
+Coman on Duty : Abdul Fatah / Raditya F / Ganang W.S / Taufik P
+Day : 32
+Depth : 2052.0 mMD/1956.4 mTVD
+Progress : - m
+DSR @24   : +23.5 hrs
+AFE : US$ 16,400,067
+Realization : US$ 7,874,865.77 (48.02%)
+
+Casing Setting Depth :
+Plan - Actual
+36 inch Hole : 50.0 mMD/50.0 mTVD - 53.0 mMD/53.0 mTVD
+26 inch Hole : 400.0 mMD/392.0 mTVD - 401.0 mMD/392.5 mTVD (Plan: 5.5 days / Actual: 4.4 days)
+17-1/2 inch Hole : 1214.0 mMD/1157.0 mTVD - 1270.0 mMD/1211.0 mTVD (Plan: 8.8 days / Actual: 7.6 days)
+12-1/4 inch Hole : 2084.0 mMD/1987.0 mTVD - 2050.0 mMD/1955.0 mTVD (Plan: 17.5 days / Actual: 19.2 days)
+8-1/2 inch Hole : 2344.0 mMD/2247.0 mTVD - - mMD/- mTVD (Plan: 10.3 days / Actual: - days)
+
+Summary Report :
+* N/U BOP group 13-5/8" x 10K psi.
+* F/T & P/T BOP group 13-5/8" x 10K psi.
+* N/U RBOP 13-5/8" x 5K psi.
+* F/T & P/T RBOP 13-5/8" x 5K psi.
+* S/U Tubular
+* Cut & slip drilling line.
+* M/U & RIH 8-1/2" PDC + BHA DD (RSS + MWD + LWD + DLR) to 63 mMD.
+
+Current Status :
+* RIH 8-1/2" PDC + BHA DD (RSS + MWD + LWD + DLR) to 297 mMD.
+
+Next Plan :
+* RIH 8-1/2" PDC + BHA DD (RSS + MWD + LWD + WCMD + DLR) to 2025 mMD (est TOC).
+* Drill out plugs, shoe track, reamer shoe & 3 m formation to 2055 mMD.
+* LOT.
+* Drill formation 8-1/2" HS to est TD 2344 mMD / 2247 mTVD.
+
+HSSE Report :
+Weather : Day (Clear), Night (Clear)
+Temperature : 25°C - 34°C
+HSSE Performance
+FAT : 0
+LTI  : 0
+RWDC : 0
+MTC : 0
+FAC : 0
+Nearmiss (HIPO) : 0
+
+POB : 147 person
+SMH : 1,764 Hours, Cumm : 55,788 Hours
+
+P-HORSE  : 81 Cards, Cumm : 3,391 Cards
+Safe Action  : 71 Cards, Cumm : 2,083 Cards
+Safe Condition  : 7 Cards, Cumm : 905 Cards
+Unsafe Action : 1 Cards, Cumm  : 113 Cards
+Unsafe Condition : 2 Cards, Cumm  : 290 Cards
+Total Cum Unsafe : 403 Cards
+Open/Closed : 0 Cards/ 81 Cards, Cumm : 0 Cards / 3,391 Cards
+Kick/Fire/Abandon/H2S/Medivac Drill Cumm : 3/3/3/1/3
+
+SWA/TOFS : 1 Cards, Cumm : 30 Cards
+
+2. NEAC-001
+Location : NEAC-001
+Rig Name : PDSI #31.3/D1500-E
+Coman on Duty : Donny Y / Haryo A
+Day : 24
+Depth : 2616.0 mMD/2615.7 mTVD
+Progress : - m
+DSR @24   : +225 hrs
+AFE : US$ 15,996,277
+Realization : US$ 5,427,881.34 (33.93%)
+
+Casing Setting Depth :
+Plan - Actual
+36 inch Hole : 50.0 mMD/50.0 mTVD - 47.0 mMD/47.0 mTVD
+26 inch Hole : 804.0 mMD/804.0 mTVD - 810.0 mMD/810.0 mTVD (Plan: 8.1 days / Actual: 7.7 days)
+17-1/2 inch Hole : 1450.0 mMD/1450.0 mTVD - 1450.0 mMD/1450.0 mTVD (Plan: 9.8 days / Actual: 7.9 days)
+12-1/4 inch Hole : 2567.0 mMD/2567.0 mTVD - - mMD/- mTVD (Plan: 18.8 days / Actual: - days)
+8-1/2 inch Hole : 2841.0 mMD/2841.0 mTVD - - mMD/- mTVD (Plan: 10.1 days / Actual: - days)
+
+Summary Report :
+* POOH & L/D 12-1/4" PDC + BHA DD to surface.
+* R/U Wireline.
+* Run 12-1/4" OH Logging #1 : FMI-DSI to 2615 mWL.
+* POOH tool OH logging #1 to surface 
+
+Current Status :
+* Run 12-1/4" OH logging #2 (MDT-LFA) to 2572.5 mWL (2/28 points) - in progress.
+
+Next Plan :
+* Continue 12-1/4" OH logging #2 (MDT-LFA), 28 points.
+* Run 12-1/4" OH logging #3 (XL Rock).
+* RIH 12-1/4" PDC + BHA Trip to 2616 mMD.
+* Circulation.
+* POOH 12-1/4" PDC + BHA Trip to surface.
+
+HSSE Report :
+Weather : Day (Clear), Night (Clear)
+Temperature : 25°C -35°C
+HSSE Performance
+FAT : 0
+LTI  : 0
+RWDC : 0
+MTC : 0
+FAC : 0
+Nearmiss (HIPO) : 0
+
+POB : 152 person
+SMH : 1,824 Hours, Cumm : 40,968 Hours
+
+P-HORSE  : 62 Cards, Cumm : 1,993 Cards
+Safe Action  : 45 Cards, Cumm : 1,421 Cards
+Safe Condition  : 10 Cards, Cumm : 255 Cards
+Unsafe Action : 3 Cards, Cumm  : 112 Cards
+Unsafe Condition : 4 Cards, Cumm  : 205 Cards
+Total Cum Unsafe : 317 Cards
+Open/Closed : 0 Cards/ 62 Cards, Cumm : 0 Cards / 1,993 Cards
+Kick/Fire/Abandon/H2S/Medivac Drill Cumm : 3/3/3/1/3
+
+SWA/TOFS : 1 Cards, Cumm : 29 Cards
+
+Thank you.
+Regards
