@@ -145,13 +145,48 @@ def split_summary_report_z4(val):
     return summary, status, plan
 
 
+# First 3 letters of month names (English + Indonesian) -> month number
+MONTH_NUMBERS = {
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "mei": 5, "jun": 6,
+    "jul": 7, "aug": 8, "agu": 8, "agt": 8, "sep": 9, "oct": 10, "okt": 10,
+    "nov": 11, "dec": 12, "des": 12,
+}
+
+
+def parse_report_date(text, default_year=None, from_filename=False):
+    """
+    Parse "4 November 2026", "01 Jan", "12 Maret 2026" into a date (or None).
+
+    from_filename=True: find "tanggal DD Month YYYY" inside a file name.
+    default_year: year to use when the text has no year (e.g. sheet names).
+    """
+    text = str(text)
+    if from_filename:
+        match = re.search(r"tanggal\s+(\d{1,2})\s+([A-Za-z]{3,9})\s+(\d{4})", text, re.IGNORECASE)
+    else:
+        match = re.fullmatch(r"\s*(\d{1,2})\s+([A-Za-z]{3,9})(?:\s+(\d{4}))?\s*", text)
+    if not match:
+        return None
+    day, month_name, year = match.groups()
+    month = MONTH_NUMBERS.get(month_name[:3].lower())
+    year = int(year) if year else default_year
+    if month is None or year is None:
+        return None
+    try:
+        return date(year, month, int(day))
+    except ValueError:
+        return None
+
+
 def convert_daily_report(input_file, report_date=None):
     """
     Convert Region 1 daily report Excel to standardized format.
 
     Args:
-        input_file: Path (str/Path), or file-like object (BytesIO).
-        report_date: Optional date. If None, extracted from filename (pattern: tanggal DD Mon YYYY).
+        input_file: Path (str/Path), or file-like object (BytesIO, Streamlit upload).
+        report_date: Optional date. If None, extracted from filename
+            (pattern: tanggal DD Mon YYYY, English or Indonesian month names).
+            The sheet named after this date ("01 Jan", "1 Mar", "4 November") is read.
 
     Returns:
         (df_merged, report_date): Processed DataFrame and report date.
@@ -159,58 +194,54 @@ def convert_daily_report(input_file, report_date=None):
     Raises:
         ValueError: If date cannot be determined or sheet not found.
     """
+    source_name = getattr(input_file, "name", None) or (
+        Path(input_file).name if isinstance(input_file, (Path, str)) else None
+    )
+
+    # Report date: argument first, otherwise from filename
     if report_date is None:
-        filename = getattr(input_file, "name", None) or (
-            Path(input_file).name if isinstance(input_file, (Path, str)) else None
-        )
-        if not filename:
+        if not source_name:
             raise ValueError(
                 "Could not extract date from filename. Provide report_date."
             )
-        match = re.search(r"tanggal (\d{1,2}) ([A-Za-z]{3,9}) (\d{4})", filename)
-        if not match:
+        report_date = parse_report_date(source_name, from_filename=True)
+        if report_date is None:
             raise ValueError(
-                f"Could not extract date from filename: {filename}. "
-                "Filename must match 'tanggal DD Mon YYYY' or provide report_date."
+                f"Could not extract date from filename: {source_name}. "
+                "Filename must match 'tanggal DD Mon YYYY' (e.g. 'tanggal 4 November 2026') "
+                "or provide report_date."
             )
-        day, month, year = match.groups()
-        report_date = pd.to_datetime(f"{day} {month} {year}", dayfirst=True).date()
     else:
         report_date = pd.to_datetime(report_date).date()
 
-    day_no_zero = str(int(report_date.day))
-    day_zero = str(report_date.day).zfill(2)
-    month_abbr = report_date.strftime("%b")
-    month_full = report_date.strftime("%B")
-    possible_sheet_names = [
-        f"{day_no_zero} {month_abbr}",
-        f"{day_zero} {month_abbr}",
-        f"{day_no_zero} {month_full}",
-        f"{day_zero} {month_full}",
-    ]
-
-    raw = None
-    for sheet in possible_sheet_names:
-        try:
-            raw = pd.read_excel(input_file, sheet_name=sheet, header=None)
-            break
-        except Exception:
-            continue
-
-    if raw is None:
-        source = getattr(input_file, "name", str(input_file))
+    # Find the sheet named after the report date ("01 Jan", "1 Mar", "4 November", ...)
+    excel_file = pd.ExcelFile(input_file)
+    sheet_dates = pd.Series(excel_file.sheet_names, dtype=str).map(
+        lambda name: parse_report_date(name, default_year=report_date.year)
+    )
+    matching_sheets = sheet_dates.index[sheet_dates == report_date]
+    if len(matching_sheets) == 0:
         raise ValueError(
-            f"Could not find valid sheet in {source}. "
-            f"Expected sheet names: {possible_sheet_names}"
+            f"Could not find sheet for {report_date} in {source_name or input_file}. "
+            f"Available sheets: {excel_file.sheet_names}"
+        )
+    sheet_name = excel_file.sheet_names[matching_sheets[0]]
+    raw = excel_file.parse(sheet_name, header=None)
+
+    # Warn if the date written in the sheet title differs from the report date
+    title_dates = raw.iloc[:8].astype(str).stack().map(parse_report_date).dropna()
+    if len(title_dates) > 0 and title_dates.iloc[0] != report_date:
+        warnings.warn(
+            f"Sheet title date ({title_dates.iloc[0]}) differs from report date ({report_date})."
         )
 
     # Find header row dynamically (the row that contains the "Zona" column title)
     header_rows = raw.index[raw.astype(str).apply(lambda col: col.str.strip()).eq("Zona").any(axis=1)]
     if len(header_rows) == 0:
-        raise ValueError("Could not find header row (column 'Zona') in the sheet.")
+        raise ValueError(f"Could not find header row (column 'Zona') in sheet '{sheet_name}'.")
     header_row = header_rows[0]
     df = raw.iloc[header_row + 1 :].copy()
-    df.columns = raw.iloc[header_row].values
+    df.columns = [str(col).strip() for col in raw.iloc[header_row]]
     df = df.reset_index(drop=True)
 
     # Set date columns as pandas datetime objects
@@ -222,16 +253,24 @@ def convert_daily_report(input_file, report_date=None):
         "Nama Sumur",
         "RIG",
         "Jenis Kegiatan",
-        "Kegiatan ",
+        "Kegiatan",
         "Report Date",
         "Operation Date",
     ]
+    missing_columns = [col for col in selected_columns if col not in df.columns]
+    if missing_columns:
+        raise ValueError(
+            f"Missing columns in sheet '{sheet_name}': {missing_columns}. "
+            f"Found: {list(df.columns)}"
+        )
     df = df[selected_columns]
 
     df = df[
         df["Zona"].isin(["Zona 1", "Zona 2 & 3", "Zona 4", "Non Operator", "KSO"])
         & df["Zona"].notna()
     ]
+    if df.empty:
+        raise ValueError(f"No well rows found in sheet '{sheet_name}'.")
     df["Zona"] = df["Zona"].replace(
         {"Zona 1": "Zone 1", "Zona 2 & 3": "Zone 2&3", "Zona 4": "Zone 4", "Non Operator": "Non-Operator", "KSO": "Non-Operator"}
     )
@@ -241,7 +280,7 @@ def convert_daily_report(input_file, report_date=None):
             "Nama Sumur": "Well Name",
             "RIG": "Rig Name",
             "Jenis Kegiatan": "Well Type",
-            "Kegiatan ": "Summary Report",
+            "Kegiatan": "Summary Report",
         }
     )
 
