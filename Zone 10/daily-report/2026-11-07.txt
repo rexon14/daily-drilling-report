@@ -1,0 +1,75 @@
+*Morning Report Drilling Zona 10*
+Date: 7th November 2026.
+‎Rig: PDSI#21.2/OW700-M.
+Well: TKLN-001
+Day: 36, Depth: 1189 mMD/ 1189 mTVD, Progress: - mMD
+‎Coman: Tri Sulistiono/Hathari A. Sagala
+Rig Supt: Shareh
+‎
+Date: 6th November 2026 
+00:00 - 01:00 : Pressure up to test casing from 1400 psi to 4000 psi for 10 mins with 2.5 bbl pumping mud, pressure holding. 
+- Bleed off pressure, monitor float 10 mins - ok. 
+- Bleed back vol 4.5 bbls.
+
+01:00 - 01:30 : Stab in free fall plug for setting packer and open OBEX circulation sleeve. 
+- Let it gravitate for 17 minutes, start pumping.
+- increase pressure in stages and observed pressure drop at 1420 psi indicating sleeve open.
+
+01:30 - 02:30 : Continue circulate hole clean with 1.14 sg mud with 5 bpm, 300-600 psi. 
+- After 30 bbl pumping observed 1.40-1.45 sg contaminant spacer cement on surface. 
+- Continue circulate hole clean until MW in = out = 1.14 sg. 
+
+02:30 - 03:00 : Stab ini closing plug. Displace with 98 bbl mud with 2-5 bpn, 60-350 psi to bump plug. 
+- Gradually increase pressure from 500 psi to 2230 psi, hold 10 mins.
+- Bleed off pressure, bleed back vol 0.3 bbl
+
+03:00 - 03:30 : Line up cement unit to 2" kill line. Close annular BOP, pressure test annulus 500 psi, 10 mins. Ok. 
+- Vol pumped = returns = 0.5 bbl. Open annular BOP.
+
+03:30 - 04:00 : R/D and flush  cementing surface line.
+
+04:00 - 13:30 : WOC. Meanwhile:
+- House keeping
+- Monitor well thru trip tank, well static
+- Drain and clean up Sandtrap tank
+- Changed Liner MP#1, from size 6" to size 5.5", in progress.
+
+13:30 - 16:00 : WOC. Meanwhile:
+- Changed Liner MP#1, from size 6" to size 5.5", ok
+- Perform Drom object inpection by PT. PJ TEK
+
+16:00 - 19:30 : WOC. Meanwhile:
+- Repair lock Rotary table .
+- Disconnect all hydraulic hose, disconnect line trip tank & flowline
+
+19:30 - 21:00 : PJSM R/D CDS & Unstabbed RCD bearing and rackback same.
+
+21:00 - 24:00 : NDT link elevator TDS meanwhile.
+- Changed Liner MP#2, MP#3 from size 6.25" to 6". ok.
+
+Morning Status,
+00:00 - 02:00 : Lift up BOP adapter and 13-5/8" - 5,000 psi BOP assembly.
+- Disconnect steel hose HCR 4-1/16" to BPM.
+- Disconnect 2-1/16" HCR to kill line.
+- Dismantle 4-1/16" HCR.
+- Unscrew BOP-Wellhead connection bolt. 
+
+02:00 - 03:00 : Install 9-5/8" Casing slip hanger. witness by WH engineer
+
+03:00 - 04:00 : Rough cut 9-5/8" casing & L/D same.
+
+04:00 - 05:00 : N/D bell nipple, RCD, and Hang up BOP assy. 
+
+‎Plan:
+Final cut 9-5/8" casing. Install Sec. B wellhead. N/U 13-5/8" x 5K BOP assy. Function and Perform full P/T BOP.
+
+*Safety Notes*
+- POB All : 168 Personel
+- SMH TKLN-001 : 2.016 Hours; Cumm : 73.160 Hours
+- TEMANPRO/PEKA : 164 Card; Cumm : 985
+- UA / UC : 1/23
+- PTW/JSA : 36/36
+
+
+*Terimakasih*
+Tim Drilling Z10

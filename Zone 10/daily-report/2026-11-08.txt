@@ -1,0 +1,108 @@
+*Morning Report Drilling Zona 10*
+Date: 8th November 2026.
+‎Rig: PDSI#21.2/OW700-M.
+Well: TKLN-001
+Day: 37, Depth: 1189 mMD/ 1189 mTVD, Progress: - mMD
+‎Coman: Delfin Zega/Hathari A. Sagala
+Rig Supt: Shareh
+‎
+Date: 7th November 2026 
+00:00 - 02:00 : Lift up BOP adapter and 13-5/8" - 5,000 psi BOP assembly.
+- Disconnect steel hose HCR 4-1/16" to BPM.
+- Disconnect 2-1/16" HCR to kill line.
+- Dismantle 4-1/16" HCR.
+- Unscrew BOP-Wellhead bolt connection. 
+
+02:00 - 03:00 : Install 9-5/8" Casing slip hanger. witness by WH engineer
+
+03:00 - 04:00 : Rough cut 9-5/8" casing & L/D same.
+
+04:00 - 05:00 : N/D bell nipple, RCD, and Hang up BOP assy. 
+
+05:00 - 06:00 : Final cut 9-5/8" Casing.
+- Final cut 18 cm from top wellhead sect A.
+
+06.00 - 08.00 : N/U 11" x 5k psi Wellhead Slip on Lock Sect B (JMP Class BB. SN: P043AZ019B).
+- P/T seal-seal, 500 psi/5 min - 2000 psi/10 min - ok.
+- P/T seal-flange, 500 psi/5 min - 1000 psi/10 min - ok.
+- Tighten wellhead bolt.
+
+08.00 - 11.30 : N/U  13-5/8" - 5,000 psi BOP assembly and RBOP 13-5/8" X 5k psi
+- Install 4-1/16" HCR
+- Connect 2-1/16" HCR to kill line.
+- Connect hose Accumulator.
+- Connect steel hose HCR 4-1/16" to BPM
+- Install 2" Hose of Injection Line, Triptank line and Bleed off line.
+- Install 1/2" Hydraulic Hose to HCR valve.
+- Install 3/8" Hydraulic Hose to RCD Bowl.
+Function Test RBOP 13-5/8" X 5k psi
+- Function Test 7-1/16" HCR Flowline, open/close: 2 min 45 sec / 2 min 38 sec, Ok
+- Function Test 2-1/16" HCR Bleed off line, open/close: 1 min 14 sec / 1 min 8 sec, Ok
+- Function Test 2-1/16" HCR Injection line, open/close: 1 min 19 sec  / 1 min 28 sec, Ok
+- RCD Bowl locking dog, open/lock, 19 / 20 second, Ok
+- Connect Flowline to outlet 7-1/16" HCR flowline
+- Perform H2S drill and Medivac drill
+
+11.30 - 14.00 : Function test 13-5/8" x 5k psi BOP assembly
+- Kill line 2-1/16", open/close : 1/1 second
+- Blind ram 13-5/8" x 5k psi, open/close : 7/6 second
+- HCR 4-1/16", open/close : 2/2 second
+- Single ram BSR 13-5/8" x 5k psi, open/close : 17/12 second
+- Pipe ram 13-5/8" x 5k psi, open/close : 7/5 second
+- M/U & RIH 1 stand 5" HWDP, tester Plug on well head and single joint 5" DP 
+- Annular 13-5/8" x 5k psi, open/close : 21/22 second
+
+14.00 - 16.30 : Pressure test 13-5/8" x 5k psi BOP Stack.
+- Close Pipe ram + HCR 4-1/16" + HCR 2-1/16", PT Thru TDS low/high : 600 ps, 5 min, ok
+- Found leaking at circ sub while attempting to increase pressure
+- Install circulating head and connect cementing line, PT BOP by cementing Unit
+- Flush cementing line
+- PT cementing line,Low/High : 500 psi / 5000 psi, 5/ 10 min
+- Fill up annulus
+- Close Annular + HCR 4-1/16" + HCR 2-1/16", PT thru cementing line, low/high : 500 psi 5 mins. Ok, Increase pressure to 3500 psi 10 min. Ok
+- Close Pipe ram + Master valve BPM + HCR 2-1/16", PT thru cementing line, low/high : 500 psi 5 mins. Ok, Increase pressure to 4500 psi 10 min. Ok
+
+16.30 - 17.30 : Cont. Pressure test 13-5/8" x 5k psi BOP Stack.
+- POOH single joint 5" DP, rackback same.
+- PT Blind Ram + BPM upstream, PT thru kill line, low/high 500 psi, 5 min, Ok.
+- While increase pressure to 3500 psi, there was a load noise from surface line mud pump manifold area.
+- Bleed off pressure to 0 psi from cement unit.
+
+17.30 - 18.30 : SWA for stop BOP pressure test activity.
+- Observe issue on surface line mud pump manifold area by driller.
+- Found connection 4" Surface line Mud pump minifold parted.
+- Isolated Mud pump manifold area.
+- Perform SSD (Safety Stand Down) meting with all crew
+- Perform hazard hunt for all eqipment below standard
+
+18.30 - 21.00 : Cont. Pressure test 13-5/8" x 5k psi BOP assembly. meanwhile repair surface line at mud pump manifold.
+- Disconnect cement surface line from stand pipe manifold, direct connect to kill line.
+- Re-P/T Blind Ram + BPM, thru cementing line direct to 2-1/16" kill line, low 500 psi, 5 min, Ok
+- Increase Pressure to 2500 psi, pressure drop, leakage on BPM middlestream valve no#12 .
+- Re-P/T Blind Ram + Choke line, thru cementing line direct to 2-1/16" kill line, low 500 psi, 5 min, Ok
+- Increase Pressure to 4000 psi, pressure drop, leaking at choke line flange connection.
+
+21.00 - 24.00 : Repair BPM middlestream valve no#12 & surface line at mud pump manifold. in progress.
+
+Morning Status,
+00:00 - 03:30 : Cont. Repair BPM middlestream valve no#12 & Surface line Mud pump manifold. in progress.
+
+03:30 - 04:00 : Cont. Pressure test 13-5/8" x 5k psi BOP assembly while repair Surface line Mud pump manifold.
+- Re-P/T Blind Ram + Choke line, thru cementing line direct to kill line, low 500 psi, pressure drop, leakage on Choke line flange connection.
+
+04:00 - 05:00 : Dismantle Choke line flange connection to BOP.
+- Repace ring joint with new one. in progress
+
+‎Plan:
+Repair Surface line Mud pump manifold. Cont Perform BOP test. P/T RBOP. M/U Directional motor BHA.
+
+*Safety Notes*
+- POB All : 165 Personel
+- SMH TKLN-001 : 1.980 Hours; Cumm : 75.140 hours
+- TEMANPRO/PEKA : 176 Card; Cumm : 1.161
+- UA / UC : 3/34
+- PTW/JSA : 36/36
+
+
+*Terimakasih*
+Tim Drilling Z10

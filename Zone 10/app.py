@@ -20,9 +20,97 @@ import pandas as pd
 import numpy as np
 
 
+def clean_line(raw_line):
+    """Remove invisible characters (e.g. U+200E), asterisks and outer spaces."""
+    return re.sub(r'[\u200e\u200f\ufeff*]', '', raw_line).strip()
+
+
+def is_morning_report_format(lines):
+    """Check if the report uses the single-well 'Morning Report' layout (has a 'Well:' line)."""
+    return any(re.match(r'^well\s*:', line, re.I) for line in lines)
+
+
+def find_line(lines, pattern, start=0):
+    """Return index of the first line at/after start matching pattern, else None."""
+    return next(
+        (idx for idx in range(start, len(lines)) if re.match(pattern, lines[idx], re.I)),
+        None
+    )
+
+
+def get_header_value(lines, label):
+    """Return the value of a 'Label: value' header line, else None."""
+    pattern = rf'^{label}\s*:\s*(.+)$'
+    matches = [re.match(pattern, line, re.I) for line in lines]
+    values = [m.group(1).strip() for m in matches if m]
+    return values[0] if values else None
+
+
+def parse_morning_report(lines):
+    """
+    Parse the single-well 'Morning Report Drilling Zona 10' layout.
+
+    Layout:
+        Header   : Date / Rig / Well / Day / Coman / Rig Supt
+        Summary  : lines after the operation "Date:" line until "Morning Status,"
+        Status   : lines after "Morning Status," until "Plan:"
+        Plan     : lines after "Plan:" until "Safety Notes" / "Terimakasih"
+
+    Args:
+        lines: Raw text lines of the report
+
+    Returns:
+        DataFrame with one row (same columns as the numbered-well parser)
+    """
+    lines = [clean_line(line) for line in lines]
+    lines = [line for line in lines if line]
+
+    status_idx = find_line(lines, r'^(morning|current) status\b')
+    plan_idx = find_line(lines, r'^plan(\s+ahead)?\s*:', start=status_idx or 0)
+    end_idx = find_line(lines, r'^(safety notes|terima\s?kasih)', start=plan_idx or 0)
+    end_idx = len(lines) if end_idx is None else end_idx
+
+    # Summary starts after the last "Date:" line above Morning Status (operation date)
+    date_idxs = [idx for idx, line in enumerate(lines) if re.match(r'^date\s*:', line, re.I)]
+    date_idxs_before_status = [idx for idx in date_idxs if status_idx is None or idx < status_idx]
+    summary_start = date_idxs_before_status[-1] + 1 if date_idxs_before_status else 0
+
+    # Section text (one line per paragraph, joined with spaces)
+    summary_end = status_idx if status_idx is not None else end_idx
+    summary_text = ' '.join(lines[summary_start:summary_end]).strip()
+
+    status_end = plan_idx if plan_idx is not None else end_idx
+    status_text = ' '.join(lines[status_idx + 1:status_end]).strip() if status_idx is not None else ''
+
+    plan_first_line = re.sub(r'^plan(\s+ahead)?\s*:\s*', '', lines[plan_idx], flags=re.I) if plan_idx is not None else ''
+    plan_body = lines[plan_idx + 1:end_idx] if plan_idx is not None else []
+    plan_text = ' '.join([plan_first_line] + plan_body).strip()
+
+    # Header fields (rig name has a trailing period, e.g. "PDSI#21.2/OW700-M.")
+    well_name = get_header_value(lines, 'well')
+    rig_name = get_header_value(lines, 'rig')
+    rig_name = rig_name.rstrip('. ') if rig_name else None
+
+    row = {
+        'No': 1,
+        'Nama Sumur': well_name,
+        'Nama Rig': rig_name,
+        'AFE': None,
+        'Realisasi Biaya': None,
+        'Summary Report': summary_text or None,
+        'Morning Status': status_text or None,
+        'Next Plan': plan_text or None
+    }
+    return pd.DataFrame([row])
+
+
 def parse_txt_file(path):
     """
     Parse Zone 10 daily drilling report .txt file and extract well data.
+    
+    Supports two layouts:
+    - Numbered wells ("1. SBKD-001") -> parsed below
+    - Single-well "Morning Report Drilling Zona 10" -> parse_morning_report()
     
     Handles:
     - Well entries starting with number: "1. SBKD-001"
@@ -38,6 +126,11 @@ def parse_txt_file(path):
     """
     with open(path, encoding='utf-8') as f:
         content = f.read()
+    
+    # Single-well morning report layout
+    report_lines = content.splitlines()
+    if is_morning_report_format([clean_line(line) for line in report_lines]):
+        return parse_morning_report(report_lines)
     
     rows = []
     current_item = None

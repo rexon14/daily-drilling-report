@@ -1,0 +1,117 @@
+*Morning Report Drilling Zona 10*
+Date: 6th November 2026.
+‎Rig: PDSI#21.2/OW700-M.
+Well: TKLN-001
+Day: 35, Depth: 1189 mMD/ 1189 mTVD, Progress: - mMD
+‎Coman: Tri Sulistiono/Hathari A. Sagala
+Rig Supt: Shareh
+‎
+Date: 5th November 2026 
+00:00 - 01:00 : Continue R/U 9-5/8" casing handling equipment (N80-Q, 40 ppf, BTC, R-3) job.
+- Set & positioning CDS panel on rig floor. 
+  Connect to TDS and function test - ok.
+- Monitor well on trip tank, loss rate 1 
+  bph.
+
+01:00 - 01:30 : Perform PJSM for running 9-5/8" casing.
+
+01:30 - 02:00 : Pick up Halliburton Obex packer assy and 1 joint of 9-5/8" casing to rig floor. 
+- Tighten connection between Obex packer X/O to casing joint - ok. 
+- L/D same to pipe rack.
+
+02:00 - 04:00 : M/U & RIH 9-5/8" shoe track assy and 1 joint of casing to 37 mMD. 
+- Function test shoe track from both side - ok. Baker lock all connections.
+- Shoe track assy: Reamer shoe + 1 jt 9-5/8” 
+  casing + FC + 1 jt 9-5/8" casing + X/O + 
+  Baffle Adaptor + X/O.
+
+04:00 - 07:30 : RIH 9-5/8” casing 40# N80-Q BTC in cased hole from 38 mMD to 363 mMD.
+- Loss rate 2 bph.
+- Fill up every joint with 1.14 SG mud.
+- Avg running speed: 8 jts/hr.
+
+07:30 - 08:30 : Experience Carana/Nabors HPU unit trip off during running casing at 363 mMD. 
+- Switch cable taping on rig MCC room for troubleshooting - ok.
+
+08:30 - 10:30 : RIH 9-5/8” casing 40# N80-Q BTC in cased hole from 363 mMD to 530 mMD.
+- Break circulate at 13-3/8" casing shoe with
+  150 gpm, 160 psi, no peak gas.
+- Fill up every joint with 1.14 SG mud.
+- Avg running speed: 8 jts/hr.
+
+10:30 - 13:30 : Continue RIH 9-5/8” casing 40# N80-Q BTC in open hole from 530 mMD to 798 mMD.
+- Loss rate 2 bph.
+- Fill up every joint with 1.14 SG mud.
+- Avg running speed: 8 jts/hr.
+
+13:30 - 14:00 : Pick up and M/U Halliburton Obex Packer assy + 9-5/8" casing joint. Continue RIH to 813 mMD.
+
+14:00 - 18:00 : Continue RIH 9-5/8” casing 40# N80-Q BTC in open hole from 813 mMD to 1174 mMD.
+- Observed up to 10 klbs set down weight at 
+  1037 mMD - 1042 mMD.
+- Loss rate 2 bph.
+- Fill up every joint with 1.14 SG mud.
+- Avg running speed: 8 jts/hr.
+
+18:00 - 19:00 : Wash down last joint with 210 gpm, 270 psi from 1174 mMD. 
+- Observed up to 15 klbs set down weight at 1185 mMD. 
+- Continue wash down with 180-300 gpm, 300-450 psi to final setting depth at 1187 mMD (rat hole 2 meter).
+
+19:00 - 20:30 : Circulate conditioning mud prior cementing job with 210 gpm, 270 psi. 
+- Loss rate 3 bph. No gas peak. 
+- Perform PJSM while circulation.
+
+20:30 - 24:00 : Perform cement job as follow:
+- R/U cementing line up to CDS cementing swivel.
+- Pressure test cement line to 300/5000 psi for 5/10 mins.
+- Pump 100 bbl of 1.35 sg spacer with 5 bpm, 450-570 psi.
+- Stab in Halliburton Bypass Plug.
+- Pump 220.31 bbl of 1.50 sg lead slurry (100% OH excess) with 5 bpm, 630-700 psi.
+- Pump 50.52 bbl of 1.9 sg tail slurry (50% OH excess) with 4 bpm, 600-650 psi.
+- Stab in Shutoff Plug.
+- Displace with 1.14 sg mud at 5 bpm, 300-1050 psi. Reduce to 2 bpm at last 10 bbl. 
+- Bump plug with 293 bbl at 2 bpm. 
+- FCP 830 psi. 
+- Increase pressure to 1400 psi, hold 10 minutes- ok.
+- No losses during cementing job.
+- Start dumping after pumping 190 bbl. 
+  Record returns 1.26 -1.30 sg on surface. 
+- CIP at 23.45 WITA.
+
+Morning Status,
+00:00 - 01:00 : Pressure up to test casing from 1400 psi to 4000 psi for 10 mins with 2.5 bbl pumping mud, pressure holding. 
+- Bleed off pressure, monitor float 10 mins - ok. 
+- Bleed back vol 4.5 bbls.
+
+01:00 - 01:30 : Stab ini free fall plug for setting packer and open OBEX circulation sleeve. 
+- Let it gravitate for 17 minutes 
+- start pumping, increase pressure in stages and observed pressure drop at 1420 psi indicating sleeve open.
+
+01:30 - 02:30 : Continue circulate hole clean with 1.14 sg mud with 5 bpm, 300-600 psi. 
+- After 30 bbl pumping observed 1.40-1.45 sg contaminant spacer cement on surface. 
+- Continue circulate hole clean until MW in = out = 1.14 sg. 
+
+02:30 - 03:00 : Stab ini closing plug. Displace with 98 bbl mud with 2-5 bpn, 60-350 psi to bump plug. 
+- Gradually increase pressure from 500 psi to 2230 psi, hold 10 mins.
+- Bleed off pressure, bleed back vol 0.3 bbl
+
+03:00 - 03:30 : Line up cement unit to 2" kill line. Close annular BOP, pressure test annulus 500 psi, 10 mins. Ok. 
+- Vol pumped = returns = 0.5 bbl. Open annular BOP.
+
+03:30 - 04:00 : R/D and flush cementing surface line.
+ 
+04:00 - 05:00 : WOC. Meanwhile house keeping and prepare to repair rotary table.
+
+‎Plan:
+WOC. R/D CDS. Disconnect BOP adaptor and hang BOP. Install 9-5/8" casing hanger slip. Rough cut 9-5/8" casing. L/D excess casing. N/D bell nipple, RCD, and BOP assy . Final cut 9-5/8" casing. N/U wellhead section B. Pressure test seal and perform cavity test.
+
+*Safety Notes*
+- POB All : 177 Personel
+- SMH TKLN-001 : 2.124 Hours; Cumm : 71.144 Hours
+- TEMANPRO/PEKA : 175 Card; Cumm : 821
+- UA / UC : 1/18
+- PTW/JSA : 24/24
+
+
+*Terimakasih*
+Tim Drilling Z10
