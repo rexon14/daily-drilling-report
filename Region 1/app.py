@@ -424,8 +424,11 @@ def convert_daily_report(input_file, report_date=None):
         .str.replace(r"^GW(\d+)$", r"GW-\1", regex=True)
     )
 
-    # Sort by Zone and Rig Name
+    # Sort by Zone (custom order), then Rig Name
+    zone_order = ["Zone 1", "Zone 2&3", "Zone 4", "Non-Operator"]
+    df_merged["Zone"] = pd.Categorical(df_merged["Zone"], categories=zone_order, ordered=True)
     df_merged = df_merged.sort_values(by=["Zone", "Rig Name"]).reset_index(drop=True)
+    df_merged["Zone"] = df_merged["Zone"].astype(str)
     return df_merged, report_date
 
 
