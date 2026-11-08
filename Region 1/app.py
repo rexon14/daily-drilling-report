@@ -229,11 +229,11 @@ def convert_daily_report(input_file, report_date=None):
     df = df[selected_columns]
 
     df = df[
-        df["Zona"].isin(["Zona 1", "Zona 2 & 3", "Zona 4", "Non Operator"])
+        df["Zona"].isin(["Zona 1", "Zona 2 & 3", "Zona 4", "Non Operator", "KSO"])
         & df["Zona"].notna()
     ]
     df["Zona"] = df["Zona"].replace(
-        {"Zona 1": "Zone 1", "Zona 2 & 3": "Zone 2&3", "Zona 4": "Zone 4", "Non Operator": "Non-Operator"}
+        {"Zona 1": "Zone 1", "Zona 2 & 3": "Zone 2&3", "Zona 4": "Zone 4", "Non Operator": "Non-Operator", "KSO": "Non-Operator"}
     )
     df = df.rename(
         columns={
@@ -358,8 +358,10 @@ def convert_daily_report(input_file, report_date=None):
     df_partnership["Current Status"] = split_result.apply(lambda x: x[1])
     df_partnership["Next Plan"] = split_result.apply(lambda x: x[2])
 
-    # Fill Well Name [2] with Well Name
-    df_partnership["Well Name [2]"] = df_partnership["Well Name"]
+    # Split Well Name "A (B)" into Well Name and Well Name [2] (both = name if no brackets)
+    split_result = df_partnership["Well Name"].apply(split_well_name_z4)
+    df_partnership["Well Name"] = split_result.apply(lambda x: x[0])
+    df_partnership["Well Name [2]"] = split_result.apply(lambda x: x[1])
 
     # Merge all DataFrames
     df_merged = pd.concat([df_z1, df_z23, df_z4, df_partnership], ignore_index=True)
