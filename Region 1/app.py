@@ -53,6 +53,8 @@ def split_well_name_z23(val):
             p1, p2, p3 = s, "", ""
     if not p1 and p2:
         p1 = p2
+    if not p2 and p1:
+        p2 = p1
     if not p3 and p2:
         p3 = p2
     return p1, p2, p3
@@ -64,19 +66,27 @@ def split_summary_report_z23(val):
         return "", "", ""
     s = s.replace("_x000D_", "\n")
     summary = ""
-    m1 = re.search(r"Laporan:\s*(.*?)(?=Status Pagi|Rencana:|$)", s, re.DOTALL)
+    # "Laporan:" label is optional (some reports start directly with the text)
+    # "Rencana:" or "Plan:" starts the next plan; matching is case-insensitive
+    flags = re.DOTALL | re.IGNORECASE
+    m1 = re.search(r"Laporan:\s*(.*?)(?=Status Pagi|(?:Rencana|Plan)\s*:|$)", s, flags)
+    if not m1:
+        m1 = re.search(r"^(.*?)(?=Status Pagi|(?:Rencana|Plan)\s*:|$)", s, flags)
     if m1:
         summary = m1.group(1).strip()
         if summary.startswith("-"):
             summary = summary[1:].strip()
     status = ""
+    # Time label is optional and varies: "05:00", "@05:00", "@05.00 :", "@05:00 hrs:"
     m2 = re.search(
-        r"Status Pagi\s*\d{1,2}:\d{2}\s*:\s*(.*?)(?=Rencana:|$)", s, re.DOTALL
+        r"Status Pagi\s*(?:@?\s*\d{1,2}[:.]\d{2}\s*(?:hrs)?\s*)?:?\s*(.*?)(?=(?:Rencana|Plan)\s*:|$)",
+        s,
+        flags,
     )
     if m2:
         status = m2.group(1).strip()
     plan = ""
-    m3 = re.search(r"Rencana:\s*(.*)$", s, re.DOTALL)
+    m3 = re.search(r"(?:Rencana|Plan)\s*:\s*(.*)$", s, flags)
     if m3:
         plan = m3.group(1).strip()
     return summary, status, plan
@@ -86,14 +96,28 @@ def split_well_name_z4(val):
     s = str(val).strip() if pd.notna(val) else ""
     if not s:
         return "", ""
-    m = re.match(r"^(.+?)\s*\(([^)]*)\)\s*$", s)
+    # Closing ")" is optional (some reports forget it)
+    m = re.match(r"^(.*?)\s*\(([^)]*)\)?\s*$", s)
     if m:
         p1, p2 = m.group(1).strip(), m.group(2).strip()
+        if not p1:
+            p1 = p2
         if not p2:
             p2 = p1
     else:
         p1, p2 = s, s
     return p1, p2
+
+
+def split_well_name_z1(val):
+    s = str(val).strip() if pd.notna(val) else ""
+    if not s:
+        return "", ""
+    # Old format "A / B", new format "A (B)" or "(B)"
+    if "/" in s and "(" not in s:
+        p1, p2 = s.split("/", 1)
+        return p1.strip(), p2.strip()
+    return split_well_name_z4(s)
 
 
 def split_summary_report_z4(val):
@@ -102,17 +126,20 @@ def split_summary_report_z4(val):
         return "", "", ""
     s = s.replace("_x000D_", "\n")
     summary = ""
-    m1 = re.search(r"^(.+?)(?=Status Pagi|Plan:|$)", s, re.DOTALL)
+    m1 = re.search(r"^(.*?)(?=Status Pagi|Plan\s*:|$)", s, re.DOTALL | re.IGNORECASE)
     if m1:
         summary = m1.group(1).strip()
     status = ""
+    # Colon and time label after "Status Pagi" are optional
     m2 = re.search(
-        r"Status Pagi(?:\s*\d{1,2}:\d{2})?\s*:\s*(.*?)(?=Plan:|$)", s, re.DOTALL
+        r"Status Pagi\s*(?:@?\s*\d{1,2}[:.]\d{2}\s*(?:hrs)?\s*)?:?\s*(.*?)(?=Plan\s*:|$)",
+        s,
+        re.DOTALL | re.IGNORECASE,
     )
     if m2:
         status = m2.group(1).strip()
     plan = ""
-    m3 = re.search(r"Plan:\s*(.*)$", s, re.DOTALL)
+    m3 = re.search(r"Plan\s*:\s*(.*)$", s, re.DOTALL | re.IGNORECASE)
     if m3:
         plan = m3.group(1).strip()
     return summary, status, plan
@@ -140,41 +167,51 @@ def convert_daily_report(input_file, report_date=None):
             raise ValueError(
                 "Could not extract date from filename. Provide report_date."
             )
-        match = re.search(r"tanggal (\d{1,2}) (\w{3}) (\d{4})", filename)
+        match = re.search(r"tanggal (\d{1,2}) ([A-Za-z]{3,9}) (\d{4})", filename)
         if not match:
             raise ValueError(
                 f"Could not extract date from filename: {filename}. "
                 "Filename must match 'tanggal DD Mon YYYY' or provide report_date."
             )
         day, month, year = match.groups()
-        report_date = pd.to_datetime(
-            f"{day} {month} {year}", format="%d %b %Y"
-        ).date()
+        report_date = pd.to_datetime(f"{day} {month} {year}", dayfirst=True).date()
     else:
         report_date = pd.to_datetime(report_date).date()
 
     day_no_zero = str(int(report_date.day))
     day_zero = str(report_date.day).zfill(2)
     month_abbr = report_date.strftime("%b")
+    month_full = report_date.strftime("%B")
     possible_sheet_names = [
         f"{day_no_zero} {month_abbr}",
         f"{day_zero} {month_abbr}",
+        f"{day_no_zero} {month_full}",
+        f"{day_zero} {month_full}",
     ]
 
-    df = None
+    raw = None
     for sheet in possible_sheet_names:
         try:
-            df = pd.read_excel(input_file, sheet_name=sheet, header=13)
+            raw = pd.read_excel(input_file, sheet_name=sheet, header=None)
             break
         except Exception:
             continue
 
-    if df is None:
+    if raw is None:
         source = getattr(input_file, "name", str(input_file))
         raise ValueError(
             f"Could not find valid sheet in {source}. "
             f"Expected sheet names: {possible_sheet_names}"
         )
+
+    # Find header row dynamically (the row that contains the "Zona" column title)
+    header_rows = raw.index[raw.astype(str).apply(lambda col: col.str.strip()).eq("Zona").any(axis=1)]
+    if len(header_rows) == 0:
+        raise ValueError("Could not find header row (column 'Zona') in the sheet.")
+    header_row = header_rows[0]
+    df = raw.iloc[header_row + 1 :].copy()
+    df.columns = raw.iloc[header_row].values
+    df = df.reset_index(drop=True)
 
     # Set date columns as pandas datetime objects
     df["Report Date"] = pd.to_datetime(report_date)
@@ -245,19 +282,14 @@ def convert_daily_report(input_file, report_date=None):
     # Zone 1
     df_z1 = df[df["Zone"] == "Zone 1"].copy()
 
-    well_name_split = df_z1["Well Name"].str.split("/", n=1, expand=True)
-    df_z1["Well Name"] = well_name_split[0].str.strip()
-    df_z1["Well Name [2]"] = (
-        well_name_split.get(1, pd.Series([""] * len(df_z1))).fillna("").str.strip()
-    )
+    split_result = df_z1["Well Name"].apply(split_well_name_z1)
+    df_z1["Well Name"] = split_result.apply(lambda x: x[0])
+    df_z1["Well Name [2]"] = split_result.apply(lambda x: x[1])
 
-    summary_split = df_z1["Summary Report"].str.split(
-        r"(?i)Plan\s*:\s*", n=1, expand=True, regex=True
-    )
-    df_z1["Summary Report"] = summary_split[0].fillna("").str.strip()
-    df_z1["Next Plan"] = (
-        summary_split.get(1, pd.Series([""] * len(df_z1))).fillna("").str.strip()
-    )
+    split_result = df_z1["Summary Report"].apply(split_summary_report_z4)
+    df_z1["Summary Report"] = split_result.apply(lambda x: x[0])
+    df_z1["Current Status"] = split_result.apply(lambda x: x[1])
+    df_z1["Next Plan"] = split_result.apply(lambda x: x[2])
 
     df_z1["Rig Name"] = df_z1["Rig Name"].str.replace("Rig", "", regex=False).str.strip()
     df_z1.reset_index(drop=True, inplace=True)
@@ -316,6 +348,7 @@ def convert_daily_report(input_file, report_date=None):
         .replace({
             "EPI#9": "EPI-09",
             "Bohai #26": "Bohai-26",
+            "Bohai#26": "Bohai-26",
         })
     )
 
@@ -343,6 +376,12 @@ def convert_daily_report(input_file, report_date=None):
 
     # Rig name replacement
     df_merged["Rig Name"] = df_merged["Rig Name"].replace(RIG_RENAMES)
+    # Standardize "TMMJ#18" -> "TMMJ-18" and "GW265" -> "GW-265"
+    df_merged["Rig Name"] = (
+        df_merged["Rig Name"]
+        .str.replace(r"^TMMJ#(\d+)$", r"TMMJ-\1", regex=True)
+        .str.replace(r"^GW(\d+)$", r"GW-\1", regex=True)
+    )
 
     # Sort by Zone and Rig Name
     df_merged = df_merged.sort_values(by=["Zone", "Rig Name"]).reset_index(drop=True)
@@ -350,10 +389,13 @@ def convert_daily_report(input_file, report_date=None):
 
 
 if __name__ == "__main__":
-    input_file = SCRIPT_DIR / "daily-report/02-2026/Laporan Harian Pemboran Regional 1 tanggal 12 Feb 2026.xlsx"
-    df_merged, report_date = convert_daily_report(input_file)
+    # Usage: python app.py [file1.xlsx file2.xlsx ...] (default: one sample file)
+    default_file = SCRIPT_DIR / "daily-report/02-2026/Laporan Harian Pemboran Regional 1 tanggal 12 Feb 2026.xlsx"
+    input_files = sys.argv[1:] or [default_file]
     export_dir = SCRIPT_DIR / "export-final"
     export_dir.mkdir(exist_ok=True)
-    output_path = export_dir / f"{report_date:%Y-%m-%d}.xlsx"
-    df_merged.to_excel(output_path, index=False)
-    print(f"Exported to {output_path}")
+    for input_file in input_files:
+        df_merged, report_date = convert_daily_report(input_file)
+        output_path = export_dir / f"{report_date:%Y-%m-%d}.xlsx"
+        df_merged.to_excel(output_path, index=False)
+        print(f"Exported to {output_path}")
