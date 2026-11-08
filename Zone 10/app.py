@@ -443,7 +443,7 @@ def transform_raw_to_final(date_str, base_path="."):
     
     APH Logic:
     - Default: "PHKT"
-    - If "PDSI" substring in Rig Name: "PEP"
+    - If "PDSI" substring in Rig Name: "LPB"
     
     Args:
         date_str: Date string in format "YYYY-MM-DD"
@@ -508,9 +508,9 @@ def transform_raw_to_final(date_str, base_path="."):
     # Add Well Name [2] column that copies Well Name
     df['Well Name [2]'] = df['Well Name']
     
-    # Update APH based on Rig Name (if contains "PDSI", set APH to "PEP")
+    # Update APH based on Rig Name (if contains "PDSI", set APH to "LPB")
     df['Rig Name'] = df['Rig Name'].astype(str)
-    df.loc[df['Rig Name'].str.contains('PDSI', case=False, na=False), 'APH'] = 'PEP'
+    df.loc[df['Rig Name'].str.contains('PDSI', case=False, na=False), 'APH'] = 'LPB'
     
     # Clean text fields (Excel-safe cleaning)
     clean_text_fields(df)
