@@ -1,0 +1,83 @@
+*Laporan Pagi Drilling Zona 11, tanggal 8 November 2026* 
+
+Highlights Operation :
+- Operasi Pemboran : 1 Rig.
+- Operasi MIRU : 1 Rig.
+
+*FIELD SUKOWATI* 
+
+*1. SKW-041(SKW-B26)* 
+Nama Lokasi : SKW-B26
+Nama Rig : Rig PDSI#40.3/ DS-1500E
+
+H: 04; D: 977 ftMD/967.47 ftTVD; P: 862 ft
+KCl Polymer MW/Vis/PV/YP/GS10'-10"/FL/K+/Cl-/pH/MBT : 10 ppg/58/17/28/11-20/10.2/39k/44k/10/12.5
+
+Company Man : Novy Y/ YS. Ambartaruna
+HSSE Kord : Ilmi B / A Muin
+Rig Supt : Agung P
+
+Casing Setting Depth (Plan / Actual) :
+- Casing 30" @120 ftMD/ 115 ftMD
+- Casing 20" @1037 ftMD/ - ftMD
+- Casing 13-3/8" @3553 ftMD/ - ftMD
+- Casing 9-5/8" @6091 ftMD/ - ftMD
+- Casing Liner 7" @6739 ftMD/ - ftMD (TOL - ftMD)
+
+Operation Summary Report :
+Bor cement dan formasi lubang berarah 26" dari kedalaman 112 ftMD spi 977 ftMD/967.47 ftTVD. Last lithology @960 ftMD: 90 % CLST, 10 % SST.Last survey @ 841.3 ftMD/836.30 ftTVD, Inc: 12.69 deg, Azi: 263.65 deg, C-C: 5.3 ft; 2.9 ft above; 4.4 ft right of plan.
+
+Current Status.
+Ljt Bor formasi lubang berarah 26" dari kedalaman 977 ftMD spi 1020 ftMD/ ftTVD (Csg point). Last lithology @1020 ftMD: 90 % CLST, 10 % SST. Projection to TD: 1020 ftMD / 1008.6 ftTVD, Inc: 16.48 deg, Azi: 261.20 deg C-C: 9.2 ft, 9.0 ft above of plan, 1.9 ft right of plan. Sirk. kondisikan MW ke ECD dari 9,8 PPG ke 10 PPG. Flow check, static.    
+
+Plan : 
+Wiper trip spi 30" Shoe. RBIH ke dasar. Sirk. bersih. Cabut rangk. BHA 26"sampai permukaan. Masuk casing 20".
+
+DSR @24 : -2.6 jam
+Cost DC : US$ 77,468.95  	
+Est CC  : US$ 1,014,133.53 (9.07%)
+AFE Cost: US$ 11,180,955
+
+*2. SKW-042(SKW-A18)*
+Nama Lokasi : SKW-A18
+Nama Rig : Rig PDSI #04.3/N110M
+
+Rig Moving & Rig Up (MIRU), H: 7
+
+Company Man : Wishnu T/ Deddy N
+HSSE Kord : Kusmadi / Suseno
+Rig Supt : Muzakir
+
+Casing Setting Depth (Plan / Actual) :
+- Casing 30" @120 ftMD/ 115 ftMD
+- Casing 20" @1035 ftMD/ - ftMD
+- Casing 13-3/8" @4188 ftMD/ - ftMD
+- Casing 9-5/8" @7567 ftMD/ - ftMD
+- Casing Liner 7" @8125 ftMD/ - ftMD (TOL - ftMD)
+
+Operation Summary Report :
+Rig Moving & Rig Up (MIRU) H-7: 5%, Cumm 85%
+- Function test Mud Pump & Injector dengan Sirk. dan Simulasi Drilling.
+- Mixing Build 500 bbls Spud Mud & 100 bbls Hi-vis
+- PJSM. *Spud in SKW-A18 menjadi Sumur SKW-042 tmt 07 November 2026 pukul 17.00 WIB. Bor formasi lubang 36" (Endurance) sampai 115 ftMD, casing point 30"*. Cutting di 115 ftMD : 50% CLST, 50% SST.
+- Round trip, cabut rangk. TCB 36" dari 115 ftMD spi permukaan. Masuk kembali rangk. TCB 36" spi 115 ftMD. sirk. cabut rangk spi permukaan
+- PJSM dan Masuk rangk. Stove pipe 30" dari permukaan spi 115 ftMD.
+
+Current status,
+Rig Moving & Rig Up (MIRU) H-8: 5%, Cumm 90%
+- PJSM & Pekerjaan penyemenan Stove pipe 30".PJSM, P/T surface line cementing,OK. Pompa 40 bbls spacer 12,5 ppg, rate 4 BPM. Aduk & pompakan 130 bbls slurry 15,8 ppg, rate 4-3 BPM, pump press 250-300 psi. didapat return semen di cellar 20 bbls 10.5 - 14,5 ppg (CIP: jam 02.30 WIB).
+
+Plan :
+Ljt Rig MIRU. Ljt Closing RSCL. TSK. Potong kasar dan L/D sisa casing 30". Final cut casing stove pipe 30". N/U Temporary BF 29-1/2"x 500 psi. N/U Diverter 29-1/2"x 500 psi. 
+
+DSR @24 : + 18,0 jam
+Cost DC : US$ 39.788,61
+Est CC  : US$ 1.292.656,75 (10,82%)
+AFE Cost: US$ 11,942,230 
+
+Note : 
+- Rig Moving & Rig Up (MIRU) ke Lokasi SKW-A18 t.m.t 1 November 2026 pukul 00.00 WIB.
+- Hasil temuan RSCL: 20 items (4 mayor/16 minor), closed: 15 items (2 mayor, 13 minor).
+
+Salam
+*Drilling Zona 11*

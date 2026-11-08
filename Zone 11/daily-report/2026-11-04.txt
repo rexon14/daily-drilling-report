@@ -1,0 +1,106 @@
+*Laporan Pagi Drilling Zona 11, tanggal 4 November 2026* 
+
+Highlights Operation :
+- Operasi Pemboran : - Rig.
+- Operasi MIRU : 2 Rig.
+
+*FIELD SUKOWATI* 
+
+*1. SKW-B26* 
+Nama Lokasi : SKW-B26
+Nama Rig : Rig PDSI#40.3/ DS-1500E
+
+Rig Moving & Rig Up (MIRU), H: 3
+
+Company Man : Novy Y/ Wahyudi
+HSSE Kord : Ilmi B
+Rig Supt : Kukuh
+
+Operation Summary Report :
+Rig Moving & Rig Up (MIRU) H-3: 25%, Cumm 75%
+- Function test mud pump 1,2,and 3 (check mud pump 2 abnormal, ok)
+- Flushing surface line menuju top drive, ok.
+- Connect upper riser ke diverter 29-1/2" (on progress)
+- Lanjut Persiapan handling tool untuk endurance 
+- Pressure test surface line low: 300 psi/5 menit, High: 4000 psi/10 menit, OK
+- Ganti rubber piston MP#3 cylinder#1
+- Stand up HWDP 5" @7 std, Stand Up DC 8" @1 std
+- Install scafolding flowline 
+- Cont'd Loading DP 5½ kirim ke Rig 04.3 Total 48 jts cum 96 jts. 
+- Function test MP#3 sirkulasi tangki ke tangki
+- Unloading DP 5" dari pad A, Total 52 jts + 2 jts pup joint 5"
+- M/U BHA bit 36" RR + Bit sub + X/O + Pony DC + DC 8"  2 jts + 1 jts HWDP 5" 
+- Lakukan RSCL. Total Temuan RSCL : 23 item; Critical = 0; Mayor = 0; Minor = 23
+- Install barricade line pada sumur B-30
+- Support install ram block 21¼ dengan fixed pipe 5" ram
+- Function test high & lower stop travelling block 
+- Reposisi mutten board di area chemical
+- Function test circulating system, jet cellar dan top drive. (FR/RPM/SPP : 600-900/20-80/150-230 psi)
+- Reposition Mud logging unit dan cutting dryer unit
+- Lanjut modifikasi line output mud gas separator ke possumbelly (on progress)
+- Pasang submersible pump di cellar dan reposisi jet cellar
+
+Current status,
+Rig Moving & Rig Up (MIRU) H-4: 3%, Cumm 78%
+- Lanjut Function test circulating system, jet cellar dan top drive (FR/RPM/SPP : 600-900/20-80/150-230 psi)
+- Bersihkan line input + output submersible pump yang ada dicellar
+- Lanjut modifikasi line output mud gas separator ke possumbelly (on progress)
+- Install pup joint + FOSV ke BOP stamp test 21-1/4"
+
+Plan : 
+Lanjut Rig MIRU ke SKW-B26. Endurence test Bor formasi 36" in.
+
+Note : 
+- Rig Moving & Rig Up (MIRU) ke Lokasi SKW-B26 t.m.t 1 November 2026 pukul 00.00 WIB
+
+*2. SKW-A18*
+Nama Lokasi : SKW-A18
+Nama Rig : Rig PDSI #04.3/N110M
+
+Rig Moving & Rig Up (MIRU), H: 3
+
+Company Man : Wishnu T
+HSSE Kord : Kusmadi
+Rig Supt : Beni Indrayana
+
+Operation Summary Report :
+Rig Moving & Rig Up (MIRU) H-3: 15%, Cumm 40%
+- Maintenance line mud pump discharge 1 & 2
+- Modifikasi support tangga di rig  floor dan dog house
+- Install line 2" injector 1 & 2
+- Install line 4" discharge 1 & 2
+- Conect kabel power HPU tong, Control charging mud pump 1-4 dan trip tank di rig floor
+- Setting line injector 1 & 2
+- Rig up Menara dan substructure
+- Setting trolley beam BOP Hoist DS
+- Setting dog house
+- Setting tangga rig floor
+- Install plat di rig floor
+- Dismantle raising line DS, ODS
+- Dismantle equalizer 
+- Setting tangga dari rig floor ke mud tank
+- R/U Top Drive : 85%
+- NDT casing 30" Stop pipe
+- Cleaning screen di shale shaker dan line transper hopper ke mud tank
+- Perbaikan pagar di mud tank no.3
+- Install rotary hose ke top Drive 
+- Install manifold stand pipe
+- Install surface line dari manifold pompa ke manifold stand pipe
+- Install line 2" killing line ke manifold stand pipe
+- Modifikasi line 6" injector
+
+Current status,
+Rig Moving & Rig Up (MIRU) H-4: 3%, Cumm 43%
+- Lanjut R/U Top Drive : 5%, Cumm 90%
+- Pasang screen shale shaker no 4
+- Install counter balance derrickman
+- Isi air mud tank no 2,3,4,& 5 sambil test kebocoran.
+
+Plan :
+Lanjut Rig MIRU ke SKW-A18. 
+
+Note : 
+- Rig Moving & Rig Up (MIRU) ke Lokasi SKW-A18 t.m.t 1 November 2026 pukul 00.00 WIB.
+
+Salam
+*Drilling Zona 11*

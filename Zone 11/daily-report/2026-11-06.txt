@@ -1,0 +1,73 @@
+*Laporan Pagi Drilling Zona 11, tanggal 6 November 2026* 
+
+Highlights Operation :
+- Operasi Pemboran : - Rig.
+- Operasi MIRU : 2 Rig.
+
+*FIELD SUKOWATI* 
+
+*1. SKW-041(SKW-B26)* 
+Nama Lokasi : SKW-B26
+Nama Rig : Rig PDSI#40.3/ DS-1500E
+
+Rig Moving & Rig Up (MIRU), H: 5
+
+Company Man : Novy Y/ YS. Ambartaruna
+HSSE Kord : Ilmi B / A Muin
+Rig Supt : Agung P
+
+Operation Summary Report :
+Rig Moving & Rig Up (MIRU) H-5: 10%, Cumm 90%
+-  Lanjut masuk 30"CP dari 55 ftMD spi 115 ftMD. Dudukan 30"CP sampai free. Centerkan 30"CP. Potong dan kondisikan 2-7/8" tbg di cellar. Las 2" Weco union untuk penyemenan. Uji alir dari mud pump ke tubing & tanduk stove pipe. Aliran baik.
+- Pekerjaan penyemenan casing 30". R/U & P/T Cementing line 1500 psi. Pompakan 40 bbls spacer 12.5 ppg. Aduk dan pompa 89 bbls (100% excess) 15.8 ppg cement slury dengan 4 bpm/650 psi. Cement return +/- 12 bbls 14.7-15.8 ppg. R/D cmt line, flush line. CIP 03.45
+- TSK. S/U 15 stand 5"DP. Pasang secure di 30"CP 4 sisi. Surface sample keras 100%
+- Potong 30"CP (110 cm dibawah top cellar). L/D potongan casing Rapikan, bevel dan leveling hasil potongan.TOC rata bottom cellar
+- N/U 29 1/2" Temporary bottom flange.
+
+Current Status.
+Rig Moving & Rig Up (MIRU) H-6: 2%, Cumm 92%
+- Lanjut N/U 29-1/2" Diverter system 
+
+Plan : 
+Lanjut N/U 29 1/2" Diverter system. Function test Diverter. M/U BHA 26"
+
+Note : 
+- Rig Moving & Rig Up (MIRU) ke Lokasi SKW-B26 t.m.t 1 November 2026 pukul 00.00 WIB
+- Internal RSCL bersama Tim Sukowati Field tgl 3 Oktober 2026, Total temuan : 23 (Minor 23; Mayor 0). Minor: 23 item → 6 Open / 17 Closed
+
+*2. SKW-A18*
+Nama Lokasi : SKW-A18
+Nama Rig : Rig PDSI #04.3/N110M
+
+Rig Moving & Rig Up (MIRU), H: 5
+
+Company Man : Wishnu T/ Deddy N
+HSSE Kord : Kusmadi / Suseno
+Rig Supt : Beni Indrayana
+
+Operation Summary Report :
+Rig Moving & Rig Up (MIRU) H-5: 15%, Cumm 70%
+- Ganti shear pin release valve no 2 mud pump
+- Lanjut P/T : surface line low : 300 psi - high : 4000 psi holding 5 menit
+- Gelar, tally & stand up 45 jts DP 5-1/2" & 21 jts HWDP 5-1/2"
+- Install shale shakers screen 1,2,3 w/ 4x 80 API size (re-used) & Mud Cleaner w/ 4X 230 API size (new)
+- Lanjut modifikasi flow line 
+- F/T jet cellar dengan mud pump no.3 SPM 80-100, mud pump no.4 SPM 80-100
+- Perbaikan kebocoran butterfly valve 6" Jet cellar
+- Cleaning cone desilter dan cone desander
+- Tally DP 5-1/2" dan bersihkan thread 33 jts
+- F/T Hoist System, stand up total 36 std 5-1/2" DP
+
+Current status,
+Rig Moving & Rig Up (MIRU) H-6: 3%, Cumm 73%
+- Buka protektor casing 20" tally dan sablon
+- Lanjut modifikasi line 12" flow line ke gambo trap
+
+Plan :
+Lanjut Rig MIRU. Inspeksi Rig Safety Check List (RSCL). Persiapan Endurance bor lubang 36". 
+
+Note : 
+- Rig Moving & Rig Up (MIRU) ke Lokasi SKW-A18 t.m.t 1 November 2026 pukul 00.00 WIB.
+
+Salam
+*Drilling Zona 11*

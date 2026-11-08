@@ -1,0 +1,94 @@
+*Laporan Pagi Drilling Zona 11, tanggal 7 November 2026* 
+
+Highlights Operation :
+- Operasi Pemboran : - Rig.
+- Operasi MIRU : 2 Rig.
+
+*FIELD SUKOWATI* 
+
+*1. SKW-041(SKW-B26)* 
+Nama Lokasi : SKW-B26
+Nama Rig : Rig PDSI#40.3/ DS-1500E
+
+Rig Moving & Rig Up (MIRU), H: 6
+
+Company Man : Novy Y/ YS. Ambartaruna
+HSSE Kord : Ilmi B / A Muin
+Rig Supt : Agung P
+
+Casing Setting Depth (Plan / Actual) :
+- Casing 30" @120 ftMD/ 115 ftMD
+- Casing 20" @1037 ftMD/ - ftMD
+- Casing 13-3/8" @3553 ftMD/ - ftMD
+- Casing 9-5/8" @6091 ftMD/ - ftMD
+- Casing Liner 7" @6739 ftMD/ - ftMD (TOL - ftMD)
+
+Operation Summary Report :
+Rig Moving & Rig Up (MIRU) H-6: 10%, Cumm 100%
+- Lanjut N/U 29-1/2" Diverter system. Sambungkan flare line ke ball valve
+- Modifikasi bell nipple & Diverter line. Pasang mouse hole. Stand up DP 5" Total 30 stds. Install bell nipple
+- F/T 12" ball valve, Open/Closed : 3 dtk / 3 dtk & 29-1/2" Diverter, Open/Closed : 45 dtk / 40 dtk.
+- PJSM. M/U dan RIH 26" PDC (NB) + BHA DD spi 55 ftMD. Bit: 26" PDC, NB, NOV, SP66, SN: F321065, Noz: 2x14;7x13, TFA: 1.2080. BHA DD: 9-5/8" Terraforce lobe (MM) 6/7 - 5.0 Stage + 9-1/2" Float Sub + 9-1/2" HOC + X/O (7 5/8" REG P x 6 5/8" Reg B)+ 8" UBHO Sub + 4 jts 8" DC + 8" Sledgehammer Jar + 1 jts 8" DC + X/O (6 5/8" REG P x 4 1/2" IF B) + 12 jts 5" HWDP. MM bend angle: 1.5 deg, RPG: 0,13, Bearing play in: 1 mm.
+- Perform Kick, Diverter H2S dan Abandoned Drill.		
+- Lanjut RIH 26" PDC (NB) + BHA DD spi 112 ftMD. Shallow Hole Test,OK. Wash down spi tag di 112 ftMD (TOC).		
+- Closing temuan RSCL, OK
+
+*Rig PDSI #40.3/DS1500-E dinyatakan Rig Up 100% tmt 06 November 2026 pukul 24.00 WIB.*
+
+Current Status.
+Bor cement dan formasi lubang berarah 26" dari kedalaman 112 ftMD sampai 214 ftMD/214 ftTVD. Parameter FR/SPP/WOB/RPM/RPMM/TORQ/ROP Avg : 711-808 gpm/710-934 psi/1-5/0-30/92-120/0-3298 ft.lb/48 ftph. KOP @150 ftMD. Last lithology @180 ftMD: 70 % CLST, 30 % SST 
+
+Plan : 
+Lanjut Bor formasi lubang berarah 26" spi 1037 ftMD (est casing point).
+
+Note : 
+- Rig Moving & Rig Up (MIRU) ke Lokasi SKW-B26 t.m.t 1 November 2026 pukul 00.00 WIB
+- Internal RSCL bersama Tim Sukowati Field tgl 3 Oktober 2026, Total temuan : 23 (Minor 23; Mayor 0). Minor: 23 item → 0 Open / 23 Closed
+
+*2. SKW-A18*
+Nama Lokasi : SKW-A18
+Nama Rig : Rig PDSI #04.3/N110M
+
+Rig Moving & Rig Up (MIRU), H: 6
+
+Company Man : Wishnu T/ Deddy N
+HSSE Kord : Kusmadi / Suseno
+Rig Supt : Muzakir
+
+Casing Setting Depth (Plan / Actual) :
+- Casing 30" @120 ftMD/ - ftMD
+- Casing 20" @ 1035 ftMD/ - ftMD
+- Casing 13-3/8" @4188 ftMD/ - ftMD
+- Casing 9-5/8" @7567 ftMD/ - ftMD
+- Casing Liner 7" @8125 ftMD/ - ftMD (TOL - ftMD)
+
+Operation Summary Report :
+Rig Moving & Rig Up (MIRU) H-6: 10%, Cumm 80%
+- Gelar dan tally 30 jts casing 20"
+- Lanjut modifikasi line 12" flow line ke gumbo trap
+- Install walkway dari mud tank ke tangga rig floor
+- F/T escape line dari monkey board
+- Install mud cross dan diverter 29 1/2"
+- Pasang baut dan ikat di diverter 29 1/2"
+- Install single ram dan annular 21 1/4"-2K
+- Pasang baut dan ikat conection annular dan single ram
+- Reposisi 12" line diverter
+- Install blind flange 11" mud crose 29 1/2"
+- M/U Bit 36" + B/S + 3jts DC 8" + x/o + 1 jts HWDP 5-1/2"
+- Fabrikasi Dump line gambo trap
+- Test line jet cellar dengan 80 SPM (baik)
+
+Current status,
+Rig Moving & Rig Up (MIRU) H-7: 3%, Cumm 83%
+- Function test Mud Pump & Injector dengan Sirkulasi dan Simulasi Drilling. 
+- Closing Temuan RSCL, progress 45%
+
+Plan :
+Lanjut Rig MIRU. Endurance bor lubang 36". Closing Inspeksi Rig Safety Check List (RSCL) 
+
+Note : 
+- Rig Moving & Rig Up (MIRU) ke Lokasi SKW-A18 t.m.t 1 November 2026 pukul 00.00 WIB.
+- Hasil temuan RSCL: 20 items (4 mayor/16 minor), closed (9 minor).
+
+Salam
+*Drilling Zona 11*

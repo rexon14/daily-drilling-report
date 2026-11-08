@@ -44,7 +44,8 @@ EXPORT_LOCATIONS = {
     "Zone 7": "Zone 7",
     "Zone 8": "Zone 8",
     "Zone 9": "Zone 9",
-    "Zone 10": "Zone 10"
+    "Zone 10": "Zone 10",
+    "Zone 11": "Zone 11"
 }
 
 # Sidebar
